@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 11 Pro</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+<script src="/js/global/element.js"></script>
+</head>
+<body>
+
+
+        <div class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+       
+        
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<8; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 30 , json , "a" , 999 , "iPhone 11 Pro (Silver , 64 GB)" , "https://www.amazon.com/images/I/81vZCv9kA0L.jpg");
+     phoneData(2, 31 , json , "a" ,999 , "iPhone 11 Pro (Space Grey, 64 GB)" , "https://www.amazon.com/images/I/81HSzsIkJdL.jpg");
+     phoneData(3, 32 , json, "a" , 999 , "iPhone 11 Pro (Gold, 64 GB)" , "https://www.amazon.com/images/I/81owjLNCjaL.jpg");
+     phoneData(4, 33 , json , "a" , 999 , "iPhone 11 Pro (Midnight Green, 256 GB)" , "https://www.amazon.com/images/I/81mxun+6pEL.jpg");
+  })
+
+
+  fetch('/json/global/ebay.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+    // phoneData(11, 22 , json ,"e", 0, "iPhone 11 Pro (Grey, 64 GB)" , "");
+
+     phoneData(6, 23 , json ,"e", 1000 , "iPhone 11 Pro (All colors, 64 GB)" , "https://i.ebayimg.com/images/g/ONoAAOSw7FFeLyp2/s-l500.png");
+/*
+     phoneData(13, 24 , json ,"e", 0 , "iPhone  (Grey, 64 GB)" , "");
+     phoneData(14, 8 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");    
+     phoneData(15, 9 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");   
+*/
+  })  
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(5, 18 , json ,"w", 999 , "Apple iPhone 11 Pro (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(7, 19 , json ,"w", 999 , "iPhone 11 Pro (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+footer();                
+
+
+        </script>
+
+        
+
+</body>
+</html>
+
+

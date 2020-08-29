@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>iphone 7</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+           <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        
+
+      
+        <script >
+
+
+var i =1;
+for (i=1 ; i<7; i++){
+        elementJS(i);
+}
+
+
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(2, 0 , json , "a" ,  39900 , "iPhone 7 Pus (Rose Gold, 32 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51ilvCMNWCL._SY679_.jpg");
+     phoneData(1, 1 , json , "a" ,  72060 , "iPhone 7 Plus (Rose Gold, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51ilvCMNWCL._SY679_.jpg");
+    
+    
+
+
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(5, 0 , json , "f" ,  29900 , "iPhone 7 (Black, 32 GB)" , "https://rukminim1.flixcart.com/image/416/416/k12go7k0/mobile/7/e/e/apple-iphone-7-mn8x2hn-a-original-imafkqcqhzxuvcpd.jpeg?q=70");
+      phoneData(6, 1 , json , "f" ,  47490 , "iPhone 7 (Rose Gold, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/k12go7k0/mobile/e/y/z/apple-iphone-7-mn952hn-a-original-imafkqe8ptsnpd6m.jpeg?q=70");
+      phoneData(4, 2 , json , "f" ,  37900 , "iPhone 7 Plus (Black, 32 GB)" , "https://rukminim1.flixcart.com/image/416/416/k12go7k0/mobile/7/e/e/apple-iphone-7-mn8x2hn-a-original-imafkqcqhzxuvcpd.jpeg?q=70");
+      phoneData(3, 3 , json , "f" ,  48489 , "iPhone 7 Plus (Gold, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k13w4280/mobile/p/p/4/apple-iphone-7-plus-mn4q2hn-a-original-imafkqfhjzsvghb8.jpeg?q=70");
+        
+  
+
+        
+
+  })  
+
+     imgSize(1,7,160,280,10);
+
+
+
+
+        </script>
+
+      
+        
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung A31</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        
+
+        
+
+
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<7; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(1, 94 , json , "es" , 284 , "Samsung (Azul, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61YTlyGGdaL._AC_SL1024_.jpg");
+     phoneData(2, 95 , json , "es" , 284 , "Samsung (Negro, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61aB7jZJqFL._AC_SL1024_.jpg");
+     phoneData(5, 96 , json , "es" , 279 , "Samsung A30s (Negro, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/816j2oOm2GL._AC_SL1500_.jpg");
+     phoneData(6, 97 , json , "es" , 279 , "Samsung A30s (Blanco, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/816j2oOm2GL._AC_SL1500_.jpg");
+    
+    
+    
+
+
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(3, 69 , json , "mkr" , 299 , "Samsung A31 (Negro, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75838232/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-A31--Negro--64-GB--4-GB--6.4%22-Full-HD---OctaCore--5000-mAh--Android");
+     phoneData(4, 73 , json , "mkr" , 218 , "Samsung A30s (Verde, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75391803/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-A30s--Verde--64-GB--4-GB-RAM--6.4%22--Octa-Core--4000-mAh--Android---Inst.-Protector");
+     
+
+  })  
+ imgSize(3, 5, 350 , 280,-70); 
+ imgSize(5, 7, 150 , 280,10); 
+       
+                
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

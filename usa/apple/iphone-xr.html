@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone Xr</title>
+        
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+       
+        
+
+
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<11; i++){
+        elementJS(i);
+}
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(10, 13 , json , "a" ,  599 , "iPhone Xr (Blue , 64 GB)" , "https://m.media-amazon.com/images/I/51n24DedexL.jpg");
+     phoneData(9, 14 , json , "a" ,  599 , "iPhone Xr (Coral, 64 GB)" , "https://m.media-amazon.com/images/I/51cCOStn+rL.jpg");
+     phoneData(8, 15 , json , "a" ,  599 , "iPhone Xr (Yellow, 64 GB)" , "https://m.media-amazon.com/images/I/519Wcu07etL.jpg");
+     phoneData(7, 16 , json , "a" ,  599 , "iPhone Xr (Red, 64 GB)" , "https://m.media-amazon.com/images/I/51YXG1bDM5L.jpg");
+     phoneData(5, 17 , json , "a" ,  599 , "iPhone Xr (White, 64 GB)" , "https://m.media-amazon.com/images/I/51PuFBgBK4L.jpg");
+     phoneData(6, 18 , json , "a" ,  599 , "iPhone Xr (Black, 64 GB)" , "https://m.media-amazon.com/images/I/519KIlHA2wL.jpg");
+     
+
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(4, 12 , json ,"w", 749 , "iPhone Xr (Red, 64 GB)" , "https://i5.walmartimages.com/asr/60c5fd13-536b-4020-8949-c33935ecd838_1.9a379404d79058b0c400c634f385f9d6.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(2, 13 , json ,"w", 749 , "iPhone Xr (Black, 64 GB)" , "https://i5.walmartimages.com/asr/d74414a9-9cc4-4753-a292-146916bf9a1d_1.150a51fd76f5a45fb317e980eaa36855.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(3 ,14 , json ,"w", 18 , "iPhone Xr (Black, 64 GB)" , "https://i5.walmartimages.com/asr/d74414a9-9cc4-4753-a292-146916bf9a1d_1.150a51fd76f5a45fb317e980eaa36855.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(1, 15 , json ,"w", 749 , "iPhone Xr (Black, 64 GB)" , "https://i5.walmartimages.com/asr/d74414a9-9cc4-4753-a292-146916bf9a1d_1.150a51fd76f5a45fb317e980eaa36855.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+
+
+  })  
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+        <title>Samsung </title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+   
+
+      
+        <script >
+
+
+var i =1;
+for (i=1 ; i<10; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 41 , json , "a" ,  23999 , "Samsung A31 (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81erkgYf1tL._SL1500_.jpg");
+     phoneData(2, 42 , json , "a" ,  19999 , "Samsung A21s (White, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81-5NsP8laL._SL1500_.jpg");
+     phoneData(3, 43 , json , "a" ,  17999 , "Samsung A21s (Blue, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81-5NsP8laL._SL1500_.jpg");
+     phoneData(4, 44 , json , "a" ,  17999 , "Samsung A21s (Black, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81-5NsP8laL._SL1500_.jpg");
+     phoneData(5, 45 , json , "a" ,  19999 , "Samsung A21s (Black, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81-5NsP8laL._SL1500_.jpg");
+    
+    
+
+
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(6, 72 , json , "f" ,  23999 , "Samsung A31 (Blue, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/kamtsi80/mobile/z/c/w/samsung-galaxy-a31-sm-a315fzbwins-original-imafs5p5kwscdurq.jpeg?q=70");
+      phoneData(7, 73 , json , "f" ,  23999 , "Samsung A31 (Black, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/kamtsi80/mobile/z/c/w/samsung-galaxy-a31-sm-a315fzbwins-original-imafs5p5kwscdurq.jpeg?q=70");
+      phoneData(8, 74 , json , "f" ,  17999 , "Samsung A21s (Blue, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/kbi9h8w0/mobile/q/2/x/samsung-galaxy-a21s-sm-a217fzbfins-original-imafsuyataz9hpmz.jpeg?q=70");
+      phoneData(9, 75 , json , "f" ,  17999 , "Samsung A21s (Black, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/kbi9h8w0/mobile/q/2/x/samsung-galaxy-a21s-sm-a217fzbfins-original-imafsuyataz9hpmz.jpeg?q=70");
+  
+        
+  
+
+        
+
+  })  
+
+    imgSize(1,10,150,250,10);
+
+
+        </script>
+
+       
+        
+
+</body>
+</html>
+
+
+
+
+
+

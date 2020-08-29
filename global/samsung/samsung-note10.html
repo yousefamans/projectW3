@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung note/s 10 lite</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+
+       <p class="search-results">Search Results</p>
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+        <div id="box11" class="box"></div>
+        <div id="box12" class="box"></div>
+        <div id="box13" class="box"></div>
+        <div id="box14" class="box"></div>
+        <div id="box15" class="box"></div>
+        <div id="box16" class="box"></div>
+
+
+
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<17; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(6, 9  , json  , "a" ,  650 , "Samsung Note 10 (Black, 128 GB) - Renewed" , "https://images-na.ssl-images-amazon.com/images/I/61jLpFaAiqL._AC_SL1500_.jpg");
+     phoneData(3, 10 , json , "a" ,  800 , "Samsung Note 10 (Black , 128  GB)" , "https://images-na.ssl-images-amazon.com/images/I/61jLpFaAiqL._AC_SL1500_.jpg");
+     phoneData(2, 11 , json , "a" ,  999 , "Samsung Note 10 + (Aurora Glow , 128  GB)" , "https://images-na.ssl-images-amazon.com/images/I/51GZa79nrUL._AC_SL1000_.jpg");
+     phoneData(1, 12 , json , "a" ,  999 , "Samsung Note 10 + (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61jLpFaAiqL._AC_SL1500_.jpg");
+     phoneData(5, 13 , json , "a" ,  450 , "Samsung Note 10 Lite (Black , 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71NpZbxNluL._AC_SL1500_.jpg");
+     phoneData(4, 14 , json , "a" ,  550 , "Samsung Note 10 Lite (Golw, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/517pdvTPdrL._AC_SL1000_.jpg");
+     
+  })
+
+
+  
+fetch('/json/global/ebay.json')
+.then(res => res.json())
+.then((json) => {
+
+
+   phoneData(7, 52 , json ,"e", 699 , "Samsung Note 10 (Aurora, 256 GB)" , "https://i.ebayimg.com/images/g/xboAAOSwLW9dVurb/s-l1600.jpg");
+
+   phoneData(8, 53 , json ,"e", 599 , "Samsung 10 (Black, 256 GB)" , "https://i.ebayimg.com/images/g/mjsAAOSwwRFe94Vd/s-l1600.jpg");
+
+   phoneData(9, 55 , json ,"e", 699 , "Samsung Note 10 (Aurora, 256 GB)" , "https://i.ebayimg.com/images/g/x4QAAOSwl-hdVFvw/s-l1600.jpg");
+
+   phoneData(10, 56 , json ,"e", 799 , "Samsung Note 10 + (Black, 256 GB)" , "https://i.ebayimg.com/images/g/8lsAAOSwJAVdk4VX/s-l1600.jpg");
+    
+   phoneData(11, 57 , json ,"e", 1699 , "Samsung Note 10 + (Glow, 512 GB , 12 GB)" , "https://i.ebayimg.com/images/g/x4QAAOSwl-hdVFvw/s-l1600.jpg");  
+   phoneData(15, 58 , json ,"e", 999 , "Samsung Note 10 + (Black, 256 GB)" , "https://i.ebayimg.com/images/g/lv0AAOSwB4Je2feo/s-l1600.jpg");  
+
+})
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(12, 60 , json ,"w", 550 , "Samsung Note 10 Lite (Red, 128 GB)" , "https://i5.walmartimages.com/asr/df30892c-6f95-424c-9871-f5d11fb12824_1.8c51d602f68ec536681d13db12554406.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(13, 61 , json ,"w", 1000 , "Samsung Note 10 (Pink, 128 GB)" , "https://i5.walmartimages.com/asr/3213b050-f969-43aa-b4a7-5db12b7f90db_1.e726980ea1af4ea5e8d9842107efb88b.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(14, 62 , json ,"w", 1200 , "Samsung Note 10 + (Aurora Glow, 256 GB)" , "https://i5.walmartimages.com/asr/6685dc9d-3a52-440b-8398-816a67501bad_2.af51097f4d89a41896628d2545e52c62.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(16, 63 , json ,"w", 1100 , "Samsung Note 10 Plus (Aurora Glow, 128 GB)" , "https://i5.walmartimages.com/asr/6685dc9d-3a52-440b-8398-816a67501bad_2.af51097f4d89a41896628d2545e52c62.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+    
+  })  
+       
+                
+   footer();             
+
+        </script>
+
+   
+        
+
+</body>
+</html>
+
+
+
+
+
+

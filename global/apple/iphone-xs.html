@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone Xs</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+<script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+        <div id="box11" class="box"></div>
+        <div id="box12" class="box"></div>
+        <div id="box13" class="box"></div>
+      
+  
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<14; i++){
+        elementJS(i);
+}
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(5, 19 , json , "a" ,  899 , "iPhone Xs (Gold, 64 GB)" , "https://m.media-amazon.com/images/I/71R46ju5GzL.jpg");
+     phoneData(6, 20 , json , "a" ,  899 , "iPhone Xs (Silver, 64 GB)" , "https://m.media-amazon.com/images/I/71JxqUq1tyL.jpg");
+     phoneData(7, 21 , json , "a" ,  899 , "iPhone Xs (Space Grey,  GB)" , "https://m.media-amazon.com/images/I/71qHqmYmP2L.jpg");
+     phoneData(8, 22 , json , "a" ,  999 , "iPhone Xs Max (Gold, 64 GB)" , " https://m.media-amazon.com/images/I/71R46ju5GzL.jpg");
+     phoneData(9, 23 , json , "a" ,  999 , "iPhone Xs Max (Silver, 64 GB)" , "https://m.media-amazon.com/images/I/71JxqUq1tyL.jpg");
+     phoneData(10, 24 , json , "a" ,  999 , "iPhone Xs Max (Gold,  GB)" , "https://m.media-amazon.com/images/I/71R46ju5GzL.jpg");
+     
+  })
+
+
+  fetch('/json/global/ebay.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 12 , json ,"e", 709 , "iPhone XS (Grey, 64 GB)" , "https://i.ebayimg.com/images/g/Y8kAAOSwZTBbmdtT/s-l640.jpg");
+     phoneData(3, 13 , json ,"e", 709 , "iPhone XS Max(Multi color, 64 GB)" , "https://i.ebayimg.com/images/g/8w4AAOSwjTBfGGMV/s-l1600.jpg");
+     phoneData(4, 15 , json ,"e", 709 , "iPhone XS Max (Grey, 64 GB)" , "https://i.ebayimg.com/images/g/QRgAAOSwpBdeOdje/s-l500.jpg");
+      
+
+  })  
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(2, 8 , json ,"w", 999 , "iPhone Xs (Gold, 64 GB)" , "https://i5.walmartimages.com/asr/d673f068-4099-4a21-a1e1-a67fdfe46cd2_1.a37d8d2e9893c8dd285a2b6e099662b9.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(11, 9 , json ,"w", 999 , "iPhone Xs (Grey, 64 GB)" , "https://i5.walmartimages.com/asr/61df2387-cffa-4980-801c-ba0fda272733_1.e8056f4fea2aeb593bd973320c5349c0.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(12, 10 , json ,"w", 1099 , "iPhone Xs Max (Grey, 64 GB)" , "https://i5.walmartimages.com/asr/61df2387-cffa-4980-801c-ba0fda272733_1.e8056f4fea2aeb593bd973320c5349c0.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(13, 11 , json ,"w", 999 , "iPhone Xs Max(Grey, 64 GB)" , "https://i5.walmartimages.com/asr/61df2387-cffa-4980-801c-ba0fda272733_1.e8056f4fea2aeb593bd973320c5349c0.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+      
+
+
+  })  
+       
+   footer();             
+
+        </script>
+
+
+</body>
+</html>
+
+
+
+
+
+

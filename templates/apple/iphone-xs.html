@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+        <title>iphone XS</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+      
+
+      
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<10; i++){
+        elementJS(i);
+}
+
+
+
+ 
+  
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 3 , json , "a" ,  114900 , "iPhone XS (Silver, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61uajhVzLQL._SL1024_.jpg");
+     phoneData(2, 4 , json , "a" ,  103900 , "iPhone XS (Space Grey, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61lUCIu2O4L._SL1024_.jpg");
+     phoneData(3, 5 , json , "a" ,  103900 , "iPhone XS (Gold, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61E3bh882vL._SY679_.jpg");
+     phoneData(4, 6 , json , "a" ,  109900 , "iPhone XS Max (Gold, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61E3bh882vL._SY679_.jpg");
+     
+    
+    
+
+
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(8, 16 , json , "f" ,  89900 , "iPhone XS (Gold, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jm9hfgw0/mobile/x/g/f/apple-iphone-xs-mt9k2hn-a-original-imaf97f6hqebeych.jpeg?q=70");
+      phoneData(6, 17 , json , "f" , 103900  , "iPhone XS (Space Grey, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/jm9hfgw0/mobile/y/4/u/apple-iphone-xs-mt9l2hn-a-original-imaf97f65bqbdycy.jpeg?q=70");
+      phoneData(7, 18 , json , "f" ,  124900 , "iPhone XS Max (Silver, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/jm9hfgw0/mobile/c/2/j/apple-iphone-xs-max-mt542hn-a-original-imaf97f6n9eg9be4.jpeg?q=70");
+      phoneData(5, 19 , json , "f" ,  109900 , "iPhone XS Max (Silver, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jm9hfgw0/mobile/c/2/j/apple-iphone-xs-max-mt542hn-a-original-imaf97f6n9eg9be4.jpeg?q=70");
+       phoneData(9, 20 , json , "f" ,  99900 , "iPhone XS Max (Gold, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jm9hfgw0/mobile/x/g/f/apple-iphone-xs-mt9k2hn-a-original-imaf97f6hqebeych.jpeg?q=70");
+        
+  
+
+        
+
+  })  
+    imgSize(1,10,160,280,10);
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

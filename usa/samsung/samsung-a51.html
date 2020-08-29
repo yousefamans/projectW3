@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung A51</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+
+
+
+
+        <script >
+
+var i =1;
+for (i=1 ; i<4; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(3, 27 , json , "a" ,  295 , "Samsung A51 (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61sAKMokIUL._AC_SL1000_.jpg");
+     phoneData(2, 28 , json , "a" ,  300 , "Samsung A51 (White, 128 GB)" , " https://images-na.ssl-images-amazon.com/images/I/61Ir5uzAY1L._AC_SL1000_.jpg");
+    
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 68 , json ,"w", 399 , "Samsung A51 (Black, 128 GB)" , "https://i5.walmartimages.com/asr/6d43f5a7-172c-4782-b087-3783bedbaf44.1cc6da5b8bcefff5b1063716daa3a584.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+    
+
+  })  
+       
+              
+        </script>
+
+ 
+        
+
+</body>
+</html>
+
+
+
+
+
+

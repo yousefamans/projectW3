@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+        <title>Samsung A71</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+    
+      
+
+      
+        <script >
+
+
+var i =1;
+for (i=1 ; i<4; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 38 , json , "a" ,  34999 , "Samsung A71 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71qI1h%2B05qL._SL1500_.jpg");
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(2, 67 , json , "f" ,  34999 , "Samsung A71 (Blue, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k6fd47k0/mobile/t/a/u/samsung-galaxy-a71-sm-a715fzbwins-original-imafzvtqvz7vtgzs.jpeg?q=70");
+      phoneData(3, 68 , json , "f" ,  34999 , "Samsung A71 (Black, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k6fd47k0/mobile/k/c/f/samsung-galaxy-a71-sm-a715fzkwins-original-imafzvtqrqqwz8zd.jpeg?q=70");
+ 
+  })  
+     
+
+
+    imgSize(1,4,160,280,10);
+
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

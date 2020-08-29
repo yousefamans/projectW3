@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iphone 11 pro</title>
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+     
+       
+
+
+
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<7; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 30 , json , "a" , 999 , "iPhone 11 Pro (Silver , 64 GB)" , "https://www.amazon.com/images/I/81vZCv9kA0L.jpg");
+     phoneData(2, 31 , json , "a" ,999 , "iPhone 11 Pro (Space Grey, 64 GB)" , "https://www.amazon.com/images/I/81HSzsIkJdL.jpg");
+     phoneData(3, 32 , json, "a" , 999 , "iPhone 11 Pro (Gold, 64 GB)" , "https://www.amazon.com/images/I/81owjLNCjaL.jpg");
+     phoneData(4, 33 , json , "a" , 999 , "iPhone 11 Pro (Midnight Green, 256 GB)" , "https://www.amazon.com/images/I/81mxun+6pEL.jpg");
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(5, 18 , json ,"w", 999 , "Apple iPhone 11 Pro (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(6, 19 , json ,"w", 999 , "iPhone 11 Pro (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+                
+
+
+        </script>
+      
+
+</body>
+</html>
+
+

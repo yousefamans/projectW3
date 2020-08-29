@@ -1,0 +1,213 @@
+
+.nav{
+  background-color: coral;
+  height: 60px;
+}
+
+.back {
+  width: 60px;
+
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+.title-txt {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  text-shadow: 2px 2px 5px aqua;
+}
+
+
+
+.top-deals{
+  display: flex;
+  padding-top: 20px;
+  margin: 5px;
+  margin-right: 2px;
+  max-width: 95%;
+
+}
+
+.card-img-top{
+  width: 90%;
+  margin-left: 10px;
+  padding-top:10px; 
+  padding-bottom: 20px;
+
+}
+
+.card-body{
+  border-top: 0.5px solid grey;
+}
+
+
+.card{
+  
+  margin: 5px;
+}
+
+.card-title {
+  font-size: 15px;
+}
+
+
+/* Dropdon */
+
+.dropbtn {
+  background-color: rgb(130,50,120);
+  border-radius: 5px;
+  color: white;
+  padding: 8px 18px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  
+  font-size: 14px;	
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* end */
+
+
+/* slider */
+
+.slidecontainer {
+  width: 75%;
+  margin-left: 50px;
+}  
+
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 10px;
+  border-radius: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: powderblue;
+  cursor: pointer;
+}
+
+
+
+/* end*/
+
+
+
+
+
+
+
+.filter{
+  display: flex;
+  background-color: rgba(240,250,230);
+  color: black;
+  max-width: 90%;
+  margin-right: 0px;
+}
+
+.filter-box{
+	display: flex;
+	
+}
+
+.filter-txt{
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+
+.dropdown{
+	margin: 4px;
+}
+
+
+/* for slider display */
+
+/* for colordot */
+
+
+.colorDot{
+  background-color: black;
+  border-radius: 5px;
+  
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4); 
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 5px; 
+  margin-right: 2px ;
+}
+
+.brandlogo{
+  width: 30px;
+  padding-left: 8px;
+  
+
+}
+
+
+
+.beforePrice{
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+
+
+.footer {
+  margin-top: 50px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: coral;
+}
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 11 Pro Max</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/global/element.js"></script>
+</head>
+<body>
+
+
+        <div class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div>
+
+        <p class="search-results">Search Results</p>
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        
+       
+
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<8; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(3, 37 , json , "a" , 1099 , "iPhone 11 Pro Max (Silver , 64 GB)" , "https://www.amazon.com/images/I/81vZCv9kA0L.jpg");
+     phoneData(4, 38 , json , "a" ,1099 , "iPhone 11 Pro Max (Space Grey, 64 GB)" , "https://www.amazon.com/images/I/81HSzsIkJdL.jpg");
+     phoneData(5, 39 , json, "a" , 1099 , "iPhone 11 Pro Max (Gold, 64 GB)" , "https://www.amazon.com/images/I/81owjLNCjaL.jpg");
+     phoneData(6, 40 , json , "a" , 1099 , "iPhone 11 Pro Max (Midnight Green, 64 GB)" , "https://www.amazon.com/images/I/81mxun+6pEL.jpg");
+  })
+
+fetch('/json/global/ebay.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 25 , json ,"e", 1300 , "iPhone 11 Pro Max (All colors, 256 GB)" , "https://i.ebayimg.com/images/g/ONoAAOSw7FFeLyp2/s-l500.png");
+/*
+     phoneData(12, 26 , json ,"e", 0 , "iPhone 11 Pro Max AT&T (Grey, 64 GB)" , "");
+     phoneData(13, 27 , json ,"e", 0 , "iPhone 11 Pro Max (, 64 GB)" , "");
+     phoneData(14, 28 , json ,"e", 0 , "iPhone 11 Pro Max AT&T (Silver, 256 GB)" , "");    
+     phoneData(15, 29 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");   
+*/
+  })  
+
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(2, 20 , json ,"w", 1099 , "Apple iPhone 11 Pro Max (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(7, 21 , json ,"w", 1099 , "iPhone 11 Pro Max (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+  footer();              
+
+        </script>
+        
+
+</body>
+</html>
+
+

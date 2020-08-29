@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone X</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+<script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<9; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(8, 9  , json , "a" ,  899 , "iPhone X (Silver , 64 GB)" , "https://m.media-amazon.com/images/I/618ZI2Xyw+L.jpg");
+     phoneData(7, 10 , json , "a" ,  899 , "iPhone X (Space Grey  , 64 GB)" , "https://m.media-amazon.com/images/I/61nlT53kRKL.jpg");
+     phoneData(6, 11 , json , "a" ,  899 , "iPhone X (Silver, 64 GB)" , "https://m.media-amazon.com/images/I/618ZI2Xyw+L.jpg");
+     
+  })
+
+
+  fetch('/json/global/ebay.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(4, 10 , json ,"e", 599 , "iPhone X (Silver, 64 GB)" , "https://i.ebayimg.com/images/g/i9wAAOSwl3xbqRHd/s-l500.jpg");
+
+     phoneData(5, 11 , json ,"e", 850 , "iPhone X (Silver/Grey, 64/128 GB)" , "https://i.ebayimg.com/images/g/7p8AAOSwIqpeAVkE/s-l1600.jpg");
+/*
+     phoneData(13, 7 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");
+     phoneData(14, 8 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");    
+     phoneData(15, 9 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");   
+*/
+  })  
+
+
+
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 5 , json ,"w", 899 , "iPhone X (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/1c7e3080-da80-4ce8-a0fa-073d9c3a0580_1.41b0c0f35e248393a3984baa605b524b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(2, 6 , json ,"w", 899 , "iPhone X (Space Grey , 64 GB)" , "https://i5.walmartimages.com/asr/f11ef290-2c74-4f13-acce-01e2dc164d7a_1.8beecaee126c5c44b8bc4cae3aaf1b5b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(3, 7 , json ,"w", 899 , "iPhone X (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/f11ef290-2c74-4f13-acce-01e2dc164d7a_1.8beecaee126c5c44b8bc4cae3aaf1b5b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+                footer();
+
+        </script>        
+
+</body>
+</html>
+
+
+
+
+
+

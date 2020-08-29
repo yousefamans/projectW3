@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 7</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        
+        <script >
+
+
+var i =1;
+for (i=1 ; i<5; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 0 , json , "es" ,  430 , "iPhone 7 (Plata, 32 GB)" , "https://images-na.ssl-images-amazon.com/images/I/619loDpyOaL._AC_SL1500_.jpg");
+     phoneData(2, 1 , json , "es" ,  430 , "iPhone 7 (Oro, 32 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61rIZ32kqEL._AC_SL1500_.jpg");  
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(3, 0 , json , "mkr" ,  448 , "iPhone 7 (Negro, 32 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79145577/fee_325_225_png/Apple-iPhone-7--32GB--Red-4G-LTE--Pantalla-Retina-HD-de-4.7%22--Negro");
+      phoneData(4, 1 , json , "mkr" ,  448 , "iPhone 7 (Plata, 32 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79145580/fee_325_225_png/Apple-iPhone-7--Plata--32-GB--2-GB-RAM--4.7%22-Retina-HD--Chip-A10-Fusion--iOS");
+  })
+
+ imgSize(3, 5, 350 , 280,-70); 
+
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

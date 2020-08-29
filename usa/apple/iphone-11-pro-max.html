@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 11 Pro Max</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        
+    
+        <script >
+
+var i =1;
+for (i=1 ; i<7; i++){
+        elementJS(i);
+}
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 37 , json , "a" , 1099 , "iPhone 11 Pro Max (Silver , 64 GB)" , "https://www.amazon.com/images/I/81vZCv9kA0L.jpg");
+     phoneData(2, 38 , json , "a" ,1099 , "iPhone 11 Pro Max (Space Grey, 64 GB)" , "https://www.amazon.com/images/I/81HSzsIkJdL.jpg");
+     phoneData(3, 39 , json, "a" , 1099 , "iPhone 11 Pro Max (Gold, 64 GB)" , "https://www.amazon.com/images/I/81owjLNCjaL.jpg");
+     phoneData(4, 40 , json , "a" , 1099 , "iPhone 11 Pro Max (Midnight Green, 64 GB)" , "https://www.amazon.com/images/I/81mxun+6pEL.jpg");
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(5, 20 , json ,"w", 1099 , "Apple iPhone 11 Pro Max (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(6, 21 , json ,"w", 1099 , "iPhone 11 Pro Max (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/e3e6c73d-8590-41c7-8dc9-2782083e1cde_1.8cb438bbfdc33c72e365f9b291e72716.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+                
+
+ imgSize(1, 5, 230 , 250,-20); 
+ imgSize(5, 7, 240 , 280,-30); 
+
+
+
+
+
+
+
+
+        </script>
+  
+
+</body>
+</html>
+
+

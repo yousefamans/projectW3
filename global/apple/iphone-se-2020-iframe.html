@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone SE 2020</title>
+        
+     
+
+        <style type="text/css">
+          
+
+
+
+
+
+.box{
+  position: relative;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 330px;
+  height: 130px;
+  background-color: rgb(255,255,255);
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.img-box{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 150px;
+  border-right: 0.2px dotted grey ;
+  padding-right: 20px;
+
+  
+}
+
+.phone-img{
+  position: absolute;
+  bottom: 15px;
+  padding-top:  10px;
+  width: 90px;
+  height: 110px;
+
+
+} 
+
+
+
+.link-txt{
+  position: absolute;
+  top: 5px;
+  left: 110px;
+  font-size: 20px;
+
+  
+}
+
+
+
+.price-value{
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  font-size: 25px;
+    color: blue;
+
+
+}
+
+
+
+.normal-price{
+  position: absolute;
+  top: 80px;
+  left: 130px;
+  font-size: 18px;
+  opacity: 0.4;
+}
+
+.discount{
+  position: absolute;
+  top: 40px;
+  left: 230px;
+  font-size: 15px;
+}
+
+
+.off{
+  font-size: 20px;
+  color: blue;
+}
+
+.brand{
+  position: absolute;
+  top: 105px;
+  width: 30px;
+  left: 180px;
+ 
+}
+
+.link-button{
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  padding: 2px 5px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.link-button a{
+   text-decoration: none;
+   color: white;
+  
+   font-size: 15px;
+}
+
+#se-red{
+  margin-top: -5px;
+  
+}
+
+
+.test{
+  display: none;
+}
+
+
+
+.footer{
+  
+  background-color: black;
+  margin-top: 100px;
+  border-radius: 20px;
+  height: 100px;
+
+}
+
+
+
+
+
+
+/*
+
+
+
+
+@media screen and (min-width: 400px) {
+  .box {
+    width: 750px;
+    height: 230px;
+    margin-left: 100px;
+    
+  }
+
+  .img-box{
+    width: 200px;
+    height: 230px;
+  }
+
+  .phone-img{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 190px;
+  } 
+
+  .link-txt{
+    font-size: 35px;
+    top: 10px;
+    left: 240px;
+  }
+
+  .price{
+    font-size: 35px;
+    top: 50px;
+    left: 260px;
+  }
+
+  .link-button{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    padding: 10px 6px;
+    
+    
+  }
+
+  .link-button a{
+   padding: 5px;
+   font-size: 30px;
+    }
+  
+}
+  */      </style>
+
+</head>
+<body>
+ 
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        
+   
+          
+
+
+   
+
+        
+
+        
+
+
+
+
+
+        <script >
+
+
+function elementJS(ids) {
+        
+
+        var aTag = document.createElement("a");
+        aTag.innerHTML = "name";
+        
+        aTag.setAttribute("class","link-txt");
+        aTag.setAttribute("id","name"+ids);
+
+        document.getElementById('box'+ids).appendChild(aTag);
+
+        var price_value = document.createElement("p");
+        price_value.innerHTML = "price";
+        price_value.setAttribute("class","price-value");
+        price_value.setAttribute("id","price"+ids);
+        document.getElementById('box'+ids).appendChild(price_value);
+
+        var normalPrice_Ptag = document.createElement("p");
+        
+        normalPrice_Ptag.setAttribute("class","normal-price");
+        normalPrice_Ptag.setAttribute("id","normal-price"+ids);
+        document.getElementById('box'+ids).appendChild(normalPrice_Ptag);
+
+        var discount_Tag = document.createElement("p");
+        
+        discount_Tag.setAttribute("class","discount");
+        discount_Tag.setAttribute("id","discount"+ids);
+        document.getElementById('box'+ids).appendChild(discount_Tag);
+
+
+        var brand_img = document.createElement("img");
+        
+        brand_img.setAttribute("class","brand");
+        brand_img.setAttribute("id","brand"+ids);
+        document.getElementById('box'+ids).appendChild(brand_img);
+
+
+
+
+
+        var divImg = document.createElement("div");
+        divImg.setAttribute("class", "img-box");
+        divImg.setAttribute("id", "img-box-"+ids);
+        document.getElementById('box'+ids).appendChild(divImg);
+
+        // phone img
+        var img = document.createElement("img");
+        img.setAttribute("class","phone-img");
+        img.setAttribute("id", "img"+ids);
+        document.getElementById("img-box-"+ids).appendChild(img);
+
+
+        var divLink = document.createElement("div");
+        divLink.setAttribute("class", "link-button");
+        divLink.setAttribute("id", "link-button-"+ids);
+
+        document.getElementById('box'+ids).appendChild(divLink);
+
+        var aLink = document.createElement("a");
+        aLink.innerHTML = "visit website";
+        
+
+        aLink.setAttribute("id","link"+ids);
+      
+
+        document.getElementById('link-button-'+ids).appendChild(aLink);
+/*
+        document.getElementById("box"+ids).style.height = "280px";
+        document.getElementById("box"+ids).style.width = "780px";
+        document.getElementById("img-box-"+ids).style.width = "220px";
+        document.getElementById("img-box-"+ids).style.height = "280px";
+        document.getElementById("img"+ids).style.height = "260px";
+        document.getElementById("img"+ids).style.width = "250px";
+        document.getElementById("img-box-"+ids).style.marginLeft = "-28px";
+
+*/
+}
+
+
+
+var i =1;
+for (i=1 ; i<10; i++){
+        elementJS(i);
+}
+
+
+function phoneData(idIndex, jsonDataIndex ,fileFormat, brand ,normalPrice, name ,img) {
+  
+  document.getElementById('price'+idIndex).innerHTML = fileFormat.links[jsonDataIndex].price.slice(0,-3)  ;
+  document.getElementById('normal-price'+idIndex).innerHTML = "<s>$ "+normalPrice+"</s>" ;
+  var JsonData = fileFormat.links[jsonDataIndex].price ;
+  
+  if (brand == "a") {
+   var JsonDataInt = JsonData.slice(1);
+   var ReplaceComma = parseFloat(JsonDataInt.replace(/,/g, ''));
+   var differenceInPrice = normalPrice - ReplaceComma ;
+
+   var percentValue = (parseInt(differenceInPrice) / normalPrice ) * 100   ;
+
+   var roundedPercentValue = Math.round(percentValue) ;
+   document.getElementById('brand'+idIndex).src = "/img/amazon.jpg"  ;
+      document.getElementById('brand'+idIndex).style.top = "120px"  ;
+
+
+
+   
+  }
+
+
+   if (brand == "e") {
+   var JsonDataInt = JsonData.slice(4);
+   var ReplaceComma = parseFloat(JsonDataInt.replace(/,/g, ''));
+   var differenceInPrice = normalPrice - ReplaceComma ;
+
+   var percentValue = (parseInt(differenceInPrice) / normalPrice ) * 100   ;
+
+   var roundedPercentValue = Math.round(percentValue) ;
+   document.getElementById('brand'+idIndex).src = "/img/ebay.jpg"  ;
+   document.getElementById('brand'+idIndex).style.width = "60px"  ;
+   document.getElementById('brand'+idIndex).style.left = "140px"  ;
+   
+
+
+   if(JsonData.slice(0,2) == "US"){
+     document.getElementById('price'+idIndex).innerHTML = JsonData.slice(3,-3)  ;
+     document.getElementById('normal-price'+idIndex).innerHTML = "<s>$ "+normalPrice+"</s>" ; 
+   
+   }else if (JsonData.slice(0,3) == "GBP"){
+     document.getElementById('price'+idIndex).innerHTML = " £ " + JsonData.slice(4,-3)  ;
+     document.getElementById('normal-price'+idIndex).innerHTML = "<s> £"+normalPrice+"</s>" ;
+   
+   }else if (JsonData.slice(0,3) == "EUR"){
+      document.getElementById('price'+idIndex).innerHTML =  JsonData.slice(4,-3) + " €" ;
+      document.getElementById('normal-price'+idIndex).innerHTML = "<s> "+normalPrice+" €</s>" 
+   }
+
+ }
+
+  if (brand == "w"){
+      var ReplaceComma = parseFloat(JsonData.replace(/,/g, ''));
+      var differenceInPrice = normalPrice - ReplaceComma ;
+
+      var percentValue = (parseInt(differenceInPrice) / normalPrice ) * 100   ;
+
+      var roundedPercentValue = Math.round(percentValue) ;
+
+      document.getElementById('price'+idIndex).innerHTML = "$" + fileFormat.links[jsonDataIndex].price  ;
+      document.getElementById('brand'+idIndex).src = "/img/walmart.jpg"  ;
+      document.getElementById('brand'+idIndex).style.width = "50px"  ;
+
+
+  }
+
+
+    
+
+ 
+  
+  
+  
+  document.getElementById('discount'+idIndex).innerHTML = roundedPercentValue  + "% <span class="+"off"+">Off </span>" ;
+  
+  document.getElementById('img'+idIndex).src = img ;
+  document.getElementById('link'+idIndex).href = fileFormat.links[jsonDataIndex].link ;
+  document.getElementById('name'+idIndex).innerHTML = name ;
+
+  document.getElementById('link'+idIndex).onclick = function () {
+  top.window.location.href = fileFormat.links[jsonDataIndex].link;
+  // body...
+  }     
+          
+        
+
+
+  if (roundedPercentValue == 0) {
+        
+      document.getElementById("normal-price"+idIndex).style.display = "none" ;
+      document.getElementById("discount"+idIndex).style.display = "none" ;
+  }
+  
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(5, 41 , json , "a" ,  399 , "iPhone SE 2020  (Black, 64 GB)" , "https://www.amazon.com/images/I/81hCytKTUTL.jpg");
+     phoneData(7, 42 , json , "a" ,  399 , "iPhone SE 2020  (White, 64 GB)" , "https://www.amazon.com/images/I/81UhYiZH98L.jpg");
+     phoneData(8, 43 , json, "a" ,   399 , "iPhone SE 2020  (Red, 64 GB)" , "https://www.amazon.com/images/I/810DvHOZ9nL.jpg");
+     phoneData(4, 44 , json , "a" ,  449 , "iPhone SE 2020  (Black, 128 GB)" , "https://www.amazon.com/images/I/81hCytKTUTL.jpg");
+  })
+
+  fetch('/json/global/ebay.json')
+  .then(res => res.json())
+  .then((json) => {
+
+/*
+     phoneData(11, 5 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");
+     phoneData(12, 6 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");
+     phoneData(13, 7 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");
+     phoneData(14, 8 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");    
+     phoneData(15, 9 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");   
+*/
+  })  
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 22 , json ,"w", 399 , "iPhone SE 2020 (Black, 64 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+     phoneData(6, 23 , json ,"w", 399 , "iPhone SE 2020  (Black, 64 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+     phoneData(2, 25 , json ,"w", 399 , "iPhone SE 2020  (White, 64 GB)" , "https://i5.walmartimages.com/asr/1010564b-bdcb-43c1-be7f-b126f39a3ccc.0d4e6e5dbd6bc1e39b0a3d0b8ecb4553.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+     phoneData(3, 26 , json ,"w", 399 , "iPhone SE 2020  (Black, 64 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+     phoneData(9, 24 , json ,"w", 499 , "iPhone SE 2020  (Black, 128 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  }) 
+
+
+ 
+
+     
+                
+
+
+
+        </script>
+
+    
+        
+
+</body>
+</html>
+
+
+
+
+
+

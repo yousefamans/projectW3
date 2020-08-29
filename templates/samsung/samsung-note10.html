@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<
+<head>
+        <title>Samsung Note 10</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+  
+
+      
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<8; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(4, 35 , json , "a" ,  75000 , "Samsung Note 10 (Black, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71znGoLL%2B4L._SL1500_.jpg");
+     phoneData(2, 36 , json , "a" ,  75000 , "Samsung Note 10 (Red, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/710H5rWYI0L._SL1500_.jpg");
+     phoneData(3, 37 , json , "a" ,  75000 , "Samsung Note 10 (Glow, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71JJB8w5erL._SL1500_.jpg");
+    
+
+
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(5, 60 , json , "f" ,  75000 , "Samsung Note 10 (Black, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/4/g/j/galaxy-note-10-256-a-sm-n970fzkdins-samsung-8-original-imafj55hjxrbfgyx.jpeg?q=70");
+      phoneData(6, 61 , json , "f" ,  85000 , "Samsung Note 10 + (Aurora, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/g/3/p/galaxy-note-10-plus-256-b-sm-n975fzsdins-samsung-12-original-imafj58vhfqgx9pc.jpeg?q=70");
+      phoneData(7, 62 , json , "f" ,  75000 , "Samsung Note 10 (Aurora, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/b/q/t/galaxy-note-10-256-c-sm-n970fzsdins-samsung-8-original-imafj55n5sgtrtka.jpeg?q=70");
+      phoneData(1, 63 , json , "f" ,  45000 , "Samsung Note 10 Lite (Black, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k5r2mq80/mobile/z/h/a/samsung-galaxy-note10-lite-sm-n770fzkninu-original-imafzd7zycz3kjvh.jpeg?q=70");
+     
+  
+
+        
+
+  }) 
+
+
+    imgSize(1,8,200,230,10);
+
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

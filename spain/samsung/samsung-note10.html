@@ -1,0 +1,96 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung Note 10</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+       
+        
+
+
+        <script >
+var i =1;
+for (i=1 ; i<9; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 85 , json , "es" , 959 , "Samsung Note 10 (Brillante , 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/711%2B5W2oaNL._AC_SL1500_.jpg");
+     phoneData(2, 86 , json , "es" , 1209 , "Samsung Note 10 + (Negro, 512 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71slPw%2BZWvL._AC_SL1500_.jpg");
+    
+     
+    
+    
+
+
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(8, 41 , json , "mkr" , 853 , "REACONDICIONADO Samsung Note 10 + (Negro, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-81987890/fee_786_587_png/REACONDICIONADO-M%C3%B3vil---Samsung-Galaxy-Note-10----Negro--256-GB--12-GB-RAM--6.8%22-WQHD---Exynos-9825--4300-mAh");
+     phoneData(7, 42 , json , "mkr" , 759 , "Samsung Note 10 (Gris, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_73968429/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-Note-10--Gris--256-GB--8-GB-RAM--6.3%22-Full-HD---Exynos-9825--3500-mAh--Android");
+     phoneData(6, 43 , json , "mkr" , 999 , "Samsung Note 10 + 5G (Gris, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70778756/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-Note-10----Gris--256-GB--12-GB-RAM--6.8%22-WQHD---Exynos-9825--4300-mAh--Android");
+     phoneData(5, 44 , json , "mkr" , 953 , "Samsung Note 10 + (Negro, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-81987890/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-Note-10----Negro--256-GB--12-GB-RAM--6.8%22-WQHD---Exynos-9825--4300-mAh--Android");
+     phoneData(4, 45 , json , "mkr" , 743 , "REACONDICIONADO Samsung Note 10 (Aurora, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76161907/fee_786_587_png/REACONDICIONADO-M%C3%B3vil---Samsung-Galaxy-Note-10--6.3%22--8GB--256-GB--Android-9.0--Triple-camera--Aura-Glow");
+     phoneData(3, 46 , json , "mkr" , 853 , "REACONDICIONADO Samsung Note 10 (Negro,  GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-81987890/fee_786_587_png/REACONDICIONADO-M%C3%B3vil---Samsung-Galaxy-Note-10----Negro--256-GB--12-GB-RAM--6.8%22-WQHD---Exynos-9825--4300-mAh");
+        
+
+  })
+
+ imgSize(3, 9, 350 , 280,-70); 
+  
+
+ 
+       
+                
+        </script>
+
+        
+        
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

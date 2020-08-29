@@ -1,0 +1,101 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Samsung S20</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+
+        
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+      
+
+      
+        <script >
+
+
+
+
+var i =1;
+for (i=1 ; i<10; i++){6   
+        elementJS(i);
+}
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 29 , json , "a" ,  74000 , "Samsung S20 (Grey, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81QuTIErByL._SL1500_.jpg");
+     phoneData(2, 31 , json , "a" ,  83000 , "Samsung S20 + (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81QuTIErByL._SL1500_.jpg");
+     phoneData(3, 32 , json , "a" ,  71000 , "Samsung S20 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81LevhQnGmL._SL1500_.jpg");
+     phoneData(4, 33 , json , "a" ,  83000 , "Samsung S20 + (Grey, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81QuTIErByL._SL1500_.jpg");
+     phoneData(5, 30 , json , "a" ,  103000 , "Samsung S20 Ultra (Grey, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71cD4NUIBWL._SL1500_.jpg");
+     phoneData(6, 34 , json , "a" ,  103000 , "Samsung S20 Ultra (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71cD4NUIBWL._SL1500_.jpg");   
+    
+
+
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(9, 64 , json , "f" ,  74000 , "Samsung S20 (Grey, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k6mibgw0/mobile/y/h/f/samsung-galaxy-s20-sm-g980fzadinu-original-imafpfkbhhtf6b8v.jpeg?q=70");
+      phoneData(8, 65 , json , "f" ,  83000 , "Samsung S20 + (Black, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k6mibgw0/mobile/y/h/f/samsung-galaxy-s20-sm-g980fzadinu-original-imafpfkbhhtf6b8v.jpeg?q=70");
+      phoneData(7,66 , json , "f" ,  103000 , "Samsung S20 Ultra (Grey, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k6mibgw0/mobile/j/z/b/samsung-galaxy-s20-ultra-sm-g988bzapinu-original-imafpfkb6mkgyegk.jpeg?q=70");
+     
+
+  })  
+    imgSize(1,8,200,280,10);
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

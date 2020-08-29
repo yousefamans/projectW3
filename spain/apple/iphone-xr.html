@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone xr</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        
+
+
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<9; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 8  , json , "es" , 720 , "iPhone Xr (Amarillo, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/519Wcu07etL._AC_SL1024_.jpg");
+     phoneData(2, 9  , json , "es" , 720 , "iPhone Xr (Blanco,  GB)" , "https://images-na.ssl-images-amazon.com/images/I/51PuFBgBK4L._AC_SL1024_.jpg");
+     phoneData(3, 10 , json , "es" , 709 , "iPhone Xr (Negro, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/519KIlHA2wL._AC_SL1024_.jpg");
+     phoneData(4, 11 , json , "es" , 709 , "iPhone Xr (Coral, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51cCOStn%2BrL._AC_SL1024_.jpg");
+     
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(5, 3 , json , "mkr" , 709 , "iPhone Xr (Rojo, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_71653786/fee_325_225_png/Apple-iPhone-XR--Rojo--64-GB--3-GB-RAM--6.1%22-Liquid-Retina-HD--Chip-A12-Bionic--iOS");
+     phoneData(6, 4 , json , "mkr" , 709 , "iPhone Xr(Coral, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_71653908/fee_325_225_png/Apple-iPhone-XR--Coral--64-GB--3-GB-RAM--6.1%22-Liquid-Retina-HD--Chip-A12-Bionic--iOS");
+     phoneData(7, 5 , json , "mkr" , 740 , "iPhone Xr (Rojo, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_71653786/fee_325_225_png/Apple-iPhone-XR--Rojo--64-GB--3-GB-RAM--6.1%22-Liquid-Retina-HD--Chip-A12-Bionic--iOS");
+     phoneData(8, 6 , json , "mkr" , 740 , "iPhone Xr (Armarillo, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79326178/fee_325_225_png/Apple-iPhone-XR--Amarillo--128-GB--3-GB-RAM--6.1%22-Liquid-Retina-HD--Chip-A12-Bionic--iOS");
+     
+    
+  })  
+
+
+ imgSize(5, 9, 370 , 280,-80); 
+
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

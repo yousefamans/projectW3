@@ -1,0 +1,93 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung S20</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+     
+
+        
+
+
+
+        <script >
+
+var i =1;
+for (i=1 ; i<8; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(2, 67 , json , "es" , 990 , "Samsung S20 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61%2BugFzrD2L._AC_SL1500_.jpg");
+     phoneData(1, 68 , json , "es" , 990 , "Samsung S20 (Grey, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61W7GElaqaL._AC_SL1500_.jpg");
+     phoneData(3, 69 , json , "es" , 1009 , "Samsung S20 + (Negro, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/613WJyrUuvL._AC_SL1500_.jpg");
+     
+    
+    
+
+
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(4, 48 , json , "mkr" , 899 , "Samsung S20 (Gris, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75479838/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-S20-4G--Gris--128-GB--8-GB-RAM--6.2%22-AMOLED-120-Hz--Exynos-990--4000-mAh--Android");
+     phoneData(5, 49 , json , "mkr" , 899 , "Samsung S20 (Azul, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75479845/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-S20-4G--Azul--128-GB--8-GB-RAM--6.2%22-AMOLED-120-Hz--Exynos-990--4000-mAh--Android");
+     phoneData(6, 50 , json , "mkr" , 999 , "Samsung S20 5G (Gris, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75479775/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-S20-5G--Gris--128-GB--12-GB-RAM--6.2%22-AMOLED-120-Hz--Exynos-990--4000-mAh--Android");
+     phoneData(7, 51 , json , "mkr" , 1099 , "Samsung S20 + 5G (Azul, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75479910/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-S20--5G--Azul--128-GB--12-GB-RAM--6.7%22-AMOLED-120Hz--Exynos-990--4500-mAh--Android");
+     
+
+  }) 
+
+ imgSize(4, 8, 350 , 280,-70); 
+
+       
+                
+        </script>
+
+     
+        
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

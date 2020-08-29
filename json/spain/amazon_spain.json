@@ -1,0 +1,858 @@
+{
+ "links": [
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-32GB-Italia-Argento/dp/B01LVVF641?ref_=ast_sto_dp",
+   "name": "Apple iPhone 7 - Smartphone de 4.7\" (32 GB) plata",
+   "price": "369,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-SIM-%C3%BAnica-32GB/dp/B01LW8BLOE?ref_=ast_sto_dp",
+   "name": "Apple iPhone 7 - Smartphone de 4.7\" (32 GB) oro",
+   "price": "369,81 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Smartphone-gris-espacial/dp/B075TGMMNK?ref_=ast_sto_dp",
+   "name": "Apple iPhone 8 (64G B) - Oro",
+   "price": "527,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Smartphone-4-7-Plata/dp/B075RB59JP?ref_=ast_sto_dp",
+   "name": "Apple iPhone 8 (64 GB) - Plata",
+   "price": "423,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Smartphone-4-7-Plata/dp/B075RBRRK7?ref_=ast_sto_dp",
+   "name": "Apple iPhone 8 (256 GB) - Plata",
+   "price": "709,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Plus-Smartphone-Gris/dp/B075RBM8KW?ref_=ast_sto_dp",
+   "name": "Apple iPhone 8 Plus (64 GB) - Gris Espacial",
+   "price": "1,81 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Smartphone-Camara-Color/dp/B075RB145Y?ref_=ast_sto_dp",
+   "name": "Apple iPhone X (de 64GB) - Gris espacial",
+   "price": "1,81 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-64GB-Plata-MQAD2QL/dp/B075R9SDZ9?ref_=ast_sto_dp",
+   "name": "Apple iPhone X (de 64GB) - Plata",
+   "price": "1,81 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XR-Smartphone-6-1-amarillo/dp/B07J2CRSVZ?ref_=ast_sto_dp",
+   "name": "Apple iPhone XR",
+   "price": "641,55 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XR-Smartphone-6-1-blanco/dp/B07HMGKC1T?ref_=ast_sto_dp",
+   "name": "Apple iPhone XR",
+   "price": "709,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XR-Smartphone-6-1-negro/dp/B07J6G5T9J?ref_=ast_sto_dp",
+   "name": "Apple iPhone XR",
+   "price": "666,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XR-Smartphone-6-1-coral/dp/B07J2CFTRS?ref_=ast_sto_dp",
+   "name": "Apple iPhone XR",
+   "price": "698,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XS-Smartphone-espacial/dp/B07HLFXRMK?ref_=ast_sto_dp",
+   "name": "Apple iPhone XS (de 256GB) - Gris espacial",
+   "price": "899,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XS-Smartphone-plata/dp/B07HRY52Z6?ref_=ast_sto_dp",
+   "name": "Apple iPhone XS (de 256GB) - Plata",
+   "price": "899,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XS-Smartphone-5-8/dp/B07HNDDDNV?ref_=ast_sto_dp",
+   "name": "Apple iPhone XS (de 256GB) - Oro",
+   "price": "899,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XS-Smartphone-espacial/dp/B07HLDMZJZ?ref_=ast_sto_dp",
+   "name": "Apple iPhone XS (de 64GB) - Gris espacial",
+   "price": "1,81 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-XS-Smartphone-5-8/dp/B07J6HZT43?ref_=ast_sto_dp",
+   "name": "Apple iPhone XS (de 64GB) - Gris espacial",
+   "price": "1,81 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-64-GB/dp/B07XS2ND7L?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (64 GB) - Gris Espacial",
+   "price": "1.059,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-64-GB/dp/B07XRHFXY5?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (64 GB) - Plata",
+   "price": "1.029,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-64-GB-Negro/dp/B07XS2ZR1K?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 (64 GB) - en Negro",
+   "price": "792,58 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-64-GB-Blanco/dp/B07XS47PVF?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 (64 GB) - en Blanco",
+   "price": "790,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-64-GB-PRODUCT/dp/B07XS47XF4?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 (64 GB) - (Product) Red",
+   "price": "786,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-128-GB-PRODUCT/dp/B07XS4MGQL?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 (128 GB) - (Product) Red",
+   "price": "809,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-128-GB-en-Verde/dp/B07XS5MSW4?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 (128 GB) - de en Verde",
+   "price": "809,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-128-GB-en-Malva/dp/B07XS47XFT?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 (128 GB) - de en Malva",
+   "price": "809,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-64-GB/dp/B07XS3ZX16?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (64 GB) - de en Verde Noche",
+   "price": "1029,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-256-GB/dp/B07XS2ND7R?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (256 GB) - Gris Espacial",
+   "price": "1229,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-256-GB/dp/B07XS2ZQZ6?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (256 GB) - Oro",
+   "price": "1229,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-256-GB/dp/B07XS4NHMR?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (256 GB) - Plata",
+   "price": "1229,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-11-Pro-256-GB/dp/B07XS48L9C?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro (256 GB) - de en Verde Noche",
+   "price": "1229,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Pro-Max-64-GB/dp/B07XS57CGZ?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro MAX (64 GB) - Plata",
+   "price": "1159,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Pro-Max-64-GB/dp/B07XS52RN3?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro MAX (64 GB) - Gris Espacial",
+   "price": "1.159,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Pro-Max-256-GB/dp/B07XS3MRK3?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro MAX (256 GB) - Plata",
+   "price": "1.329,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Pro-Max-256-GB/dp/B07XS4J7R6?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro MAX (256 GB) - Oro",
+   "price": "1.329,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPhone-Pro-Max-256-GB/dp/B07XS5FQ3N?ref_=ast_sto_dp",
+   "name": "Apple iPhone 11 Pro MAX (256 GB) - de en Verde Noche",
+   "price": "1.329,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-64-GB/dp/B0876168Z5?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (64 GB) - en Negro",
+   "price": "479,53 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-64-GB/dp/B087616RMM?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (64 GB) - en Blanco",
+   "price": "484,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-64-GB/dp/B087616RMN?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (64 GB) - (Product) Red",
+   "price": "484,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-128-GB/dp/B0875W18P6?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (128 GB) - en Blanco",
+   "price": "538,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-128-GB/dp/B0875XHSTJ?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (128 GB) - (Product) Red",
+   "price": "539,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-256-GB/dp/B0875XJ63N?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (256 GB) - (Product) Red",
+   "price": "659,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPhone-SE-256-GB/dp/B0875TL31D?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPhone SE (256 GB) - en Blanco",
+   "price": "641,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-11-Pulgadas-Wi-Fi-128-GB/dp/B0863SD8G3?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPad Pro (de 11 Pulgadas, con Wi-Fi y 128 GB) - Plata (2.ª generación)",
+   "price": "879,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-11-Pulgadas-Wi-Fi-256-GB/dp/B0863TP33V?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPad Pro (de 11 Pulgadas, con Wi-Fi y 256 GB) - Gris Espacial (2.ª generación)",
+   "price": "989,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-11-Pulgadas-Cellular-128-GB/dp/B0863K3DJW?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPad Pro (de 11 Pulgadas, con Wi-Fi + Cellular y 128 GB) - Plata (2.ª generación)",
+   "price": "1.049,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPad-Air-pulgadas-64-GB-Wi-Fi/dp/B07PSKLFR8?ref_=ast_sto_dp",
+   "name": "Apple iPad Air (de 10,5 pulgadas y 64 GB con Wi-Fi) - Oro (Ultimo Modelo)",
+   "price": "528,43 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPad-Air-pulgadas-64-GB-Wi-Fi/dp/B07PSKH4K8?ref_=ast_sto_dp",
+   "name": "Apple iPad Air (de 10,5 pulgadas y 64 GB con Wi-Fi) - Gris espacial (Ultimo Modelo)",
+   "price": "549,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPad-Air-pulgadas-256-GB-Wi-Fi/dp/B07PTW1DC6?ref_=ast_sto_dp",
+   "name": "Apple iPad Air (de 10,5 pulgadas y 256 GB con Wi-Fi) - Gris espacial (Ultimo Modelo)",
+   "price": "687,65 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-pulgadas-Wi-Fi-Cellular/dp/B07XLFV9Y4?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPad (10,2 Pulgadas, Wi-Fi + Cellular, 32GB) - Gris Espacial",
+   "price": "479,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-pulgadas-Wi-Fi-Cellular/dp/B07XSBPVW6?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPad (10,2 Pulgadas, Wi-Fi + Cellular, 128GB) - Gris Espacial",
+   "price": "594,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Nuevo-Apple-iPad-pulgadas-Wi-Fi/dp/B07XSCCQ1K?ref_=ast_sto_dp",
+   "name": "Nuevo Apple iPad (10,2 Pulgadas, Wi-Fi, 32GB) - Oro",
+   "price": "364,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPad-mini-Wi-Fi-64-GB/dp/B07PRDL3W6?ref_=ast_sto_dp",
+   "name": "Apple iPad mini (con WiFi, 64 GB), Gris espacial (Último Modelo)",
+   "price": "446,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-iPad-mini-Tablet-Pixeles/dp/B07PQ9C8GR?ref_=ast_sto_dp",
+   "name": "Apple iPad Mini (con Wi-Fi, 256 GB) - Gris Espacial (Último Modelo)",
+   "price": "605,09 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-aluminio-espacial-correa-deportiva/dp/B07HKVTB3T?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 3 (GPS) con caja de 38 mm de aluminio en gris espacial y correa deportiva, Negra",
+   "price": "227,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-aluminio-plata-correa-deportiva/dp/B07HKRD1JV?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 3 (GPS) con caja de 42 mm de aluminio en plata y correa deportiva blanca",
+   "price": "259,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-aluminio-plata-correa-deportiva/dp/B07HKTJG2R?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 3 (GPS) con caja de 38 mm de aluminio en plata y correa deportiva, Blanca",
+   "price": "228,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-aluminio-correa-deportiva/dp/B07HKX77VK?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 3 (GPS + Cellular) con caja de 38 mm de aluminio en plata y correa deportiva - Blanca",
+   "price": "329,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-inoxidable-espacial-deportiva/dp/B07JVRBH4D?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 4 (GPS + Cellular) con caja de 40 mm de acero inoxidable en negro espacial y correa deportiva negra"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-inoxidable-pulsera-Milanese/dp/B07K1QCYFT?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 4 (GPS + Cellular) con caja de 40 mm de acero inoxidable en plata y pulsera Milanese Loop en el mismo tono",
+   "price": "599,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-inoxidable-correa-deportiva/dp/B07K1QCYG2?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 4 (GPS + Cellular) con caja de 40 mm de acero inoxidable en oro y correa deportiva en color piedra"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-inoxidable-espacial-deportiva/dp/B07K1Q8649?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 4 (GPS + Cellular) con caja de 44 mm de acero inoxidable en negro espacial y correa deportiva negra"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-GPS-Aluminio-Plata/dp/B07XS7LKC7?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 5 (GPS, 40 mm) Aluminio en Plata - Correa Deportiva Blanco",
+   "price": "441,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Aluminio-Gris-espacial/dp/B07XS7YK45?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 5 (GPS, 40 mm) Aluminio en Gris Espacial - Correa Deportiva Negro",
+   "price": "447,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-Aluminio-Plata/dp/B07XLCT9D9?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 5 (GPS + Cellular, 44 mm) Aluminio en Plata - Correa Deportiva Blanco",
+   "price": "577,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-Watch-Cellular-Aluminio-Plata/dp/B07XS7Y99F?ref_=ast_sto_dp",
+   "name": "Apple Watch Series 5 (GPS + Cellular, 40 mm) Aluminio en Plata - Correa Deportiva Blanco",
+   "price": "538,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-AirPods-estuche-%C3%9Altimo-Modelo/dp/B07PYMK77Y/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=airpods&qid=1595503629&sr=8-3",
+   "name": "Apple AirPods con estuche de carga con cable (2ª generación)",
+   "price": "134,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Apple-AirPods-estuche-inal%C3%A1mbrica-%C3%9Altimo/dp/B07PZRD7C5/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=airpods&qid=1595503629&sr=8-5",
+   "name": "Apple AirPods con estuche de carga inalámbrica (2ª generación)",
+   "price": "179,20 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S20-Smartphone-cu%C3%A1druple/dp/B084J54N67?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S20 - Smartphone 6.2\" Dynamic AMOLED (8GB RAM, 128GB ROM, cuádruple cámara trasera 64MP, Octa-core Exynos 990, 4000mAh batería, carga ultra rápida), Cloud Blue [Versión española]",
+   "price": "775,95 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S20-Smartphone-cu%C3%A1druple/dp/B084K8M6WT?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S20 - Smartphone 6.2\" Dynamic AMOLED (8GB RAM, 128GB ROM , cuádruple cámara trasera 64MP, Octa-core Exynos 990, 4000mAh batería, carga ultra rápida), Cosmic Gray [Versión española]",
+   "price": "701,34 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S20-Smartphone-cu%C3%A1druple/dp/B084J4GVHR?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S20+ - Smartphone 6.7\" Dynamic AMOLED (8GB RAM, 128GB ROM , cuádruple cámara trasera 64MP, Octa-core Exynos 990, 4500mAh batería, carga ultra rápida), Cosmic Black [Versión española]",
+   "price": "816,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S20-Ultra-Smartphone/dp/B084K6P9HP?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S20 Ultra 5G - Smartphone 6.9\" Dynamic AMOLED (12GB RAM, 128GB ROM, cámara 108MP gran angular, Octa-core Exynos 990, 5000mAh batería, carga ultra rápida) Cosmic Black [Versión española]",
+   "price": "1.099,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S20-Ultra-Smartphone/dp/B084K6P9HP?ref_=ast_sto_dp",
+   "price": "1.099,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S20-Ultra-5G/dp/B084DPKKPR/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=samsung+s20&qid=1595503842&sr=8-5",
+   "name": "Samsung Galaxy S20 Ultra 5G - 128 GB de memoria, 12 GB RAM, Sim Hibrida, Gris [Versión Alemana]",
+   "price": "1.347,73 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10e-Smartphone-Pantalla/dp/B07NDDLVZY?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S10e - Smartphone (128GB, Dual SIM, Pantalla 5.8 \"Full HD + Dynamic AMOLED, 3100mAh (típico)), Negro (Prism Black), [ Versión Española]",
+   "price": "1,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10-Smartphone-Version/dp/B07NWWPZYQ?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S10 - Smartphone de 6.1”, Dual SIM, 128 GB, Verde (Prism Green)",
+   "price": "599,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10-Smartphone-Wireless/dp/B07NDD7W23?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S10+ - Smartphone de 6.4\" QHD+ Curved Dynamic AMOLED, 16 MP, Exynos 9820, Wireless & Fast & Reverse Charging, 128 GB, Prisma Negro (Prism Black)",
+   "price": "612,60 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10-Smartphone-Wireless/dp/B07NWV9SKS?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S10+ - Smartphone de 6.4\" QHD+ Curved Dynamic AMOLED, 16 MP, Exynos 9820, Wireless & Fast & Reverse Charging, 128 GB, Prisma Blanco (Prism White)",
+   "price": "659,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S9-Smartphone-Bluetooth/dp/B07F25S6M6?ref_=ast_sto_dp",
+   "name": "Samsung SM-G960FZDDPHE Smartphone Samsung Galaxy S9 (5.8\", 4G, Wifi, Bluetooth,, 64 GB, 4 GB RAM, 12 MP, Android 8.0), Dorado - Versión española",
+   "price": "689,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Plus-Smartphone-Bluetooth/dp/B079XF3BYL?ref_=ast_sto_dp",
+   "name": "Samsung SM-G965FZBDPHE Smartphone Samsung Galaxy S9 Plus (6.2\", Wi-Fi, Bluetooth, Octa-core 4x2.7 GHz, 64 GB, 6 GB RAM, Dual SIM, 12 MP, Android 8.0 Oreo), Azul - Versión Española",
+   "price": "1,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10-Lite-Snapdragon8150/dp/B083KLB9M2?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S10 Lite - Smartphone de 6.7\" FHD+ (4G, 8GB RAM, 128GB ROM, cámara trasera 48MP+2MP(UW)+5MP(Macro)+5MP, cámara frontal 32MP, Octa-core Snapdragon8150), Prism White [Versión española]",
+   "price": "479,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10-Lite-Snapdragon8150/dp/B083H74GRC?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy S10 Lite - Smartphone de 6.7\" FHD+ (4G, 8GB RAM, 128GB ROM, cámara trasera 48MP+12MP(UW)+5MP(Macro)+5MP, cámara frontal 32MP, Octa-core Snapdragon8150), Prism Black [Versión española]",
+   "price": "1,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-S10-Lite-Snapdragon8150/dp/B083H74GRC?ref_=ast_sto_dp",
+   "price": "1,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Note-Lite-Smartphone/dp/B083KKNQNZ?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note 10 Lite - Smartphone de 6.7\" FHD+ (4G, Dual SIM, 6GB RAM, 128GB ROM, cámara trasera 12MP(W)+12MP(UW)+12MP, cámara frontal 32MP, Octacore Exynos 9810), Aura Black [Versión española]",
+   "price": "1,90 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Note-Lite-Smartphone/dp/B083KKVVTL?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note 10 Lite - Smartphone de 6.7\" FHD+ (4G, Dual SIM, 6GB RAM, 128GB ROM, cámara trasera 12MP(W)+12 MP(UW)+12MP, cámara frontal 32MP, Octacore Exynos 9810) Aura Red [Versión española]",
+   "price": "509,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Note-Lite-Smartphone/dp/B083KMPYYN?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note 10 Lite - Smartphone de 6.7\" FHD+ (4G, Dual SIM, 6GB RAM, 128GB ROM, cámara trasera 12MP(W)+12MP(UW)+12MP, cámara frontal 32MP, Octacore Exynos 9810), Aura Glow [Versión española]",
+   "price": "509,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Smartphone-Memoria-Android-Brillante/dp/B07VXQF162?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note10, Smartphone (Dual SIM, 8GB RAM, 256GB Memoria, 10 MP Dual Pixel AF), Android, 256GB, Brillante",
+   "price": "699,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-SM-N975F-Smartphone-Android/dp/B07VXQJGBD?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note10+ SM-N975F, Smartphone (Dual Sim, 12 GB Ram, 10 MP Dual Pixel AF), Android, 512 GB, Negro (Black)",
+   "price": "1184,77 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Note10-SM-N975F-Smartphone/dp/B07VVL3H64?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note10+ SM-N975F - Smartphone (Dual SIM, 12 GB RAM, 256 GB Memoria, 10 MP Dual Pixel AF) Negro (Black)",
+   "price": ",00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-SM-N960F-Galaxy-Memoria-Midnight/dp/B07FT169LZ?ref_=ast_sto_dp",
+   "name": "Samsung SM-N960F/DS Galaxy Note9, 6.4\", 6 GB RAM, 128 GB Memoria, 8MP Camara, Negro (Midnight Black)"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Note8-Smartphone-single-SIM/dp/B075KM9PK8?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Note8 - Smartphone libre de 6.3\" (Android , 4G, WiFi, Bluetooth, Exynos 8895 Octacore 2.3 GHz + 1.7 GHz, 6 GB de RAM, cámara dual de 12 MP, single-SIM, 64 GB) [Versión europea] negro",
+   "price": "495,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A71-Smartphone-espa%C3%B1ola/dp/B082Y9MJMV?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A71 - Smartphone de 6.7\" FHD+ (4G, Dual SIM, 6 GB RAM,128 GB ROM, cámara Trasera 64.0 MP+12.0 MP (UW)+5.0 MP (Macro)+5 MP, cámara Frontal 32 MP) Negro [Versión española]",
+   "price": "370,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A71-Smartphone-Espa%C3%B1ola/dp/B082Y9FJ7S?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A71 - Smartphone de 6.7\" FHD+ (4G, Dual SIM, 6 GB RAM, 128 GB ROM, Cámara Trasera 64.0 MP + 12.0 MP (UW) + 5.0 MP (Macro) + 5 MP, Cámara Frontal 32 MP) Color Azul [Versión Española]",
+   "price": "370,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A51-Smartphone-espa%C3%B1ola/dp/B082WFVKL7?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A51 - Dual SIM, Smartphone de 6.5\" Super AMOLED (4 GB RAM, 128 GB ROM, cámara Trasera 48.0 MP + 12.0 MP + 5.0 MP + 5 MP, cámara Frontal 32 MP) Azul [Versión española]",
+   "price": "279,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A51-Smartphone-espa%C3%B1ola/dp/B082WG57K1?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A51 - Dual SIM, Smartphone de 6.5\" Super AMOLED (4 GB RAM, 128 GB ROM, cámara Trasera 48.0 MP + 12.0 MP + 5.0 MP + 5 MP, cámara Frontal 32 MP) Blanco [Versión española]",
+   "price": "279,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A31-Smartphone-tel%C3%A9fono/dp/B08BPFDDXB/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=A31&qid=1596311678&s=electronics&sr=1-5",
+   "name": "SAmsung A31 Blue",
+   "price": "268,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A31-Smartphone-tel%C3%A9fono/dp/B08BPFSQ3C/ref=sr_1_24?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=A31&qid=1596311678&s=electronics&sr=1-24",
+   "name": "SAmsung A31 black",
+   "price": "268,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A30s-Smartphone-espa%C3%B1ola/dp/B07WDQJ6NT?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A30s - Smartphone de 6.4\" Super AMOLED (4 GB RAM, 64 GB ROM, 16 MP ultra angular, Dual SIM, versión española) negro",
+   "price": "189,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A30s-Smartphone-espa%C3%B1ola/dp/B07WHYSLLQ?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A30s - Smartphone de 6.4\" Super AMOLED (4 GB RAM, 64 GB ROM, 16 MP ultra angular, Dual SIM, versión española) blanco",
+   "price": "189,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A50-Smartphone-Infinity/dp/B07PDZLZ9V?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A50 - Smartphone de 6.4\" FHD sAmoled Infinity U Display (4 GB RAM, 128 GB ROM, 25 MP, Exynos 9610, Carga rápida), Negro [versión española]",
+   "price": "289,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A40-Smartphone-Infinity/dp/B07PPJ85KL?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A40 - Smartphone de 5.9\" FHD+ sAmoled Infinity U Display (4 GB RAM, 64 GB ROM, 16 MP, Exynos 7904, Carga rápida), Negro [versión española]"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A40-Smartphone-Infinity/dp/B07PPJ8T6G?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A40 - Smartphone de 5.9\" FHD+ sAmoled Infinity U Display (4 GB RAM, 64 GB ROM, 16 MP, Exynos 7904, Carga rápida), Coral [versión española]"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Dual-SIM-pantalla-Dynamic-espa%C3%B1ola/dp/B07Q1DBMCN?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A70 (128gb, Dual-SIM, pantalla de 6.7 \" Full HD + Dynamic AMOLED, 4500 MaH), color naranja [Versión española]",
+   "price": ",00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A20e-Smartphone-Espa%C3%B1ola/dp/B07RD6VKNZ?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A20e - Smartphone de 5.8\" Super AMOLED (13 MP, 3 GB RAM, 32 GB ROM), Color Negro [Versión Española]"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A20e-Smartphone-Espa%C3%B1ola/dp/B07RD6PTVV?ref_=ast_sto_dp",
+   "name": "Samsung A20E, Smartphone Super AMOLED (13 MP, 3GB RAM, 32GB ROM) [Versión Española], Android, 5.8\", Coral",
+   "price": "143,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A10-Smartphone-Infinity/dp/B07S597XTG?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A10 - Smartphone de 6.2\" HD Infinity (32 GB, Dual-SIM, 3400 mAh), Color Negro [Versión española]",
+   "price": "147,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-A10-Smartphone-Infinity/dp/B07SG3Z7KM?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy A10 - Smartphone de 6.2\" HD Infinity (32 GB, Dual-SIM, 3400 mAh), Color Azul [Versión española]"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Smartphone-Panhttps://www.amazon.es/Samsung-Smartphone-Pantalla-Infinita-espa%C3%B1ola/dp/B07RFSWKXF?ref_=ast_sto_dptalla-Infinita-espa%C3%B1ola/dp/B07RLT4J3L?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-M31-Smartphone-Ampliables/dp/B087RT6N5L?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy M31 - Smartphone Dual SIM, Pantalla de 6.4\" sAMOLED FHD+, Cámara 64 MP, 6 GB RAM, 64 GB ROM Ampliables, Batería 6000 mAh, Android, Versión Española, Color Negro"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-M31-Smartphone-Ampliables/dp/B087RWBWLL?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy M31 - Smartphone Dual SIM, Pantalla de 6.4\" sAMOLED FHD+, Cámara 64 MP, 6 GB RAM, 64 GB ROM Ampliables, Batería 6000 mAh, Android, Versión Española, Color Azul"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-M30s-Blanco-reproducci%C3%B3n/dp/B07XTC3YDB?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy M30s - Smartphone Dual SIM, pantalla 16.21 cm sAMOLED FHD+, camara 48MP, 4 GB RAM, 64 GB ROM, bateria 6000 mAH, Android, Versión española, Exclusivo Amazon, Blanco"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-M30s-Negro-reproducci%C3%B3n/dp/B07XTBXHPC?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy M30s - Smartphone Dual SIM, pantalla 16.21 cm sAMOLED FHD+, camara 48MP, 4 GB RAM, 64 GB ROM, bateria 6000 mAH, Android, negro [Versión española, Exclusivo Amazon]",
+   "price": "259,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-M21-Smartphone-Ampliables/dp/B0883HTBQS?ref_=ast_sto_dp",
+   "name": "SAMSUNG Galaxy M21 - Smartphone Dual SIM de 6.4\" sAMOLED FHD+,Ttriple Cámara 48 MP, 4 GB RAM, 64 GB ROM Ampliables, Batería 6000 mAh, Android, Versión Española, Color Azul",
+   "price": "199,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/SAMSUNG-Galaxy-M21-Smartphone-Ampliables/dp/B0883JN25J?ref_=ast_sto_dp",
+   "name": "SAMSUNG Galaxy M21 - Smartphone Dual SIM de 6.4\" sAMOLED FHD+,Ttriple Cámara 48 MP, 4 GB RAM, 64 GB ROM Ampliables, Batería 6000 mAh, Android, Versión Española, Color Azul",
+   "price": "199,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Smartphone-Infinity-Display-Espa%C3%B1ola/dp/B07NDVXLL5?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy - M20 Smartphone, FHD+ Infinity V Display 6.3, 4 GB RAM, 64 GB ROM, azul [Versión española]"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Smartphone-Infinity-Display-Espa%C3%B1ola/dp/B07NDWWN5F?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy - M20 Smartphone, FHD+ Infinity V Display 6.3, 4 GB RAM, 64 GB ROM, negro [Versión española]"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Tab-Tablet-c%C3%A1mara/dp/B07VGQGRJB?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab A (2019) - Tablet de 8\" (Wi-Fi, 32 GB, 2 GB RAM, Quad 2.0 GHz, cámara 8 MP AF + 2 MP) negro",
+   "price": "139,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Tab-Tablet-c%C3%A1mara/dp/B07VJQBFY8?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab A (2019) - Tablet de 8\" (Wi-Fi, 32 GB, 2 GB RAM, Quad 2.0 GHz, cámara 8 MP AF + 2 MP) plata",
+   "price": "139,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galagy-Tab-Almacenamiento-actualizable/dp/B07QRB829C?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab A - Tablet PC, USB, MALI-G71 MP2, Android, 3 GB RAM | 64 GB, Plata",
+   "price": "219,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galagy-Tab-Almacenamiento-actualizable/dp/B07QRB9J7S?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab A - Tablet de 10.1\" Full HD (Wifi, Procesador Octa-core, Android Actualizable), USB, MALI-G71 MP2, Android, 3 GB RAM / 64 GB, Negro",
+   "price": "219,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galagy-Tab-Almacenamiento-actualizable/dp/B07Q9SMPX9?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab A - Tablet de 10.1\" FullHD (Wifi, Procesador Octa-core, 2 GB de RAM, 32 GB de almacenamiento, Android actualizable) color Plata",
+   "price": "185,58 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Tab-almacenamiento-actualizable/dp/B07Q4GG7X9?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab A - Tablet de 10.1\" FullHD (Wifi, Procesador Octa-core, 2 GB de RAM, 32 GB de almacenamiento, Android actualizable) Negro",
+   "price": "189,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Tab-S5e-Almacenamiento/dp/B07PK3DN34?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab S5e SM-T720 - Tablet de 10.5\" UltraHD (Wifi, Procesador Octa-core, 4GB de RAM, 64GB de almacenamiento, Android 9.0 actualizable) negra",
+   "price": "376,11 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Tab-S5e-Almacenamiento/dp/B07PFNR99B?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab S5e - Tablet de 10.5\" UltraHD (WiFi + 4G, Procesador Octa-Core, 4GB de RAM, 64GB de Almacenamiento, Android 9.0 actualizable) Negra",
+   "price": "376,11 €"
+  },
+  {
+   "link": "https://www.amazon.es/SAMSUNG-Galaxy-Tab-Lite-Almacenamiento/dp/B08717ZF1C?ref_=ast_sto_dp",
+   "name": "SAMSUNG Galaxy Tab S6 Lite - Tablet de 10.4” (WiFi, Procesador Exynos 9611, 4 GB RAM, 64 GB Almacenamiento, Android 10), Color Gris [Versión española]",
+   "price": "349,59 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Tab-Lite-Almacenamiento/dp/B08B7VC1Y5?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab S6 Lite - Tablet de 10.4” (WiFi, Procesador Exynos 9611, 4 GB RAM, 128 GB Almacenamiento, Android 10), Color Gris [Versión española]",
+   "price": "409,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Incluido-Pantalla-sAMOLED/dp/B07VZ2TDRX?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Tab S6 Tablet de 10.5\" (128 GB, S Pen Incluido, Pantalla sAMOLED, WiFi), Gris",
+   "price": "610,26 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Watch-Active-Smartwatch/dp/B07NDRLJVX?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Watch Active – Smartwatch (1,1”,40mm, Tizen, 768 MB de RAM, Memoria Interna de 4 GB), Color verde – Versión Española"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Watch-Active-Smartwatch/dp/B07WS3FVB1?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Watch Active 2 - Smartwatch de Aluminio, 44mm, color Negro, Bluetooth [Versión española]",
+   "price": "279,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Watch-Active-Smartwatch/dp/B07WV8CXXV?ref_=ast_sto_dp",
+   "name": "SAMSUNG Galaxy Watch Active 2 SM-R830NSSAPHE - Smartwatch de Acero, 40mm, color Plata, Bluetooth [Versión española], 40 mm",
+   "price": "279,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Watch-Active-Smartwatch/dp/B07WP8HKKF?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Watch Active 2 - Smartwatch de Acero, 44mm, color Negro, LTE [Versión española]",
+   "price": "369,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Fit-Smartwatch-color/dp/B07P16KSFM?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Fit - Smartwatch, color Negro/Plata"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Fit-Smartwatch-color/dp/B07P3GD4V2?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Fit - Smartwatch, color Negro/Plata"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Buds-Auriculares-inal%C3%A1mbricos/dp/B07NQ51KS4?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Buds - Auriculares inalámbricos, Blanco",
+   "price": "99,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Samsung-Galaxy-Buds-Auriculares-Inal%C3%A1mbricos/dp/B084LJ1QJ3?ref_=ast_sto_dp",
+   "name": "Samsung Galaxy Buds+ - Auriculares Inalámbricos (con Micrófono, Bluetooth, Ambient Sound, Tecnología AKG), Versión española, Color Negro"
+  },
+  {
+   "link": "https://www.amazon.es/Google-Pixel-5-6-Negro-3000/dp/B07RLX5L82/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=google+pixel&qid=1595511846&sr=8-3",
+   "name": "Google Pixel 3a 14,2 cm (5.6\") 4 GB 64 GB 4G Negro 3000 mAh - Smartphone (14,2 cm (5.6\"), 4 GB, 64 GB, 12,2 MP, Android 9.0, Negro)"
+  },
+  {
+   "link": "https://www.amazon.es/Google-Pixel-%C3%BAnica-Negro-3430/dp/B07L39KGX5/ref=sr_1_15?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=google+pixel&qid=1595511846&sr=8-15",
+   "name": "Google Pixel 3 XL 16 cm (6.3\") 4 GB 128 GB SIM única 4G Negro 3430 mAh - Smartphone (16 cm (6.3\"), 4 GB, 128 GB, 12,2 MP, Android 9.0, Negro)",
+   "price": "560,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Google-Pixel-Blanco-2800-Pixeles/dp/B07Z6MTN27/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=google+pixel+4&qid=1595511977&sr=8-3",
+   "name": "Google Pixel 4 14,5 cm (5.7\") 6 GB 64 GB Blanco 2800 mAh Pixel 4, 14,5 cm (5.7\"), 1080 x 2280 Pixeles, 6 GB, 64 GB, 16 MP, Blanco"
+  },
+  {
+   "link": "https://www.amazon.es/Google-Pixel-Naranja-2800-Pixeles/dp/B07Z6Q4K45/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=google+pixel+4&qid=1595511977&sr=8-8",
+   "name": "Google Pixel 4 14,5 cm (5.7\") 6 GB 64 GB Naranja 2800 mAh Pixel 4, 14,5 cm (5.7\"), 1080 x 2280 Pixeles, 6 GB, 64 GB, 16 MP, Naranja"
+  },
+  {
+   "link": "https://www.amazon.es/Google-Pixel-Negro-3700-Pixeles/dp/B07Z6QD7Q7/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=google+pixel+4&qid=1595511977&sr=8-5",
+   "name": "Google Pixel 4 XL 16 cm (6.3\") 6 GB 64 GB Negro 3700 mAh Pixel 4 XL, 16 cm (6.3\"), 1440 x 3040 Pixeles, 6 GB, 64 GB, 16 MP, Negro"
+  },
+  {
+   "link": "https://www.amazon.es/Google-Smartphone-desbloqueado-reacondicionado-Claramente/dp/B07WFFTDWR/ref=sr_1_14?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=google+pixel+4&qid=1595511977&sr=8-14",
+   "name": "Google Pixel 3A XL (2019) G020B 64 GB 6 pulgadas pulgadas sin SIM-Free Smartphone desbloqueado de fábrica 4G/LTE (reacondicionado) Claramente blanco."
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Redmi-Note-Smartphone-International/dp/B0881TT4HL/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi&qid=1595512755&sr=8-2",
+   "name": "Xiaomi Redmi Note 9 - Smartphone de 6.53” FHD (DotDisplay, 4 GB RAM, 128 GB ROM, cámara Quad de 48 MP, Hotshot 3.5 mm, Headphone Jack, batería de 5020 mAh) Forest Green [International Version]",
+   "price": "159,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/XIAOMI-Redmi-Note-Smartphone-Internacional/dp/B085S45ZZS/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi&qid=1595512755&sr=8-3",
+   "name": "Xiaomi Redmi Note 9S - Smartphone de 6.67” FHD+ (DotDisplay, Snapdragon 720G, 6 GB RAM, 128 GB ROM, cámara cuádruple de 48 MP, batería de 5020 mAh) Aurora Blue [International Versional]"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Smartphone-Tel%C3%A9fono-Procesador-Cu%C3%A1druple/dp/B089ZRQ8S8/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi&qid=1595512755&sr=8-4",
+   "name": "Xiaomi Redmi 9 Smartphone 4GB RAM 64GB ROM Teléfono Móvil,6.53\" Pantalla Dot Drop Completa Helio G80 Procesador,Dual SIM Type-C,Cámara Cuádruple(13MP+8MP+5MP+2MP) Versión Global(Verd)",
+   "price": "135,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Smartphone-Snapdragon-cu%C3%A1druple-r%C3%A1pido%E3%80%90Versi%C3%B3n/dp/B07Y9ZHLXW/ref=sr_1_7?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi&qid=1595512755&sr=8-7",
+   "name": "Xiaomi Redmi Note 8 - Smartphone de 6.3\" FHD+ (Snapdragon 665 Octa Core, 4 GB RAM, 64 GB ROM, cámara trasera cuádruple de 48 MP, batería de 4000 mAh) Space Black [International Version]"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Redmi-Note-Pro-SnapdragonTM/dp/B088CC6Z3Y/ref=sr_1_11?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi&qid=1595512755&sr=8-11",
+   "name": "Xiaomi Redmi Note 9 Pro - Smartphone de 64GB/6GB (6.67\" DotDisplay, Cámara cuádruple de 64 MP con IA, Qualcomm SnapdragonTM 720G, Batería de 5020mAh, 30 W de carga rápida), Verde",
+   "price": "249,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Multifuncional-Procesador-Snapdragon-Octa-Core/dp/B082PPCP4B/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi+note+10&qid=1595512987&quartzVehicle=80-1041&replacementKeywords=xiaomi+10&sr=8-2",
+   "name": "Xiaomi Mi Note 10 Smatphone 6GB RAM + 128GB ROM, Pantalla Curva 3D de 6.47\", NFC Multifuncional, 108MP AI Penta Cámara Trasera, Versión Global, Negro",
+   "price": "374,39 €"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Smartphone-Tel%C3%A9fono-Snapdragon-Procesador/dp/B082M4HL81/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi+note+10&qid=1595512987&quartzVehicle=80-1041&replacementKeywords=xiaomi+10&sr=8-3",
+   "name": "Xiaomi Mi Note 10 Smartphone, 6GB RAM 128GB ROM, Pantalla AMOLED Curva 3D de 6.47”, 5 Cámaras (108MP+12MP+5MP+2MP+32MP), Versión Global (Negro/Midnight Black)",
+   "price": "383,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Smartphone-AMOLED-Pantalla-Versi%C3%B3n/dp/B088GJBSWR/ref=sr_1_6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi+note+10&qid=1595512987&quartzVehicle=80-1041&replacementKeywords=xiaomi+10&sr=8-6",
+   "name": "Xiaomi Mi Note 10 Lite Smartphone, 6GB RAM 128GB ROM, 6.47\" FHD 3D AMOLED Pantalla, Quad Camera (64MP + 8MP + 5MP + 2MP) Versión Global (Negro)",
+   "price": "309,99 €"
+  },
+  {
+   "link": "https://www.amazon.es/Xiaomi-Redmi-Note-Smartphone-International/dp/B0881TL57H/ref=sr_1_18?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=xiaomi+note+10&qid=1595512987&quartzVehicle=80-1041&replacementKeywords=xiaomi+10&sr=8-18",
+   "name": "Xiaomi Redmi Note 9 - Smartphone de 6.53” FHD (DotDisplay, 4 GB RAM, 128 GB ROM, cámara Quad de 48 MP, Hotshot 3.5 mm, Headphone Jack, batería de 5020 mAh) Polar White [International Version]",
+   "price": "168,94 €"
+  },
+  {
+   "link": "https://www.amazon.es/OnePlus-Smartphone-Frosted-Display-Front-Camera/dp/B07XJ4S3Y8?ref_=ast_sto_dp",
+   "name": "OnePlus 7T Smartphone Frosted Silver | 6.55”/16,6 cm AMOLED Display 90Hz Power Screen | 8 GB RAM + 128 GB Storage | Triple Camera + Front-Camera | Warp Charge 30",
+   "price": "559,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/OnePlus-Mirror-GM1913-versi%C3%B3n-Europea/dp/B07RY73LBS/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=7t&qid=1595513511&sr=8-8",
+   "name": "OnePlus 7 Pro Mirror Grey 6GB+128GB EU GM1913, Otra versión Europea"
+  },
+  {
+   "link": "https://www.amazon.es/OnePlus-Smartphone-Glacier-Display-Front-Camera/dp/B07XHKQJVS?ref_=ast_sto_dp",
+   "name": "OnePlus 7T Smartphone Glacier Blue | 6.55”/16,6 cm AMOLED Display 90Hz Power Screen | 8 GB RAM + 128 GB Storage | Triple Camera + Front-Camera | Warp Charge 30"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-Ultramarino-Pantalla-Almacenamiento-Inal%C3%A1mbrica/dp/B086KC734X?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus 8 Pro Azul Ultramarino | 6.78” Pantalla Fluid AMOLED 3D a 120Hz | 12GB de RAM + 256GB de Almacenamiento | Quad Cámara | Carga Rápida Inalámbrica | Dual Sim | 5G | 2 Años de Garantía",
+   "price": "1.034,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-Pantalla-Almacenamiento-Inal%C3%A1mbrica-Garant%C3%ADa/dp/B07XYJPGCG?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus 8 Pro Negro Onyx | 6.78\" Pantalla Fluid AMOLED 3D a 120Hz | 8GB de RAM + 128GB de Almacenamiento | Quad Cámara | Carga Rápida Inalámbrica | Dual Sim | 5G | 2 Años de Garantía"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-OnePlus-Pantalla-Almacenamiento-Garant%C3%ADa/dp/B07XYBNJH3?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus 8 Onyx Black| 6.55” Pantalla Fluid AMOLED a 90Hz | 8GB de RAM + 128GB de Almacenamiento | Triple Cámara | Warp Charge 30 | Dual Sim | 5G | 2 Años de Garantía"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-Interestellar-Pantalla-Almacenamiento-Garant%C3%ADa/dp/B07XY8V3K5?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus 8 Brillo Interestellar | 6.55” Pantalla Fluid AMOLED a 90Hz | 12GB de RAM + 256GB de Almacenamiento | Triple Cámara | Warp Charge 30 | Dual Sim | 5G | 2 Años de Garantía",
+   "price": "720,00 €"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-OnePlus-Pantalla-Almacenamiento-Garant%C3%ADa/dp/B07XY9B91B?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus 8 Verde Glacial| 6.55” Pantalla Fluid AMOLED a 90Hz | 8GB de RAM + 128GB de Almacenamiento | Triple Cámara | Warp Charge 30 | Dual Sim | 5G | 2 Años de Garantía"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-OnePlus-C%C3%A1mara-Cu%C3%A1druple-Garant%C3%ADa/dp/B08BPJXQZM?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus NORD (5G) 8GB RAM 128GB, Cámara Cuádruple, Dual SIM, 2 Años de Garantía - Mármol Azul"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-OnePlus-C%C3%A1mara-Cu%C3%A1druple-Garant%C3%ADa/dp/B08BPK5QR4?ref_=ast_sto_dp",
+   "name": "Teléfono OnePlus NORD (5G) 8GB RAM 128GB, Cámara Cuádruple, Dual SIM, 2 Años de Garantía - Gris Onix"
+  },
+  {
+   "link": "https://www.amazon.es/Tel%C3%A9fono-OnePlus-C%C3%A1mara-Cu%C3%A1druple-Garant%C3%ADa/dp/B08BPF2VLF?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Vivo-X21-6-3-128GB-DSBlack/dp/B07CXGT43M/ref=sr_1_6?dchild=1&keywords=VIVO&qid=1595513807&sr=8-6"
+  },
+  {
+   "link": "https://www.amazon.es/Mobile-256GB-AMOLED-Snapdragon-Android/dp/B07XZLHC15/ref=sr_1_2?dchild=1&keywords=VIVO&qid=1595513807&sr=8-2",
+   "name": "VIVO NEX 3 5G Mobile 8GB+256GB 6.89\" Super AMOLED Snapdragon 855 Plus Android 9 (8GB+256GB, Negro)"
+  },
+  {
+   "link": "https://www.amazon.es/VIVO-Dorado-M%C3%A3%C2%93Vil-Dual-8CORE/dp/B07BH9T87C/ref=sr_1_8?dchild=1&keywords=VIVO&qid=1595513807&sr=8-8"
+  },
+  {
+   "link": "https://www.amazon.es/Oppo-Reno-Smartphone-Qualcomm-Snapdragon/dp/B07Z6L8RX2?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Oppo-Reno-Smartphone-Qualcomm-Snapdragon/dp/B07Z6M2YG2?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Oppo-Reno-2z-Smartphone-Octalcore/dp/B07Z6K6XJ1?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Oppo-Reno-2z-Smartphone-Octalcore/dp/B07Z6LXZG1?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/OPPO-Find-NEO-Smartphone-Octa-core/dp/B0868Y45YN?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/OPPO-Find-LITE-Smartphone-Octa-core/dp/B0868ZY4NB?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/OPPO-A91-Smartphone-Octa-core-trasera/dp/B0869242MK?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/OPPO-A72-Smartphone-Octa-core-trasera/dp/B0868ZYFRC?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/OPPO-A52-Smartphone-Octa-core-trasera/dp/B0868ZS7V8?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Oppo-A9-2020-Smartphone-Marino/dp/B07Z41CDT7?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/OPPO-A5-2020-Smartphone-Snapdragon/dp/B07Z6W7CMK?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Realme-C3-Smartphone-multi-touch-Procesador/dp/B085FF1BXQ/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=realme&qid=1595514687&sr=8-3"
+  },
+  {
+   "link": "https://www.amazon.es/realme-Smartphone-Procesador-OctaCore-Cu%C3%A1druple/dp/B085FFYW99/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=realme&qid=1595514687&sr=8-4"
+  },
+  {
+   "link": "https://www.amazon.es/realme-Smartphone-Camera-Desbloqueo-instant%C3%A1neo/dp/B086J8NX5L/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=realme&qid=1595514687&sr=8-5"
+  },
+  {
+   "link": "https://www.amazon.es/realme-X3-Super-Zoom-Smartphone-12GB/dp/B088XN435K/ref=sr_1_6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=realme&qid=1595514687&sr=8-6"
+  },
+  {
+   "link": "https://www.amazon.es/realme-X50-Pro-Smartphone-procesador/dp/B085PL99KG/ref=sr_1_9?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=realme&qid=1595514687&sr=8-9"
+  },
+  {
+   "link": "https://www.amazon.es/Nokia-5-3-Smartphone-16-3-Charcoal/dp/B084T9D6J3/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=nokia&qid=1595514860&sr=8-4"
+  },
+  {
+   "link": "https://www.amazon.es/Nokia-Smartphone-Quad-Core-Memoria-Interna/dp/B07T8HFGN9/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=nokia&qid=1595514860&sr=8-12"
+  },
+  {
+   "link": "https://www.amazon.es/Nokia-5-71-Doble-Negro-3000/dp/B07QMTLW6B/ref=sr_1_16?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=nokia&qid=1595514860&sr=8-16"
+  },
+  {
+   "link": "https://www.amazon.es/Nokia-5-3-Smartphone-Storage-Dual/dp/B0891GQFFN/ref=sr_1_17?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=nokia&qid=1595514860&sr=8-17"
+  },
+  {
+   "link": "https://www.amazon.es/Motorola-Edge-Smartphone-Notch-procesador/dp/B088MVRZZ2?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Motorola-Moto-5G-Plus-Smartphone/dp/B08CNHSGPV?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Motorola-Pantalla-procesador-Snapdragon-Principal/dp/B0896YVJLW?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Motorola-Pantalla-procesador-octa-core-bater%C3%ADa/dp/B0846JTM4Z?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Motorola-Pantalla-Procesador-MediaTek-Octa-Core/dp/B089DHQWZK?ref_=ast_sto_dp"
+  },
+  {
+   "link": "https://www.amazon.es/Motorola-Smartphone-Dual-SIM-Vision-HD-protector/dp/B07Z6X1C26?ref_=ast_sto_dp"
+  },
+  {
+   "link": ""
+  }
+ ]
+}

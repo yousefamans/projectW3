@@ -1,0 +1,96 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung A71</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+
+       <p class="search-results">Search Results</p>
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+      
+
+
+        <script >
+
+var i =1;
+for (i=1 ; i<9; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(6, 23 , json , "a" ,  380 , "Samsung A71 (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61G9VC33fsL._AC_SL1500_.jpg");
+     phoneData(5, 24 , json , "a" ,  420 , "Samsung A71 (Silver, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61cuYp3qIvL._AC_SX425_.jpg");
+     phoneData(3, 25 , json, "a" ,   329 , "Samsung A70 (Black, 128 GB)" , " https://images-na.ssl-images-amazon.com/images/I/61Ygdf5VvoL._AC_SL1500_.jpg");
+     phoneData(4, 26 , json , "a" ,  329 , "Samsung A70 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51OoNI6WXyL._AC_.jpg");
+  })
+
+
+  
+fetch('/json/global/ebay.json')
+.then(res => res.json())
+.then((json) => {
+
+
+   phoneData(2, 66 , json ,"e", 399 , "Samsung A71 (Silver, 128 GB)" , "https://i.ebayimg.com/images/g/ZUcAAOSwJeVeMKag/s-l1600.jpg");
+
+      
+
+})
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(8, 66 , json ,"w", 399 , "Samsung A71 (Silver, 128 GB)" , "https://i5.walmartimages.com/asr/fed7a21e-2980-4e8d-b287-e6b4600d850f_1.f17d016a9324a57e2986c40cd078e49c.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(1, 67 , json ,"w", 399 , "Samsung A71 (Blue, 128 GB)" , "https://i5.walmartimages.com/asr/8b3c22e9-4736-466f-a59f-cd69f19c48e1.6c17ac5ffbfd1da003e936c018ff76ad.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(7, 71 , json ,"w", 351 , "Samsung A70 (Blue, 128 GB)" , "https://i5.walmartimages.com/asr/0bc41620-1ab7-4a3d-8730-efe674e0da4c_1.0cf7915d8fc1aa096f5de3f83ef0ea49.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     
+  })  
+       
+  document.getElementById("img1").style.width = "150px";              
+
+   footer();             
+
+        </script>
+
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone X</title>
+       <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+
+
+       
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<7; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(6, 9  , json , "a" ,  899 , "iPhone X (Silver , 64 GB)" , "https://m.media-amazon.com/images/I/618ZI2Xyw+L.jpg");
+     phoneData(4, 10 , json , "a" ,  899 , "iPhone X (Space Grey  , 64 GB)" , "https://m.media-amazon.com/images/I/61nlT53kRKL.jpg");
+     phoneData(3, 11 , json , "a" ,  899 , "iPhone X (Silver, 64 GB)" , "https://m.media-amazon.com/images/I/618ZI2Xyw+L.jpg");
+     
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(2, 5 , json ,"w", 899 , "iPhone X (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/1c7e3080-da80-4ce8-a0fa-073d9c3a0580_1.41b0c0f35e248393a3984baa605b524b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(5, 6 , json ,"w", 899 , "iPhone X (Space Grey , 64 GB)" , "https://i5.walmartimages.com/asr/f11ef290-2c74-4f13-acce-01e2dc164d7a_1.8beecaee126c5c44b8bc4cae3aaf1b5b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(1, 7 , json ,"w", 899 , "iPhone X (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/f11ef290-2c74-4f13-acce-01e2dc164d7a_1.8beecaee126c5c44b8bc4cae3aaf1b5b.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

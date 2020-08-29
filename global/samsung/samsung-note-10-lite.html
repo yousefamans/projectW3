@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung Note 10</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+
+        <p class="search-results">Search Results</p>
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+
+        <div class="footer">.</div>
+       
+        
+
+        <script >
+
+
+
+
+var i =1;
+for (i=1 ; i<11; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(4, 13 , json , "a" ,  450 , "Samsung Note 10 Lite (Black , 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71NpZbxNluL._AC_SL1500_.jpg");
+     phoneData(3, 14 , json , "a" ,  550 , "Samsung Note 10 Lite (Golw, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/517pdvTPdrL._AC_SL1000_.jpg");
+     phoneData(2, 21 , json , "a" ,  449 , "Samsung S10 Lite (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51M62vJNocL._AC_SL1500_.jpg");
+     phoneData(1, 22 , json , "a" ,  499 , "Samsung S10 Lite (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71pxSP97v7L._AC_SL1500_.jpg");
+  })
+
+
+  
+fetch('/json/global/ebay.json')
+.then(res => res.json())
+.then((json) => {
+
+   phoneData(6, 51 , json ,"e", 399 , "Samsung Note 10 Lite (All colors, 128 GB)" , "https://i.ebayimg.com/images/g/fyIAAOSweEFeMaMB/s-l1600.jpg");
+   phoneData(7, 54 , json ,"e", 449 , "Samsung Note 10 Lite (Black, 128 GB)" , "https://i.ebayimg.com/images/g/VOMAAOSwSw1eKKix/s-l1600.jpg");
+   phoneData(8, 64 , json ,"e", 449 , "Samsung S10 Lite (All colors, 128 GB)" , "https://i.ebayimg.com/images/g/mZ4AAOSwAhJeKzZ6/s-l1600.jpg");
+   phoneData(5, 65 , json ,"e", 450 , "Samsung S10 Lite (Black, 128 GB)" , "https://i.ebayimg.com/images/g/J84AAOSwwvpe~Mtf/s-l1600.png");
+      
+})
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(10, 60 , json ,"w", 550 , "Samsung Note 10 Lite (Red, 128 GB)" , "https://i5.walmartimages.com/asr/df30892c-6f95-424c-9871-f5d11fb12824_1.8c51d602f68ec536681d13db12554406.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+     phoneData(9, 59 , json ,"w", 499 , "Samsung  (Black, 128 GB)" , "https://i5.walmartimages.com/asr/077cf69c-c024-4881-93a9-a02c9590db36_1.8dc12a07eb4b6053a77d9ad2ee9a1c69.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+  })  
+       
+                
+   footer();             
+
+
+        </script>
+
+        
+
+</body>
+</html>
+
+
+
+
+
+

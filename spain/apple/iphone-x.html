@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iphone 7</title>
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+        <div id="box11" class="box"></div>
+        <div id="box12" class="box"></div>
+        <div id="box13" class="box"></div>
+        <div id="box14" class="box"></div>
+        <div id="box15" class="box"></div>
+
+        
+
+        <div id="box16" class="box"></div>
+        <div id="box17" class="box"></div>
+        <div id="box18" class="box"></div>
+        <div id="box19" class="box"></div>
+        <div id="box20" class="box"></div>
+        <div id="box21" class="box"></div>
+        <div id="box22" class="box"></div>
+        <div id="box23" class="box"></div>
+        <div id="box24" class="box"></div>
+        <div id="box25" class="box"></div>
+
+       
+
+       
+
+
+
+
+        
+
+
+
+
+
+        <script >
+
+var i =1;
+for (i=1 ; i<26; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 6 , json , "es" , 550 , "iPhone X  (Gris, 64 GB)" , "");
+     phoneData(2, 7 , json , "es" , 450 , "iPhone X (Plata, 64 GB)" , "");
+     
+    
+
+
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(6, 2 , json , "mkr" , 550 ,  "iPhone X (,  GB)" , "");
+     
+
+  })  
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

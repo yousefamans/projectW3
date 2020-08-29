@@ -1,0 +1,714 @@
+{
+ "links": [
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-7-32gb-red-4g-lte-pantalla-retina-hd-de-4-7-negro-1339996.html",
+   "name": "Apple iPhone 7, 32GB, Red 4G LTE, Pantalla Retina HD de 4.7\", Negro",
+   "price": "448.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-7-plata-32-gb-2-gb-ram-4-7-retina-hd-chip-a10-fusion-ios-1339997.html",
+   "name": "Apple iPhone 7, Plata, 32 GB, 2 GB RAM, 4.7\" Retina HD, Chip A10 Fusion, iOS",
+   "price": "448.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-8-64gb-red-4g-lte-pantalla-retina-hd-de-4-7-dorado-1376795.html",
+   "name": "Apple iPhone 8, 64GB, Red 4G LTE, Pantalla Retina HD de 4.7\", Dorado",
+   "price": "539.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-xr-rojo-64-gb-3-gb-ram-6-1-liquid-retina-hd-chip-a12-bionic-ios-1433011.html",
+   "name": "Apple iPhone XR, Rojo, 64 GB, 3 GB RAM, 6.1\" Liquid Retina HD, Chip A12 Bionic, iOS",
+   "price": "705.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-xr-coral-64-gb-3-gb-ram-6-1-liquid-retina-hd-chip-a12-bionic-ios-1433014.html",
+   "name": "Apple iPhone XR, Coral, 64 GB, 3 GB RAM, 6.1\" Liquid Retina HD, Chip A12 Bionic, iOS",
+   "price": "705.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-xr-rojo-128-gb-3-gb-ram-6-1-liquid-retina-hd-chip-a12-bionic-ios-1433018.html",
+   "name": "Apple iPhone XR, Rojo, 128 GB, 3 GB RAM, 6.1\" Liquid Retina HD, Chip A12 Bionic, iOS",
+   "price": "740.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-xr-amarillo-128-gb-3-gb-ram-6-1-liquid-retina-hd-chip-a12-bionic-ios-1433019.html",
+   "name": "Apple iPhone XR, Amarillo, 128 GB, 3 GB RAM, 6.1\" Liquid Retina HD, Chip A12 Bionic, iOS",
+   "price": "740.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-rojo-64-gb-6-1-liquid-retina-hd-chip-a13-bionic-ios-product-red%E2%84%A2-1464573.html",
+   "name": "Apple iPhone 11, Rojo, 64 GB, 6.1\" Liquid Retina HD, Chip A13 Bionic, iOS, (PRODUCT)RED™",
+   "price": "790.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-blanco-64-gb-6-1-liquid-retina-hd-chip-a13-bionic-ios-1464574.html",
+   "name": "Apple iPhone 11, Blanco, 64 GB, 6.1\" Liquid Retina HD, Chip A13 Bionic, iOS",
+   "price": "790.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-verde-128-gb-6-1-liquid-retina-hd-chip-a13-bionic-ios-1464576.html",
+   "name": "Apple iPhone 11, Verde, 128 GB, 6.1\" Liquid Retina HD, Chip A13 Bionic, iOS",
+   "price": "859.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-malva-256-gb-4-gb-ram-6-1-liquid-retina-hd-chip-a13-bionic-ios-1464585.html",
+   "name": "Apple iPhone 11, Malva, 256 GB, 4 GB RAM, 6.1\" Liquid Retina HD, Chip A13 Bionic, iOS",
+   "price": "979.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-pro-verde-noche-64-gb-6-gb-ram-5-8-oled-super-retina-xdr-chip-a13-bionic-ios-1464591.html",
+   "name": "Apple iPhone 11 Pro, Verde noche, 64 GB, 6 GB RAM, 5.8\" OLED Super Retina XDR, Chip A13 Bionic, iOS",
+   "price": "1071.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-pro-oro-256-gb-5-8-oled-super-retina-xdr-chip-a13-bionic-ios-1464594.html",
+   "name": "Apple iPhone 11 Pro, Oro, 256 GB, 5.8\" OLED Super Retina XDR, Chip A13 Bionic, iOS",
+   "price": "1226.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-apple-iphone-11-pro-oro-256-gb-5-8-oled-super-retina-xdr-chip-a13-bionic-ios-1480075.html",
+   "name": "REACONDICIONADO Apple iPhone 11 Pro, Oro, 256 GB, 5.8\" OLED Super Retina XDR, Chip A13 Bionic, iOS",
+   "price": "1063.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-pro-max-verde-noche-64-gb-6-gb-ram-6-5-oled-super-retina-xdr-chip-a13-bionic-ios-1464603.html",
+   "name": "Apple iPhone 11 Pro Max, Verde noche, 64 GB, 6 GB RAM, 6.5\" OLED Super Retina XDR, Chip A13 Bionic, iOS",
+   "price": "1194.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-11-pro-max-gris-espacial-256-gb-6-gb-ram-6-5-oled-super-retina-xdr-chip-a13-bionic-ios-1464604.html",
+   "name": "Apple iPhone 11 Pro Max, Gris espacial, 256 GB, 6 GB RAM, 6.5\" OLED Super Retina XDR, Chip A13 Bionic, iOS",
+   "price": "1353.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-se-2%C2%AA-gen-negro-64-gb-4-7-retina-hd-chip-a13-bionic-ios-1476982.html",
+   "name": "APPLE iPhone SE (2ª gen.), Negro, 64 GB, 4.7\" Retina HD, Chip A13 Bionic, iOS",
+   "price": "484.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-se-2%C2%AA-gen-rojo-product-red-64-gb-4-7-retina-hd-chip-a13-bionic-ios-1476984.html",
+   "name": "APPLE iPhone SE (2ª gen.), Rojo, (PRODUCT)RED, 64 GB, 4.7\" Retina HD, Chip A13 Bionic, iOS",
+   "price": "487.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-se-2%C2%AA-gen-rojo-product-red-128-gb-4-7-retina-hd-chip-a13-bionic-ios-1476987.html",
+   "name": "APPLE iPhone SE (2ª gen.), Rojo, (PRODUCT)RED, 128 GB, 4.7\" Retina HD, Chip A13 Bionic, iOS",
+   "price": "531.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-apple-iphone-se-2%C2%AA-gen-blanco-128-gb-4-7-retina-hd-chip-a13-bionic-ios-1479186.html",
+   "name": "REACONDICIONADO Apple iPhone SE (2ª gen.), Blanco, 128 GB, 4.7\" Retina HD, Chip A13 Bionic, iOS",
+   "price": "430.40"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-apple-iphone-se-2%C2%AA-gen-negro-128-gb-4-7-retina-hd-chip-a13-bionic-ios-1478447.html",
+   "name": "REACONDICIONADO Apple iPhone SE (2ª gen.), Negro, 128 GB, 4.7\" Retina HD, Chip A13 Bionic, iOS",
+   "price": "431.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-iphone-se-2%C2%AA-gen-blanco-256-gb-4-7-retina-hd-chip-a13-bionic-ios-1476989.html",
+   "name": "APPLE iPhone SE (2ª gen.), Blanco, 256 GB, 4.7\" Retina HD, Chip A13 Bionic, iOS",
+   "price": "641.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-mini-2019-64-gb-oro-wifi-7-9-retina-2-gb-ram-chip-a12-bionic-ios-1449716.html",
+   "name": "Apple iPad Mini (2019), 64 GB, Oro, WiFi, 7.9\" Retina, 2 GB RAM, Chip A12 Bionic , iOS",
+   "price": "447.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-mini-2019-256-gb-oro-wifi-7-9-retina-2-gb-ram-chip-a12-bionic-ios-1449713.html",
+   "name": "Apple iPad Mini (2019), 256 GB, Oro, WiFi, 7.9\" Retina, 2 GB RAM, Chip A12 Bionic , iOS",
+   "price": "606.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-2019-32-gb-gris-espacial-wifi-cellular-10-2-retina-3-gb-ram-chip-a10-fusion-ipados-1464620.html",
+   "name": "Apple iPad (2019), 32 GB, Gris espacial, WiFi + Cellular, 10.2\" Retina, 3 GB RAM, Chip A10 Fusion, iPadOS",
+   "price": "479.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-air-2019-64-gb-oro-wifi-10-5-retina-2-gb-ram-chip-a12-bionic-ios-1449698.html",
+   "name": "Apple iPad Air (2019), 64 GB, Oro, WiFi, 10.5\" Retina, 2 GB RAM, Chip A12 Bionic , iOS",
+   "price": "540.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-air-2019-256-gb-gris-espacial-wifi-10-5-retina-2-gb-ram-chip-a12-bionic-ios-1449696.html",
+   "name": "Apple iPad Air (2019), 256 GB, Gris espacial, WiFi, 10.5\" Retina, 2 GB RAM, Chip A12 Bionic , iOS",
+   "price": "719.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-pro-2018-64-gb-plata-wifi-12-9-retina-4-gb-ram-chip-a12x-bionic-ios-1438676.html",
+   "name": "Apple iPad Pro (2018), 64 GB, Plata, WiFi, 12.9\" Retina, 4 GB RAM, Chip A12X Bionic, iOS",
+   "price": "999.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-pro-2018-1-tb-gris-espacial-wifi-cellular-11-retina-6-gb-ram-chip-a12x-bionic-ios-1438745.html",
+   "name": "Apple iPad Pro (2018), 1 TB, Gris espacial, WiFi + Cellular, 11\" Retina, 6 GB RAM, Chip A12X Bionic, iOS",
+   "price": "1449.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-ipad-pro-2018-64-gb-plata-wifi-cellular-12-9-retina-4-gb-ram-chip-a12x-bionic-ios-1438683.html",
+   "name": "Apple iPad Pro (2018), 64 GB, Plata, WiFi + Cellular, 12.9\" Retina, 4 GB RAM, Chip A12X Bionic, iOS",
+   "price": "1128.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-3-gps-38-mm-caja-de-aluminio-gris-espacial-y-correa-deportiva-negro-1376919.html",
+   "name": "Apple Watch Series 3 GPS, 38 mm, Caja de aluminio gris espacial y correa deportiva negro",
+   "price": "225.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-3-gps-42-mm-caja-de-aluminio-en-gris-espacial-y-correa-deportiva-negro-1440561.html",
+   "name": "Apple Watch Series 3 GPS, 42 mm, Caja de aluminio en gris espacial y correa deportiva, Negro",
+   "price": "259.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-5-chip-w3-40-mm-gps-caja-aluminio-plata-correa-deportiva-blanca-1464632.html",
+   "name": "Apple Watch Series 5, Chip W3, 40 mm, GPS, Caja aluminio plata, Correa deportiva blanca",
+   "price": "434.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-5-chip-w3-44-mm-gps-caja-aluminio-oro-correa-deportiva-rosa-arena-1464636.html",
+   "name": "Apple Watch Series 5, Chip W3, 44 mm, GPS, Caja aluminio oro, Correa deportiva rosa arena",
+   "price": "462.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-5-chip-w3-44-mm-gps-caja-aluminio-plata-correa-deportiva-blanca-1464635.html",
+   "name": "Apple Watch Series 5, Chip W3, 44 mm, GPS, Caja aluminio plata, Correa deportiva blanca",
+   "price": "470.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-5-chip-w3-40-mm-gps-cellular-caja-aluminio-gris-espacial-correa-deportiva-negra-1464655.html",
+   "name": "Apple Watch Series 5, Chip W3, 40 mm, GPS + Cellular, Caja aluminio gris espacial, Correa deportiva negra",
+   "price": "533.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-5-chip-w3-40-mm-gps-caja-aluminio-gris-espacial-correa-deportiva-negra-1464634.html",
+   "name": "Apple Watch Series 5, Chip W3, 40 mm, GPS, Caja aluminio gris espacial, Correa deportiva negra",
+   "price": "441.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_apple-watch-series-5-chip-w3-44-mm-gps-cellular-caja-aluminio-plata-correa-deportiva-blanca-1464639.html",
+   "name": "Apple Watch Series 5, Chip W3, 44 mm, GPS + Cellular, Caja aluminio plata, Correa deportiva blanca",
+   "price": "564.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_auriculares-inal%C3%A1mbricos-apple-airpods-2-bluetooth-lightning-chip-h1-siri-blanco-1450020.html",
+   "name": "Auriculares inalámbricos - Apple AirPods 2, Bluetooth, Lightning, Chip H1, Siri, Blanco",
+   "price": "149.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_auriculares-inal%C3%A1mbricos-apple-airpods-2-bluetooth-chip-h1-siri-estuche-de-carga-inal%C3%A1mbrico-1450013.html",
+   "name": "Auriculares inalámbricos - Apple AirPods 2, Bluetooth, Chip H1, Siri + Estuche de carga inalámbrico",
+   "price": "189.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_auriculares-inal%C3%A1mbricos-apple-airpods-pro-true-wireless-chip-h1-siri-ipx4-estuche-carga-inal%C3%A1mbrico-1468403.html?ga_query=1468403",
+   "name": "Auriculares inalámbricos - Apple AirPods Pro, True Wireless, Chip H1, Siri, IPX4 + Estuche carga inalámbrico",
+   "price": "228.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-note-10-negro-256-gb-12-gb-ram-6-8-wqhd-exynos-9825-4300-mah-1468766.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy Note 10 +, Negro, 256 GB, 12 GB RAM, 6.8\" WQHD+, Exynos 9825, 4300 mAh",
+   "price": "799.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-note-10-gris-256-gb-8-gb-ram-6-3-full-hd-exynos-9825-3500-mah-android-1461517.html",
+   "name": "Móvil - Samsung Galaxy Note 10, Gris, 256 GB, 8 GB RAM, 6.3\" Full HD+, Exynos 9825, 3500 mAh, Android",
+   "price": "759.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-note-10-gris-256-gb-12-gb-ram-6-8-wqhd-exynos-9825-4300-mah-android-1467701.html",
+   "name": "Móvil - Samsung Galaxy Note 10 +, Gris, 256 GB, 12 GB RAM, 6.8\" WQHD+, Exynos 9825, 4300 mAh, Android",
+   "price": "959.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-note-10-negro-256-gb-12-gb-ram-6-8-wqhd-exynos-9825-4300-mah-android-1461509.html",
+   "name": "Móvil - Samsung Galaxy Note 10 +, Negro, 256 GB, 12 GB RAM, 6.8\" WQHD+, Exynos 9825, 4300 mAh, Android",
+   "price": "859.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-note-10-6-3-8gb-256-gb-android-9-0-triple-camera-aura-glow-1469313.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy Note 10, 6.3\", 8GB, 256 GB, Android 9.0, Triple camera, Aura Glow",
+   "price": "719.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-note-10-negro-256-gb-12-gb-ram-6-8-wqhd-exynos-9825-4300-mah-1468766.html",
+   "price": "682.40"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-note-10-lite-aura-glow-128-gb-6gb-ram-6-7-full-hd-exynos-9810-4500-mah-android-1471717.html",
+   "name": "Móvil - Samsung Galaxy Note 10 Lite, Aura Glow, 128 GB, 6GB RAM, 6.7\" Full HD+, Exynos 9810, 4500 mAh, Android",
+   "price": "536.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-4g-gris-128-gb-8-gb-ram-6-2-amoled-120-hz-exynos-990-4000-mah-android-1472991.html",
+   "name": "Móvil - Samsung Galaxy S20 4G, Gris, 128 GB, 8 GB RAM, 6.2\" AMOLED 120 Hz, Exynos 990, 4000 mAh, Android",
+   "price": "799.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-4g-azul-128-gb-8-gb-ram-6-2-amoled-120-hz-exynos-990-4000-mah-android-1472992.html",
+   "name": "Móvil - Samsung Galaxy S20 4G, Azul, 128 GB, 8 GB RAM, 6.2\" AMOLED 120 Hz, Exynos 990, 4000 mAh, Android",
+   "price": "799.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-5g-gris-128-gb-12-gb-ram-6-2-amoled-120-hz-exynos-990-4000-mah-android-1472988.html",
+   "name": "Móvil - Samsung Galaxy S20 5G, Gris, 128 GB, 12 GB RAM, 6.2\" AMOLED 120 Hz, Exynos 990, 4000 mAh, Android",
+   "price": "899.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-5g-azul-128-gb-12-gb-ram-6-7-amoled-120hz-exynos-990-4500-mah-android-1472996.html",
+   "name": "Móvil - Samsung Galaxy S20+ 5G, Azul, 128 GB, 12 GB RAM, 6.7\" AMOLED 120Hz, Exynos 990, 4500 mAh, Android",
+   "price": "999.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-ultra-5g-gris-128-gb-12-gb-ram-6-9-amoled-120hz-exynos-990-5000-mah-1473001.html",
+   "name": "Móvil - Samsung Galaxy S20 Ultra 5G, Gris, 128 GB, 12 GB RAM, 6.9\" AMOLED 120Hz, Exynos 990, 5000 mAh",
+   "price": "1249.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-s20-ultra-5g-gris-128-gb-12-gb-ram-6-9-amoled-120hz-exynos-990-1478516.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy S20 Ultra 5G, Gris, 128 GB, 12 GB RAM, 6.9\" AMOLED 120Hz, Exynos 990",
+   "price": "1087.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s10-negro-128-gb-8-gb-ram-6-1-qhd-exynos-9-9821-3400-mah-android-1446423.html",
+   "name": "Móvil - Samsung Galaxy S10, Negro, 128 GB, 8 GB RAM, 6.1\" QHD+, Exynos 9 9821, 3400 mAh, Android",
+   "price": "599.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s10-blanco-128-gb-8-gb-ram-6-1-qhd-exynos-9-9821-3400-mah-android-1448021.html",
+   "name": "Móvil - Samsung Galaxy S10, Blanco, 128 GB, 8 GB RAM, 6.1\" QHD+, Exynos 9 9821, 3400 mAh, Android",
+   "price": "649.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s10-negro-cer%C3%A1mica-128-gb-8-gb-ram-6-4-qhd-exynos-9-9822-4100-mah-android-1481686.html",
+   "name": "Móvil - Samsung Galaxy S10+, Negro cerámica, 128 GB, 8 GB RAM, 6.4\" QHD+, Exynos 9 9822, 4100 mAh, Android",
+   "price": "699.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-s10-lite-azul-128-gb-8-gb-ram-6-7-full-hd-octa-core-4500-mah-1477026.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy S10 Lite, Azul, 128 GB, 8 GB RAM, 6.7\" Full HD+, Octa-Core, 4500 mAh",
+   "price": "527.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-s10-lite-azul-128-gb-8-gb-ram-6-7-full-hd-octa-core-4500-mah-1477026.html",
+   "price": "1.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s10-lite-azul-128-gb-8-gb-ram-6-7-full-hd-octa-core-4500-mah-android-1471712.html",
+   "name": "Móvil - Samsung Galaxy S10 Lite, Azul, 128 GB, 8 GB RAM, 6.7\" Full HD+, Octa-Core, 4500 mAh, Android",
+   "price": "611.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-s10-negro-128-gb-8-gb-ram-6-1-qhd-exynos-9-9821-3400-mah-1462987.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy S10, Negro, 128 GB, 8 GB RAM, 6.1\" QHD+, Exynos 9 9821, 3400 mAh",
+   "price": "559.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a71-plata-128-gb-6-gb-ram-6-7-full-hd-sdm730-4500-mah-android-1471295.html",
+   "name": "Móvil - Samsung Galaxy A71, Plata, 128 GB, 6 GB RAM, 6.7\" Full HD+, SDM730, 4500 mAh, Android",
+   "price": "379.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a71-negro-128-gb-6-gb-ram-6-7-full-hd-sdm730-4500-mah-android-1471294.html",
+   "name": "Móvil - Samsung Galaxy A71, Negro, 128 GB, 6 GB RAM, 6.7\" Full HD+, SDM730, 4500 mAh, Android",
+   "price": "379.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-a71-plata-128-gb-6-gb-ram-6-7-full-hd-sdm730-4500-mah-android-1476116.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy A71, Plata, 128 GB, 6 GB RAM, 6.7\" Full HD+, SDM730, 4500 mAh, Android",
+   "price": "335.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a51-blanco-128-gb-4-gb-ram-6-5-full-hd-exynos-9611-4000-mah-android-1471377.html",
+   "name": "Móvil - Samsung Galaxy A51, Blanco, 128 GB, 4 GB RAM, 6.5\" Full HD+, Exynos 9611, 4000 mAh, Android",
+   "price": "279.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a51-azul-128gb-4gb-ram-6-5-fhd-exynos9611-android-inst-protector-pantalla-1478054.html",
+   "name": "Móvil - Samsung Galaxy A51, Azul, 128GB, 4GB RAM, 6.5\" FHD+, Exynos9611, Android + Inst. Protector Pantalla",
+   "price": "298.99"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-a51-blanco-128-gb-4-gb-ram-6-5-full-hd-exynos-9611-4000-mah-1477023.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy A51, Blanco, 128 GB, 4 GB RAM, 6.5\" Full HD+, Exynos 9611, 4000 mAh",
+   "price": "255.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_reacondicionado-m%C3%B3vil-samsung-galaxy-a51-negro-128-gb-4-gb-ram-6-5-full-hd-exynos9611-4000-mah-1477569.html",
+   "name": "REACONDICIONADO Móvil - Samsung Galaxy A51, Negro, 128 GB, 4 GB RAM, 6.5\" Full HD+, Exynos9611, 4000 mAh",
+   "price": "255.20"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a51-5g-negro-128-gb-6-gb-6-5-full-hd-octa-core-4500-mah-android-1481077.html",
+   "name": "Móvil - Samsung Galaxy A51 5G, Negro, 128 GB, 6 GB, 6.5\" Full HD+, Octa-Core, 4500 mAh, Android",
+   "price": "469.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a31-negro-64-gb-4-gb-6-4-full-hd-octacore-5000-mah-android-1481414.html",
+   "name": "Móvil - Samsung Galaxy A31, Negro, 64 GB, 4 GB, 6.4\" Full HD+, OctaCore, 5000 mAh, Android",
+   "price": "269.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a21s-azul-64-gb-4-gb-6-5-hd-exynos-850-5000-mah-android-1478129.html",
+   "name": "Móvil - Samsung Galaxy A21s, Azul, 64 GB, 4 GB, 6.5\" HD+, Exynos 850, 5000 mAh, Android",
+   "price": "220.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a20e-negro-32-gb-3-gb-ram-5-8-hd-exynos-7884b-3000-mah-android-1454497.html",
+   "name": "Móvil - Samsung Galaxy A20e, Negro, 32 GB, 3 GB RAM, 5.8\" HD+, Exynos 7884B, 3000 mAh, Android",
+   "price": "149.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a20e-azul-32gb-3gb-ram-5-8-hd-exynos-7884b-android-inst-protector-pantalla-1478055.html",
+   "name": "Móvil - Samsung Galaxy A20e, Azul, 32GB, 3GB RAM, 5.8\" HD+, Exynos 7884B, Android + Inst. Protector Pantalla",
+   "price": "168.99"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a30s-verde-64-gb-4-gb-ram-6-4-octa-core-4000-mah-android-inst-protector-1480875.html",
+   "name": "Móvil - Samsung Galaxy A30s, Verde, 64 GB, 4 GB RAM, 6.4\", Octa-Core, 4000 mAh, Android + Inst. Protector",
+   "price": "218.99"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a30s-blanco-128-gb-4-gb-ram-6-4-hd-exynos-7904-4000-mah-android-1476884.html",
+   "name": "Móvil - Samsung Galaxy A30s, Blanco, 128 GB, 4 GB RAM, 6.4\" HD+, Exynos 7904, 4000 mAh, Android",
+   "price": "209.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a41-negro-64-gb-4-gb-6-1-full-hd-mediatek-mtk6768-octa-core-3500-mah-android-1478127.html",
+   "name": "Móvil - Samsung Galaxy A41, Negro, 64 GB, 4 GB, 6.1\" Full HD+, MediaTek MTK6768, Octa-Core, 3500 mAh, Android",
+   "price": "262.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-a41-blanco-64-gb-4-gb-6-1-full-hd-mediatek-mtk6768-octa-core-3500-mah-android-1478128.html",
+   "name": "Móvil - Samsung Galaxy A41, Blanco, 64 GB, 4 GB, 6.1\" Full HD+, MediaTek MTK6768, Octa-Core, 3500 mAh, Android",
+   "price": "270.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-z-flip-negro-256-gb-8-gb-6-7-hd-snapdragon-855-3300-mah-android-1475741.html?ga_query=1475741+1475742",
+   "name": "Móvil - Samsung Galaxy Z Flip, Negro, 256 GB, 8 GB, 6.7 \" HD+, Snapdragon 855, 3300 mAh, Android",
+   "price": "1499.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-a-2019-32-gb-plata-wifi-10-1-hd-2-gb-ram-exynos-7904-android-1451185.html",
+   "name": "Tablet - Samsung Galaxy Tab A (2019), 32 GB, Plata, WiFi, 10.1\" HD, 2 GB RAM, Exynos 7904, Android",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-a-2019-64-gb-plata-wifi-lte-10-1-full-hd-3-gb-ram-exynos-7904-android-1451187.html",
+   "name": "Tablet - Samsung Galaxy Tab A (2019), 64 GB, Plata, WiFi + LTE, 10.1\" Full-HD, 3 GB RAM, Exynos 7904, Android",
+   "price": "2\n6\n4\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-a-2019-64-gb-negro-wifi-10-1-hd-3-gb-ram-exynos-7904-android-1451188.html",
+   "name": "Tablet - Samsung Galaxy Tab A (2019), 64 GB, Negro, WiFi, 10.1\" HD, 3 GB RAM, Exynos 7904, Android",
+   "price": "2\n1\n7\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s5e-64-gb-plata-wifi-10-5-qxga-4-gb-ram-octa-core-android-1451855.html",
+   "name": "Tablet - Samsung Galaxy Tab S5e, 64 GB, Plata, WiFi, 10.5\" QXGA, 4 GB RAM, Octa-Core, Android",
+   "price": "3\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s6-lite-10-4-exynos-9611-4-gb-ram-64-gb-android-10-con-oneui-2-azul-1476525.html",
+   "name": "Tablet - Samsung Galaxy Tab S6 Lite, 10.4 \", Exynos 9611, 4 GB RAM, 64 GB, Android 10 con OneUI 2, Azul",
+   "price": "3\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s6-lite-4g-10-4-sim-exynos-9611-4-gb-ram-64-gb-android-10-con-oneui-2-azul-1476528.html",
+   "name": "Tablet - Samsung Galaxy Tab S6 Lite 4G, 10.4\", SIM, Exynos 9611, 4 GB RAM, 64 GB, Android 10 con OneUI 2, Azul",
+   "price": "4\n3\n2\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s6-128-gb-gris-wifi-10-5-qxga-6-gb-ram-snapdragon-855-android-1461501.html",
+   "name": "Tablet - Samsung Galaxy Tab S6, 128 GB, Gris, WiFi, 10.5\" QXGA, 6 GB RAM, Snapdragon 855, Android",
+   "price": "6\n6\n6\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s6-128-gb-azul-wifi-10-5-qxga-6-gb-ram-snapdragon-855-android-1461502.html",
+   "name": "Tablet - Samsung Galaxy Tab S6, 128 GB, Azul, WiFi, 10.5\" QXGA, 6 GB RAM, Snapdragon 855, Android",
+   "price": "6\n6\n3\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_tablet-samsung-galaxy-tab-s6-256-gb-gris-wifi-10-5-qxga-8-gb-ram-snapdragon-855-android-1461503.html",
+   "name": "Tablet - Samsung Galaxy Tab S6, 256 GB, Gris, WiFi, 10.5\" QXGA, 8 GB RAM, Snapdragon 855, Android",
+   "price": "7\n2\n8\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-galaxy-watch-42-mm-1-2-768-mb-4-gb-bluetooth-270-mah-midnight-black-1428687.html",
+   "name": "Smartwatch - Samsung Galaxy Watch, 42 mm, 1.2\", 768 MB, 4 GB, Bluetooth, 270 mAh, Midnight Black",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-galaxy-watch-46-mm-1-3-768-mb-4-gb-472-mah-bluetooth-silver-1428689.html",
+   "name": "Smartwatch - Samsung Galaxy Watch, 46 mm, 1.3\", 768 MB, 4 GB, 472 mAh, Bluetooth, Silver",
+   "price": "2\n3\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-galaxy-watch-active-2-bluetooth-44-mm-acero-negro-1463113.html?ga_query=1463112%201463113%201463114%201463115%201463116%201463117%201463118%201463119%201463120%201463121%201463122",
+   "name": "Smartwatch - Samsung Galaxy Watch Active 2, Bluetooth, 44 mm, Acero / Negro",
+   "price": "2\n7\n5\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_smartwatch-samsung-galaxy-watch-active-1-1-amoled-hr-gps-bluetooth-wi-fi-nfc-negro-1448233.html?ga_query=1448233+1448234+1448235+1459660",
+   "name": "Smartwatch - Samsung Galaxy Watch Active, 1.1\" AMOLED, HR, GPS, Bluetooth, Wi-Fi, NFC, Negro"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_auriculares-inal%C3%A1mbricos-samsung-galaxy-buds-funda-cargador-bluetooth-micr%C3%B3fono-dual-negro-1451377.html",
+   "name": "Auriculares inalámbricos - Samsung Galaxy Buds, Funda cargador, Bluetooth, Micrófono dual, Negro",
+   "price": "1\n1\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-note-8-pro-azul-128-gb-6-gb-ram-6-53-full-hd-helio-g90t-4500-mah-android-1469588.html",
+   "name": "Móvil - Xiaomi Redmi Note 8 Pro, Azul, 128 GB, 6 GB RAM, 6.53\" Full HD+, Helio G90T, 4500 mAh, Android",
+   "price": "2\n4\n5\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-note-8t-blanco-64-gb-4-gb-ram-6-3-full-hd-snapdragon-665-4000-mah-android-1468595.html",
+   "name": "Móvil - Xiaomi Redmi Note 8T, Blanco, 64 GB, 4 GB RAM, 6.3\" Full HD+, Snapdragon 665, 4000 mAh, Android",
+   "price": "1\n7\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-8-negro-64-gb-4-gb-ram-6-22-hd-snapdragon-439-5000-mah-android-1468586.html",
+   "name": "Móvil - Xiaomi Redmi 8, Negro, 64 GB, 4 GB RAM, 6.22\" HD+, Snapdragon 439, 5000 mAh, Android",
+   "price": "1\n5\n0\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-8-azul-32-gb-3-gb-ram-6-22-hd-snapdragon-439-5000-mah-android-1468585.html",
+   "name": "Móvil - Xiaomi Redmi 8, Azul, 32 GB, 3 GB RAM, 6.22\" HD+, Snapdragon 439, 5000 mAh, Android",
+   "price": "1\n1\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-note-9-gris-128-gb-4-gb-6-53-full-hd-helio-g85-5020-mah-android-1479118.html",
+   "name": "Móvil - Xiaomi Redmi Note 9, Gris, 128 GB, 4 GB, 6.53\" Full HD+, Helio G85, 5020 mAh, Android",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-9-morado-64-gb-4-gb-6-53-full-hd-mediatek-helio-g80-quad-cam-5020-mah-android-1481074.html",
+   "name": "Móvil - Xiaomi Redmi 9, Morado, 64 GB, 4 GB, 6.53\" Full HD+, MediaTek Helio G80, Quad Cam, 5020 mAh, Android",
+   "price": "1\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-note-9s-gris-interestelar-128gb-6gb-6-67-full-hd-snapdragon%E2%84%A2-720g-5020-mah-mi-in-ear-1477625.html",
+   "name": "Móvil - Xiaomi Redmi Note 9S, Gris Interestelar,128GB, 6GB, 6.67\" Full HD+,SnapDragon™ 720G,5020 mAh+Mi In-Ear",
+   "price": "2\n6\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-note-9-pro-blanco-128gb-6-gb-6-67-full-hd-qualcomm%C2%AE-snapdragon%E2%84%A2-5020-mah-android-1479121.html",
+   "name": "Móvil - Xiaomi Redmi Note 9 Pro, Blanco, 128GB, 6 GB, 6.67\" Full HD+, Qualcomm® Snapdragon™, 5020 mAh, Android",
+   "price": "2\n8\n0\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-redmi-note-9-blanco-128-gb-4-gb-6-53-full-hd-helio-g85-5020-mah-android-1483040.html",
+   "name": "Móvil - Xiaomi Redmi Note 9, Blanco, 128 GB, 4 GB, 6.53\" Full HD+, Helio G85, 5020 mAh, Android",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-mi-10-pro-gris-256-gb-8-gb-ram-6-67-full-hd-qualcomm-snapdragon-865-4500-mah-android-1476276.html",
+   "name": "Móvil - Xiaomi Mi 10 Pro, Gris, 256 GB, 8 GB RAM, 6.67\" Full HD+, Qualcomm Snapdragon 865, 4500 mAh, Android",
+   "price": "8\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-mi-10-azul-128-gb-8-gb-ram-6-67-full-hd-qualcomm-snapdragon-865-4780-mah-verde-1476278.html",
+   "name": "Móvil - Xiaomi Mi 10, Azul, 128 GB, 8 GB RAM, 6.67\" Full HD+, Qualcomm Snapdragon 865, 4780 mAh, Verde",
+   "price": "6\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-mi-note-10-lite-blanco-128gb-6gb-6-47-fhd-auriculares-mi-true-wireless-earbuds-basic-1478266.html",
+   "name": "Móvil - Xiaomi Mi Note 10 Lite, Blanco, 128GB, 6GB, 6.47\" FHD+ + Auriculares - Mi True Wireless Earbuds Basic",
+   "price": "3\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-xiaomi-mi-mix-3-5g-azul-128-gb-6-gb-6-39-full-hd-qualcomm%C2%AE-snapdragon%E2%84%A2-855-3800-mah-android-1473317.html",
+   "name": "Móvil - Xiaomi Mi Mix 3 5G, Azul, 128 GB, 6 GB, 6.39\" Full HD+, Qualcomm® Snapdragon™ 855, 3800 mAh, Android",
+   "price": "3\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-a5-blanco-64-gb-3-gb-ram-6-5-hd-snapdragon-665-5000-mah-android-1468132.html",
+   "name": "Móvil - OPPO A5, Blanco, 64 GB, 3 GB RAM, 6.5\" HD, Snapdragon 665, 5000 mAh, Android",
+   "price": "1\n4\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-a9-violeta-128-gb-4-gb-ram-6-5-hd-snapdragon-665-5000-mah-android-1466317.html",
+   "name": "Móvil - OPPO A9, Violeta, 128 GB, 4 GB RAM, 6.5\" HD, Snapdragon 665, 5000 mAh, Android",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-a91-negro-128-gb-8-gb-6-4-full-hd-mediatek-helio-p70-4025-mah-android-1476894.html",
+   "name": "Móvil - OPPO A91, Negro, 128 GB, 8 GB, 6.4 \" Full HD+, Mediatek Helio P70, 4025 mAh, Android",
+   "price": "2\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-a72-twilight-black-128-gb-4-gb-ram-6-5-full-hd-qualcomm-sm6125-5000mah-quad-cam-android-1476895.html",
+   "name": "Móvil - OPPO A72, Twilight Black, 128 GB, 4 GB RAM, 6.5\" Full HD+, Qualcomm SM6125, 5000mAh, Quad Cam, Android",
+   "price": "2\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-a52-twilight-black-64-gb-4-gb-6-5-full-hd-qualcomm-sm6125-5000-mah-android-1476897.html",
+   "name": "Móvil - OPPO A52, Twilight Black, 64 GB, 4 GB, 6.5 \" Full HD+, Qualcomm SM6125, 5000 mAh, Android",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-reno-2-azul-256-gb-8-gb-ram-6-55-full-hd-snapdragon-730g-4000-mah-android-1467154.html",
+   "name": "Móvil - OPPO Reno 2, Azul, 256 GB, 8 GB RAM, 6.55\" Full HD+, Snapdragon 730G, 4000 mAh, Android",
+   "price": "3\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-reno-2z-negro-128-gb-8-gb-ram-6-5-full-hd-mediatek-helio-p90-4000-mah-android-1467158.html",
+   "name": "Móvil - OPPO Reno 2Z, Negro, 128 GB, 8 GB RAM, 6.5\" Full HD+, MediaTek Helio P90, 4000 mAh, Android",
+   "price": "2\n8\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-find-x2-pro-negro-512-gb-12-gb-6-7-3k-qhd-qualcomm-snapdragon-865-5g-4260-mah-android-1476885.html",
+   "name": "Móvil - OPPO Find X2 Pro, Negro, 512 GB, 12 GB, 6.7\" 3K QHD+, Qualcomm Snapdragon 865, 5G, 4260 mAh, Android",
+   "price": "1\n1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-find-x2-neo-negro-256-gb-12-gb-6-5-full-hd-qualcomm-snapdragon-765g-4025-mah-5g-android-1476889.html",
+   "name": "Móvil - OPPO Find X2 Neo, Negro, 256 GB, 12 GB, 6.5\" Full HD+, Qualcomm Snapdragon 765G, 4025 mAh, 5G, Android",
+   "price": "6\n6\n5\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-find-x2-lite-negro-128-gb-8-gb-6-4-qualcomm-snapdragon-765g-4025-mah-5g-android-1476891.html",
+   "name": "Móvil - OPPO Find X2 Lite, Negro, 128 GB, 8 GB, 6.4\" , Qualcomm Snapdragon 765G, 4025 mAh, 5G, Android",
+   "price": "4\n6\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-oppo-find-x2-negro-256-gb-12-gb-6-7-3k-qhd-qualcomm-snapdragon-865-5g-4200-mah-android-1476888.html",
+   "name": "Móvil - OPPO Find X2, Negro, 256 GB, 12 GB, 6.7\" 3K QHD+, Qualcomm Snapdragon 865, 5G, 4200 mAh, Android",
+   "price": "9\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k9-negro-16-gb-2-gb-ram-5-qualcom-msm8909-2500-mah-android-1459041.html",
+   "name": "Móvil - LG K9, Negro, 16 GB, 2 GB RAM, 5\", Qualcom MSM8909, 2500 mAh, Android",
+   "price": "6\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k30-negro-16-gb-2-gb-ram-5-45-hd-msm8917-3000-mah-android-1465676.html",
+   "name": "Móvil - LG K30, Negro, 16 GB, 2 GB RAM, 5.45\" HD+, MSM8917, 3000 mAh, Android",
+   "price": "9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k40s-azul-32-gb-2-gb-ram-6-1-hd-3500-mah-android-1466283.html",
+   "name": "Móvil - LG K40s, Azul, 32 GB, 2 GB RAM, 6.1\" HD+, 3500 mAh, Android",
+   "price": "1\n4\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k61-gris-128-gb-4-gb-6-53-full-hd-octa-core-mediatek-mt6765-4000-mah-android-1478924.html",
+   "name": "Móvil - LG K61, Gris, 128 GB, 4 GB, 6.53 \" Full HD+, Octa-Core Mediatek MT6765, 4000 mAh, Android",
+   "price": "2\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k50-negro-32-gb-3-gb-ram-6-3-hd-mt6762-3500-mah-android-1459040.html",
+   "name": "Móvil - LG K50, Negro, 32 GB, 3 GB RAM, 6.3\" HD+, MT6762, 3500 mAh, Android",
+   "price": "1\n4\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-q60-azul-64-gb-3-gb-ram-6-26-hd-octa-core-3500-mah-android-1455507.html",
+   "name": "Móvil - LG Q60, Azul, 64 GB, 3 GB RAM, 6.26\" HD+, Octa-Core, 3500 mAh, Android",
+   "price": "1\n6\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-g8x-thinq-azul-128-gb-6-gb-ram-6-4-full-hd-snapdragon-855-4000-mah-android-1468123.html",
+   "name": "Móvil - LG G8X ThinQ, Azul, 128 GB, 6 GB RAM, 6.4\" Full HD+, Snapdragon 855, 4000 mAh, Android",
+   "price": "6\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k51s-gris-titan-64-gb-3-gb-6-55-full-hd-octa-core-mt6765-4000-mah-android-1478922.html",
+   "name": "Móvil - LG K51S, Gris Titan, 64 GB, 3 GB, 6.55 \" Full HD+, Octa Core MT6765, 4000 mAh, Android",
+   "price": "2\n0\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-velvet-5g-gris-128-gb-6-gb-6-8-full-hd-qualcomm-sd765g-4300-mah-android-1481051.html",
+   "name": "Móvil - LG Velvet 5G, Gris, 128 GB, 6 GB, 6.8\" Full HD+, Qualcomm SD765G, 4300 mAh, Android",
+   "price": "6\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-lg-k40-azul-32-gb-2-gb-ram-5-7-hd-mt6762-3000-mah-android-1448545.html",
+   "name": "Móvil - LG K40, Azul, 32 GB, 2 GB RAM, 5.7\" HD+, MT6762, 3000 mAh, Android",
+   "price": "1\n1\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-sony-xperia-l2-negro-32-gb-3-gb-ram-5-7-hd-mediatek-mt6762-3300-mah-android-1447329.html",
+   "name": "Móvil - Sony Xperia L2, Negro, 32 GB, 3 GB RAM, 5.7\" HD+, Mediatek MT6762, 3300 mAh, Android",
+   "price": "1\n8\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-sony-xperia-5-negro-128-gb-6-gb-ram-6-1-full-hd-snapdragon-855-3140-mah-android-1465582.html",
+   "name": "Móvil - Sony Xperia 5, Negro, 128 GB, 6 GB RAM, 6.1\" Full HD+, Snapdragon 855, 3140 mAh, Android",
+   "price": "7\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-e6-play-negro-32-gb-2-gb-ram-5-5-hd-mediatek-mt6739-3000-mah-android-1468044.html",
+   "name": "Móvil - Motorola E6 Play, Negro, 32 GB, 2 GB RAM, 5.5\" HD+, MediaTek MT6739, 3000 mAh, Android",
+   "price": "9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-moto-g8-power-negro-64-gb-4-gb-6-4-full-hd-qualcomm-snapdragon-5000-mah-android-1472268.html",
+   "name": "Móvil - Motorola MOTO G8 Power, Negro, 64 GB, 4 GB, 6.4\" Full HD+, Qualcomm Snapdragon, 5000 mAh, Android",
+   "price": "1\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-e6-plus-gris-64-gb-4-gb-ram-6-1-hd-helio-p22-3000-mah-android-1465778.html",
+   "name": "Móvil - Motorola E6 Plus, Gris, 64 GB, 4 GB RAM, 6.1\" HD+, Helio P22, 3000 mAh, Android",
+   "price": "1\n1\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-g8-plus-azul-64-gb-4-gb-ram-6-3-full-hd-snapdragon-665-4000-mah-android-1469010.html",
+   "name": "Móvil - Motorola G8 Plus, Azul, 64 GB, 4 GB RAM, 6.3\" Full HD+, Snapdragon 665, 4000 mAh, Android",
+   "price": "2\n3\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-g8-power-lite-azul-64-gb-4-gb-6-5-hd-mediatek-helio-p35-octa-core-5000-mah-android-1478003.html",
+   "name": "Móvil - Motorola G8 POWER LITE, Azul, 64 GB, 4 GB, 6.5'' HD+, Mediatek Helio P35 Octa-Core, 5000 mAh, Android",
+   "price": "1\n7\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-edge-negro-128-gb-6-gb-6-7-full-hd-qualcomm-snapdragon-765-4500-mah-android-1481148.html",
+   "name": "Móvil - Motorola Edge, Negro, 128 GB, 6 GB, 6.7'' Full HD+, Qualcomm Snapdragon 765, 4500 mAh, Android",
+   "price": "5\n4\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-motorola-z2-play-gris-64-gb-4-gb-ram-5-5-full-hd-snapdragon-625-3000-mah-android-1375395.html",
+   "name": "Móvil - Motorola Z2 Play, Gris, 64 GB, 4 GB RAM, 5.5\" Full HD, Snapdragon 625, 3000 mAh, Android",
+   "price": "4\n3\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-5i-azul-64-gb-4-gb-ram-6-5-hd-qualcomm-sdm665-5000-mah-android-1477964.html",
+   "name": "Móvil - Realme 5i, Azul, 64 GB, 4 GB RAM, 6.5\" HD, Qualcomm SDM665, 5000 mAh, Android",
+   "price": "1\n5\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-6i-blanco-128-gb-4-gb-6-5-mediatek-helio-g80-12-nm-5000-mah-android-1476272.html",
+   "name": "Móvil - realme 6i, Blanco, 128 GB, 4 GB, 6.5\" , Mediatek Helio G80 (12 nm), 5000 mAh, Android",
+   "price": "1\n7\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-6-azul-64-gb-4-gb-6-5-full-hd-g90t-4300-mah-android-1475984.html",
+   "name": "Móvil - realme 6, Azul, 64 GB, 4 GB, 6.5 \" Full HD, G90T, 4300 mAh, Android",
+   "price": "2\n2\n6\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-6-blanco-128-gb-4-gb-6-5-full-hd-g90t-4300-mah-android-1475987.html",
+   "name": "Móvil - realme 6, Blanco, 128 GB, 4 GB, 6.5 \" Full HD, G90T, 4300 mAh, Android",
+   "price": "2\n2\n1\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-6-pro-rojo-128-gb-8-gb-6-6-full-hd-snapdragon-720g-4300-mah-android-1476919.html",
+   "name": "Móvil - realme 6 Pro, Rojo, 128 GB, 8 GB, 6.6\" Full HD+, Snapdragon 720G, 4300 mAh, Android",
+   "price": "3\n2\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-x3-superzoom-blanco-256gb-12gb-6-6-full-hd-qualcomm%C2%AE-snapdragon%E2%84%A2-855-4200-mah-android-1478942.html",
+   "name": "Móvil - realme X3 SuperZoom, Blanco, 256GB, 12GB, 6.6\" Full HD+, Qualcomm® Snapdragon™ 855+, 4200 mAh, Android",
+   "price": "4\n9\n9\n.-"
+  },
+  {
+   "link": "https://www.mediamarkt.es/es/product/_m%C3%B3vil-realme-x50-pro-rojo-r%C3%BAstico-256-gb-12-gb-6-44-fhd-qualcomm%C2%AE-snapdragon%E2%84%A2-865-4200-mah-android-1479512.html",
+   "name": "Móvil - realme X50 Pro, Rojo rústico, 256 GB, 12 GB, 6.44\" FHD+, Qualcomm® Snapdragon™ 865, 4200 mAh, Android",
+   "price": "7\n4\n9\n.-"
+  },
+  {
+   "link": ""
+  }
+ ]
+}

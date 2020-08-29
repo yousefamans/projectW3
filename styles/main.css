@@ -1,0 +1,213 @@
+
+
+.nav{
+	background-color: black;
+	padding-bottom: 30px; 
+}
+
+.nav a{
+	color: white;
+}
+
+
+.back {
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 70px;
+}
+
+
+.search-results{
+	font-size: 60px;
+	margin-left: 100px;
+	font-family:  impact,"Comic Sans";
+	padding-bottom: 30px;
+
+}
+
+
+.box{
+	position: relative;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 400px;
+	height: 280px;
+	background-color: rgb(255,255,255);
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.img-box{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 130px;
+  height: 280px;
+  border-right: 0.2px dotted grey ;
+  padding-right: 20px;
+  padding-bottom: 30px;
+
+  
+}
+
+.phone-img{
+	position: absolute;
+	bottom: 15px;
+	padding-top:  0px;
+	width: 90px;
+	height: 220px;
+
+
+} 
+
+
+
+.link-txt{
+	position: absolute;
+	top: 5px;
+	right: 25px;
+	font-size: 30px;
+
+	
+}
+
+
+
+.price-value{
+	position: absolute;
+	top: 60px;
+	left: 280px;
+    font-size: 55px;
+    color: blue;
+
+
+}
+
+
+
+.normal-price{
+	position: absolute;
+	top: 150px;
+	left: 320px;
+	font-size: 28px;
+	opacity: 0.4;
+}
+
+.discount{
+	position: absolute;
+	top: 70px;
+	left: 520px;
+	font-size: 40px;
+}
+
+
+.off{
+	font-size: 25px;
+	color: blue;
+}
+
+.brand{
+	position: absolute;
+	top: 230px;
+	left: 470px;
+	width: 50px;
+}
+
+.link-button{
+	position: absolute;
+	bottom: 25px;
+	right: 30px;
+	padding: 8px 5px;
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+	
+}
+
+.link-button a{
+	 text-decoration: none;
+	 color: white;
+	 padding: 5px;
+	 font-size: 15px;
+}
+
+#se-red{
+	margin-top: -5px;
+	
+}
+
+
+.test{
+	display: none;
+}
+
+
+
+.footer{
+	
+	background-color: black;
+	margin-top: 100px;
+	border-radius: 20px;
+	height: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 400px) {
+	.box {
+		width: 750px;
+		height: 230px;
+		margin-left: 100px;
+		
+	}
+
+	.img-box{
+	  width: 200px;
+	  height: 230px;
+	}
+
+	.phone-img{
+		margin-top: 30px;
+		margin-left: 20px;
+		width: 190px;
+	} 
+
+	.link-txt{
+		font-size: 35px;
+		top: 10px;
+		left: 240px;
+	}
+
+	.price{
+		font-size: 35px;
+		top: 50px;
+		left: 260px;
+	}
+
+	.link-button{
+		position: absolute;
+		bottom: 25px;
+		right: 30px;
+		padding: 10px 6px;
+		
+		
+	}
+
+	.link-button a{
+	 padding: 5px;
+	 font-size: 30px;
+    }
+	
+}

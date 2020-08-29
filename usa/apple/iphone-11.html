@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 11</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+      
+
+       
+
+
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<11; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 25 , json , "a" ,699 , "iPhone 11 (Purple, 64 GB)" , "https://www.amazon.com/images/I/71xn9bCRfhL.jpg");
+     phoneData(2, 26 , json , "a" ,699 , "iPhone 11 (Black, 64 GB)" , "https://www.amazon.com/images/I/71iO2R+CLjL.jpg");
+     phoneData(3, 27 , json, "a" , 699 , "iPhone 11 (Green, 64 GB)" , "https://www.amazon.com/images/I/71Dh+NR7ivL.jpg");
+     phoneData(4, 28 , json , "a" , 699 , "Apple iPhone 11 (White, 256 GB)" , "https://www.amazon.com/images/I/71kZfQA-Y7L.jpg");
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(5, 16 , json ,"w", 699 , "Apple iPhone 11 (Black, 64 GB)" , "https://i5.walmartimages.com/asr/eea59ef4-4f1b-475a-8389-11e08e2c0345_2.f889569839816ae694a4ab6475369fbc.png?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(6, 17 , json ,"w", 699 , "iPhone 11 Pro (Black, 64 GB)" , "https://i5.walmartimages.com/asr/eea59ef4-4f1b-475a-8389-11e08e2c0345_2.f889569839816ae694a4ab6475369fbc.png?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+                
+
+
+        </script>
+
+    
+        
+
+</body>
+</html>
+
+

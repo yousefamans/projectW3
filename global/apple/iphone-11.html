@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 11</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+<script src="/js/global/element.js"></script>
+</head>
+<body>
+
+
+        <div class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+     
+
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<8; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(3, 25 , json , "a" ,699 , "iPhone 11 (Purple, 64 GB)" , "https://www.amazon.com/images/I/71xn9bCRfhL.jpg");
+     phoneData(2, 26 , json , "a" ,699 , "iPhone 11 (Black, 64 GB)" , "https://www.amazon.com/images/I/71iO2R+CLjL.jpg");
+     phoneData(5, 27 , json, "a" , 699 , "iPhone 11 (Green, 64 GB)" , "https://www.amazon.com/images/I/71Dh+NR7ivL.jpg");
+     phoneData(4, 28 , json , "a" , 699 , "Apple iPhone 11 (White, 256 GB)" , "https://www.amazon.com/images/I/71kZfQA-Y7L.jpg");
+  })
+
+
+
+  fetch('/json/global/ebay.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 19 , json ,"e", 699 , "iPhone 11 (All colors, 64/128 GB)" , "https://i.ebayimg.com/images/g/~SgAAOSw-~pefMPy/s-l500.jpg");
+/*
+     phoneData(12, 20 , json ,"e", 0 , "iPhone 11 T-mobile (White, 128 GB)" , "");
+     phoneData(13, 21 , json ,"e", 0 , "iPhone 11 (Black, 64 GB)" , "");
+     phoneData(14, 8 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");
+     phoneData(15, 9 , json ,"e", 0 , "iPhone  (, 64 GB)" , "");   
+*/
+  })  
+
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(6, 16 , json ,"w", 699 , "Apple iPhone 11 (Black, 64 GB)" , "https://i5.walmartimages.com/asr/eea59ef4-4f1b-475a-8389-11e08e2c0345_2.f889569839816ae694a4ab6475369fbc.png?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(7, 17 , json ,"w", 699 , "iPhone 11 Pro (Black, 64 GB)" , "https://i5.walmartimages.com/asr/eea59ef4-4f1b-475a-8389-11e08e2c0345_2.f889569839816ae694a4ab6475369fbc.png?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+footer();
+
+        </script>
+</body>
+</html>
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung A31</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+        <p class="search-results">Search Results</p>
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+       
+        <script >
+
+
+var i =1;
+for (i=1 ; i<6; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(1, 29 , json , "a" ,  250 , "Samsung A31 (White, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61UDVLnL16L._AC_SL1500_.jpg");
+     phoneData(2, 30 , json , "a" ,  250 , "Samsung A31 (White, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61UDVLnL16L._AC_SL1500_.jpg");
+    
+    
+  })
+
+fetch('/json/global/ebay.json')
+.then(res => res.json())
+.then((json) => {
+
+
+   phoneData(4, 69 , json ,"e", 299 , "Samsung A31 (All colors, 128 GB)" , "https://i.ebayimg.com/images/g/~6YAAOSws4NerDoR/s-l1600.jpg");
+
+   phoneData(3, 70 , json ,"e", 299 , "Samsung A31 (Black/Blue, 64 GB)" , "https://i.ebayimg.com/images/g/NCUAAOSwTY1erDr6/s-l1600.jpg");
+  
+})
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(5, 69 , json ,"w", 299 , "Samsung A31 (Black, 64 GB)" , "https://i5.walmartimages.com/asr/566078c9-1e85-484b-9e86-f07d22c6cd08.3e4c2de7f4e08ace9ae765563d708f38.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+    
+  })  
+       
+   footer();             
+              
+        </script>
+
+          
+
+</body>
+</html>
+
+
+
+
+
+

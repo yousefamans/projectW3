@@ -1,0 +1,98 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung A51</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        
+        <script >
+
+
+var i =1;
+for (i=1 ; i<9; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 92 , json , "es" , 369 , "Samsung A51 (Azul, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81lNIM3LYeL._AC_SL1500_.jpg");
+     phoneData(2, 93 , json , "es" , 290 , "Samsung A51 (blanco, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81BtRMOS8sL._AC_SL1500_.jpg");
+     phoneData(3, 96 , json , "es" , 349 , "Samsung A50 (Negro, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/513N-CIauWL._AC_SL1200_.jpg");
+     
+    
+    
+
+
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(4, 64 , json , "mkr" , 319 , "Samsung A51 (Blanco, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72138764/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-A51--Blanco--128-GB--4-GB-RAM--6.5%22-Full-HD---Exynos-9611--4000-mAh--Android");
+     phoneData(5, 65 , json , "mkr" , 338 , "Samsung A51 (Azul, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74785956/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-A51--Azul--128GB--4GB-RAM--6.5%22-FHD---Exynos9611--Android---Inst.-Protector-Pantalla");
+     phoneData(6, 66 , json , "mkr" , 255 , "REACONDICIONADO Samsung A51 (Blanco, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72138764/fee_325_225_png/M%C3%B3vil---Samsung-Galaxy-A51--Blanco--128-GB--4-GB-RAM--6.5%22-Full-HD---Exynos-9611--4000-mAh--Android");
+     phoneData(7, 67 , json , "mkr" , 255 , "REACONDICIONADO Samsung A51(Negro, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72138813/fee_52_41_png/REACONDICIONADO-M%C3%B3vil---Samsung-Galaxy-A51--Negro--128-GB--4-GB-RAM--6.5%22-Full-HD---Exynos9611--4000-mAh");
+     phoneData(8, 68 , json , "mkr" , 469 , "Samsung A51 5G (Negro,  GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75717990/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-A51-5G--Negro--128-GB--6-GB--6.5%22-Full-HD---Octa-Core--4500-mAh--Android");
+     
+        
+
+  })
+
+ imgSize(4, 9, 350 , 280,-70); 
+ imgSize(3, 4, 140 , 280,10); 
+
+
+
+
+  
+       
+                
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

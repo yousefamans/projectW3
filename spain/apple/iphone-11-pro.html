@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 11 pro</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/spain/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/spain/spain.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+       
+        
+
+
+        <script >
+
+
+
+var i =1;
+for (i=1 ; i<10; i++){
+        elementJS(i);
+}
+
+
+
+
+
+fetch('/json/spain/amazon_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(3, 17 , json , "es" , 1159 , "iPhone 11 Pro (Gris, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81HSzsIkJdL._AC_SL1500_.jpg");
+     phoneData(2, 18 , json , "es" , 1159 , "iPhone 11 Pro (Plata, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81vZCv9kA0L._AC_SL1500_.jpg");
+     phoneData(1, 25 , json , "es" , 1159 , "iPhone 11 Pro (Verde Noche, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81mxun%2B6pEL._AC_SL1500_.jpg");
+     phoneData(4, 26 , json , "es" , 1329 , "iPhone 11 Pro (Gris, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81HSzsIkJdL._AC_SL1500_.jpg");
+     phoneData(5, 27 , json , "es" , 1329 , "iPhone 11 Pro (Oro, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81owjLNCjaL._AC_SL1500_.jpg");
+     phoneData(6, 28 , json , "es" , 1329 , "iPhone 11 Pro (Plata, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81vZCv9kA0L._AC_SL1500_.jpg");
+     phoneData(7, 29 , json , "es" , 1329 , "iPhone 11 Pro (Verde, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81mxun%2B6pEL._AC_SL1500_.jpg");
+    
+    
+
+
+     
+  })
+
+  fetch('/json/spain/mediamarkt_spain.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(8, 11  , json , "mkr" , 1139 , "iPhone 11 Pro (Verde, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82219140/fee_786_587_png/Apple-iPhone-11-Pro--Verde-noche--64-GB--6-GB-RAM--5.8%22-OLED-Super-Retina-XDR--Chip-A13-Bionic--iOS");
+     phoneData(9, 12  , json , "mkr" , 1229 , "iPhone 11 Pro (Oro, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82219136/fee_325_225_png/Apple-iPhone-11-Pro--Oro--256-GB--5.8%22-OLED-Super-Retina-XDR--Chip-A13-Bionic--iOS");
+    
+
+  }) 
+
+
+
+ imgSize(8, 10, 350 , 280,-70); 
+   
+
+   
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        
+        
+
+</body>
+</html>
+
+
+
+
+
+

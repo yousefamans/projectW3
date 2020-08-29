@@ -1,0 +1,92 @@
+
+
+	
+<!DOCTYPE html>
+<html>
+
+
+<head>
+        <title>Samsung A51</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+      
+        
+
+      
+        <script >
+
+
+var i =1;
+for (i=1 ; i<5; i++){
+        elementJS(i);
+}
+
+
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(2, 39 , json , "a" ,  27999 , "Samsung A51 (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/815-Kg258tL._SL1500_.jpg");
+     phoneData(1, 40 , json , "a" ,  27999 , "Samsung A51 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81qVoEhymIL._SL1500_.jpg");
+ 
+    
+
+
+     
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(3, 69 , json , "f" ,  25999 , "Samsung A51 (Black, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k62i5jk0/mobile/c/n/s/samsung-galaxy-a51-sm-a515fzbhins-original-imafzhr4cqc4wqnf.jpeg?q=70");
+      phoneData(4, 70 , json , "f" ,  25999 , "Samsung A51 (Blue, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/k62i5jk0/mobile/y/k/s/samsung-galaxy-a51-sm-a515fzkhins-original-imafzhr399hrsbzb.jpeg?q=70");
+
+  })  
+       
+                
+    imgSize(1,5,160,280,10);
+    
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

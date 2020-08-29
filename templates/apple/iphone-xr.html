@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+        <title>iphone XR</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+               <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+        <div id="box11" class="box"></div>
+        <div id="box12" class="box"></div>
+        <div id="box13" class="box"></div>
+        <div id="box14" class="box"></div>
+        <div id="box15" class="box"></div>
+
+      
+        <script >
+var i =1;
+for (i=1 ; i<16; i++){
+        elementJS(i);
+}
+
+
+
+fetch('/json/india/amazon_in.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(7, 7 , json , "a" ,  52500 , "iPhone Xr (White, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51PuFBgBK4L._SY679_.jpg");
+     phoneData(2, 1 , json , "a" ,  57800 , "iPhone Xr (Black, 128 GB)" , "https://m.media-amazon.com/images/I/51qBzX0pGYL._AC_UY218_.jpg");
+     document.getElementById("price2").innerHTML = 56800;
+     document.getElementById("link2").href = "https://www.amazon.in/Apple-iPhone-XR-128GB-Black/dp/B07JG7DS1T/ref=sr_1_3?dchild=1&keywords=iphone+xr&qid=1596375599&s=electronics&sr=1-3";     
+     phoneData(6, 7 , json , "a" ,  52500 , "iPhone Xr (Red, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51YXG1bDM5L._SL1024_.jpg");
+
+  })
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+      phoneData(1,11 , json , "f" ,  52500 , "iPhone Xr (Black, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jnj7iq80/mobile/u/b/g/apple-iphone-xr-mryj2hn-a-original-imafa6zkm7qhv2zd.jpeg?q=70");
+      phoneData(3, 12 , json , "f" ,  52500 , "iPhone Xr (Coral, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jnj7iq80/mobile/u/a/p/apple-iphone-xr-mryg2hn-a-original-imafa6zkzyntrt3t.jpeg?q=70");
+      phoneData(4, 13 , json , "f" ,  53000 , "iPhone Xr (Black, 128 GB)" , "https://rukminim1.flixcart.com/image/416/416/jnj7iq80/mobile/u/b/g/apple-iphone-xr-mryj2hn-a-original-imafa6zkm7qhv2zd.jpeg?q=70");
+      phoneData(5, 14 , json , "f" ,  52500 , "iPhone Xr (Red, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jnj7iq80/mobile/3/f/a/apple-iphone-xr-mry62hn-a-original-imafa6zkhyceh8dg.jpeg?q=70");
+       phoneData(8, 15 , json , "f" ,  91900 , "iPhone Xr (White, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/jnj7iq80/mobile/y/q/d/apple-iphone-xr-mry52hn-a-original-imafa6zkfgwpnsgz.jpeg?q=70");
+        
+  
+  })  
+       
+                
+    
+    imgSize(2,9,160,280,10);
+      
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

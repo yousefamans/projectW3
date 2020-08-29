@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone 8</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+        <div id="box11" class="box"></div>
+        <div id="box12" class="box"></div>
+      
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<13; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(8, 0 , json , "a" ,  599 ,  "iPhone 8  (Gold, 256 GB)" , "https://m.media-amazon.com/images/I/617732thexL.jpg");
+     phoneData(9, 1 , json , "a" ,  449 , "iPhone 8 (Silver, 64 GB)" , "https://m.media-amazon.com/images/I/61Q59mCBd0L.jpg");
+     phoneData(10, 2 , json , "a" ,  599 , "iPhone 8 (Silver, 256 GB)" , "https://m.media-amazon.com/images/I/61Q59mCBd0L.jpg");
+
+
+     phoneData(4, 5 , json , "a" ,  599 , "iPhone 8 (Space Grey, 256 GB)" , "https://m.media-amazon.com/images/I/613kmdycTvL.jpg");
+
+     phoneData(5, 6 , json , "a" ,  549 , "iPhone 8 Plus (Gold, 256 GB)" , "https://m.media-amazon.com/images/I/61wf6hrlecL.jpg");
+
+
+     phoneData(6, 7 , json , "a" ,  549 , "iPhone 8 Plus (Silver, 256 GB)" , "https://m.media-amazon.com/images/I/617K3F5X3YL.jpg");
+
+     phoneData(7, 8 , json , "a" ,  549 , "iPhone 8 Plus (Space Grey, 64 GB)" , "https://m.media-amazon.com/images/I/613kmdycTvL.jpg");
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(11, 0 , json ,"w", 349 , "iPhone 8 (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/eff6132d-11d3-40dc-8928-3d3cdaa4b4e8_1.28a61d964a86914d257a1012186727c3.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(12, 1 , json ,"w", 449 , "iPhone 8 Plus (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/eff6132d-11d3-40dc-8928-3d3cdaa4b4e8_1.28a61d964a86914d257a1012186727c3.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(3, 2 , json ,"w", 799 , "iPhone 8 Plus (Silver, 64 GB)" , "https://i5.walmartimages.com/asr/5b77954a-be29-4e38-bf03-e0832ea0fb4e_1.4f2546d3c9a3c380b1d43ad996ca5a51.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(2, 3 , json ,"w", 799 , "iPhone 8 Plus (Silver, 64 GB)" , "https://i5.walmartimages.com/asr/5b77954a-be29-4e38-bf03-e0832ea0fb4e_1.4f2546d3c9a3c380b1d43ad996ca5a51.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+      
+     phoneData(1, 4 , json ,"w", 599 , "iPhone 8 (Space Grey, 64 GB)" , "https://i5.walmartimages.com/asr/eff6132d-11d3-40dc-8928-3d3cdaa4b4e8_1.28a61d964a86914d257a1012186727c3.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");   
+
+  })  
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

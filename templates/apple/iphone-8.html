@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>iphone 8</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <script src="/js/india/element.js"></script>
+
+</head>
+<body>
+
+
+        
+        <div class="nav">
+                <a href="/templates/india.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+
+        </div>
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        
+        <script >
+
+
+var i =1;
+for (i=1 ; i<5; i++){
+        elementJS(i);
+}
+
+
+
+
+
+  fetch('/json/india/flipkart.json')
+  .then(res => res.json())
+  .then((json) => {
+    
+    phoneData(3,  4 , json , "f" ,  52990 , "iPhone 8 Plus (Red, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/jgffp8w0/mobile/y/4/8/apple-iphone-8-plus-product-red-special-edition-mrt72hn-a-original-imaf4gueermyhqg8.jpeg?q=70");
+    phoneData(2,  5 , json , "f" ,  56999 , "iPhone 8 (Red, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/jgffp8w0/mobile/y/4/8/apple-iphone-8-plus-product-red-special-edition-mrt72hn-a-original-imaf4gueermyhqg8.jpeg?q=70");
+    phoneData(1,  6 , json , "f" ,  39990 , "iPhone 8 (Gold, 64 GB)" , "https://rukminim1.flixcart.com/image/416/416/j7ksia80/mobile/2/r/q/apple-iphone-8-mq6m2hn-a-original-imaexsbzyvydzgzw.jpeg?q=70");
+    phoneData(4,  7 , json , "f" ,  67499 , "iPhone 8 Plus (Silver, 256 GB)" , "https://rukminim1.flixcart.com/image/416/416/j7ksia80/mobile/x/w/z/apple-iphone-8-plus-mq8h2hn-a-original-imaexsfhxjxbupzx.jpeg?q=70");
+    
+      
+        
+  
+
+        
+
+  })
+
+
+  imgSize(1,5,160,280,10);  
+       
+                
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

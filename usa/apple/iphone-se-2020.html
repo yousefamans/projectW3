@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>iphone SE 2020</title>
+       <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+       
+        
+       
+
+
+
+
+        <script >
+
+var i =1;
+for (i=1 ; i<10; i++){
+        elementJS(i);
+}
+
+
+fetch('/json/usa/apple_amazon_usa.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(9, 41 , json , "a" ,  399 , "iPhone SE 2020  (Black, 64 GB)" , "https://www.amazon.com/images/I/81hCytKTUTL.jpg");
+     phoneData(8, 42 , json , "a" ,  399 , "iPhone SE 2020  (White, 64 GB)" , "https://www.amazon.com/images/I/81UhYiZH98L.jpg");
+     phoneData(7, 43 , json, "a" ,   399 , "iPhone SE 2020  (Red, 64 GB)" , "https://www.amazon.com/images/I/810DvHOZ9nL.jpg");
+     phoneData(6, 44 , json , "a" ,  449 , "iPhone SE 2020  (Black, 128 GB)" , "https://www.amazon.com/images/I/81hCytKTUTL.jpg");
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(1, 22 , json ,"w", 399 , "iPhone SE 2020 (Black, 64 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(2, 23 , json ,"w", 399 , "iPhone SE 2020  (Black, 64 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     
+
+     phoneData(3, 25 , json ,"w", 399 , "iPhone SE 2020  (White, 64 GB)" , "https://i5.walmartimages.com/asr/1010564b-bdcb-43c1-be7f-b126f39a3ccc.0d4e6e5dbd6bc1e39b0a3d0b8ecb4553.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(4, 26 , json ,"w", 399 , "iPhone SE 2020  (Black, 64 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+     phoneData(5, 24 , json ,"w", 499 , "iPhone SE 2020  (Black, 128 GB)" , "https://i5.walmartimages.com/asr/3c21f5da-5ce1-41f1-bce5-821711c6209b_2.dd8d9aaa2f1ff829e5a2e4f9d268c486.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff");
+
+  })  
+       
+                
+ imgSize(1, 6, 250 , 270,-50); 
+ imgSize(6, 10, 250 , 260,-30); 
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <script src="/js/main.js"></script>
+        
+
+</body>
+</html>
+
+
+
+
+
+

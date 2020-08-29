@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung A21s</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+          <script src="/js/global/element.js"></script>
+
+</head>
+<body>
+ 
+          <div id="nav1" class="nav">
+                <a href="/index.html"><img id="back-btn" class="back" src=""/></a>
+        </div> 
+  
+
+        <p class="search-results">Search Results</p>
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+       
+      
+
+  
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<7; i++){
+        elementJS(i);
+}
+
+
+
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+     phoneData(1, 31 , json , "a" ,  249 , "Samsung A21s (Blue, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61snR3OMIaL._AC_SL1200_.jpg");
+     phoneData(2, 34 , json , "a" ,  249 , "Samsung A21s (White, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/51Cww1LXgJL._AC_SL1440_.jpg");
+    
+    
+  })
+
+
+  
+fetch('/json/global/ebay.json')
+.then(res => res.json())
+.then((json) => {
+
+
+   phoneData(4, 71 , json ,"e", 249 , "Samsung A21s (All colors, 64 GB)" , "https://i.ebayimg.com/images/g/FOMAAOSwNQNe3qg4/s-l1600.jpg");
+   phoneData(5, 73 , json ,"e", 189 , "Samsung A21s (Blue/Black/Red, 64 GB)" , "https://i.ebayimg.com/images/g/i5AAAOSwYgle-NJt/s-l500.jpg");
+
+})
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(3, 70 , json ,"w", 219 , "Samsung A20s (Black, 64 GB)" , "https://i5.walmartimages.com/asr/57f95a53-4945-4842-8cec-04a9c39c431a_1.51b7dde56fefe436fad2f4b8b7dc6aec.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+     phoneData(6, 73 , json ,"w", 229 , "Samsung A20 (Black, 32 GB)" , "https://i5.walmartimages.com/asr/aa9fc7fd-3a4c-43dd-8428-aa84a0012f9a_2.a6d05098f3ca0b120a8d8f2a1b96ad5b.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+    
+  })  
+       
+   footer();             
+                
+        </script>
+
+ 
+        
+
+</body>
+</html>
+
+
+
+
+
+

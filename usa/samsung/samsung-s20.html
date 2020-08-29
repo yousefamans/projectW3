@@ -1,0 +1,99 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Samsung S20</title>
+       <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <script src="/js/usa/element.js"></script>
+
+</head>
+<body>
+
+        <div class="nav">
+           <a href="/usa/usa.html"><img class="back" src="https://img.icons8.com/fluent/48/000000/back.png"/></a>
+        </div>
+
+        <p class="search-results">Search results</p>
+
+
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+        <div id="box5" class="box"></div>
+        <div id="box6" class="box"></div>
+        <div id="box7" class="box"></div>
+        <div id="box8" class="box"></div>
+        <div id="box9" class="box"></div>
+        <div id="box10" class="box"></div>
+        <div id="box11" class="box"></div>
+    
+
+
+
+        
+
+
+
+
+
+        <script >
+
+
+var i =1;
+for (i=1 ; i<12; i++){
+        elementJS(i);
+}
+
+
+
+
+fetch('/json/usa/amazon.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(11, 0 , json , "a" ,  720 , "Samsung S20 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71IX75joWjL._AC_SL1500_.jpg");
+     phoneData(10, 2 , json , "a" ,  999 , "Samsung S20 5G (Grey, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61nSb8Jn7oL._AC_SL1500_.jpg");
+     phoneData(9, 3 , json , "a" ,  800 , "Samsung S20 (Blue, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61nSb8Jn7oL._AC_SL1500_.jpg");
+     phoneData(8, 4 , json , "a" ,  900 , "Samsung S20 Plus (Black, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/61gCU8NtVyL._AC_SL1000_.jpg");
+     phoneData(7, 5 , json , "a" ,  1250 , "Samsung S20 Plus 5G (Grey , 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/71rBQ6ZikCL._AC_SL1500_.jpg");
+    
+  })
+
+  fetch('/json/usa/walmart.json')
+  .then(res => res.json())
+  .then((json) => {
+
+
+     phoneData(6, 46  , json ,"w", 999 , "Samsung S20 (Grey, 128 GB)" , "https://i5.walmartimages.com/asr/9493f266-7e88-4bf9-b9b9-436ff2bce1d9_1.5db39ae14c4219891e3f3015b5ddcb15.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+    
+
+     phoneData(5, 48 , json ,"w", 899 , "Samsung S20 (Gray, 128 GB)" , "https://i5.walmartimages.com/asr/e60556b7-3b2a-4af9-85ac-35a7f1762510_1.950608f2928704dbe95f9630a0981611.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(4, 49 , json ,"w", 800 , "Samsung S20 (Blue, 128 GB)" , "https://i5.walmartimages.com/asr/cf879ede-7ada-4e05-8220-474698b60bbe_1.441e1e551d5e56a2c26bc7848ea122b6.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(1, 50 , json ,"w", 999 , "Samsung S20 5G (Gray, 128 GB)" , "https://i5.walmartimages.com/asr/e60556b7-3b2a-4af9-85ac-35a7f1762510_1.950608f2928704dbe95f9630a0981611.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff");
+
+     phoneData(3, 51 , json ,"w", 999 , "Samsung S20 5G (Gray, 128 GB)" , "https://i5.walmartimages.com/asr/e60556b7-3b2a-4af9-85ac-35a7f1762510_1.950608f2928704dbe95f9630a0981611.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=fffff");
+
+     phoneData(2, 52 , json ,"w", 1250 , "Samsung S20 + 5G (Gray, 128 GB)" , "https://i5.walmartimages.com/asr/e60556b7-3b2a-4af9-85ac-35a7f1762510_1.950608f2928704dbe95f9630a0981611.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=fffff");
+
+  })  
+       
+    
+        </script>
+
+        
+
+</body>
+</html>
+
+
+
+
+
+
