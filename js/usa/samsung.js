@@ -123,7 +123,7 @@ function phoneData(idIndex, sortedPhoneListIndex,listName) {
       document.getElementById('brand'+idIndex).style.height =  "30px"  ;
 
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '/img/amazon.png' ;
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }
 
 }
@@ -169,6 +169,9 @@ fetch('/json/usa/walmart.json')
   phoneData(16, 11, walmart); 
   phoneData(18, 10, walmart); 
   phoneData(20, 9, walmart); 
+
+
+
 
   
   
@@ -261,23 +264,30 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
     
 
   phoneData(1,  30,amazon);
-  phoneData(3,  21,amazon);
+  phoneData(3,  29,amazon);
   
 
-  phoneData(5,  22,amazon);
+  phoneData(5,  28,amazon);
   
-  phoneData(7,  23,amazon);
+  phoneData(7,  27,amazon);
   
-  phoneData(9,  24,amazon);
+  phoneData(9,  26,amazon);
   
   phoneData(11, 25, amazon);
 
-  phoneData(13, 26, amazon);
-  phoneData(15, 27, amazon);
-  phoneData(17, 29, amazon);
-  phoneData(19, 30, amazon);
+  phoneData(13, 24, amazon);
+  phoneData(15, 23, amazon);
+  phoneData(17, 22, amazon);
+  phoneData(19, 21, amazon);
 
+   /* function displayDATA(val,brand) {
+  document.getElementById("ti").innerHTML = "{ 'name' : '" + brand[val].name + " ' , 'normalPrice' : ' "+ brand[val].normalPrice + " ' , 'color' : ' "+ brand[val].color + " ' , 'price' : ' " + brand[val].price  +  "' , 'difference' : ' "+ brand[val].difference  + " '  , 'percent' : ' "+ brand[val].percent  + " '  , 'brand' : '"+ brand[val].brand  +  "' , 'linkUrl' : ' "+ brand[val].linkUrl  + " ' , 'img': '"+brand[val].img + "'}, "
+    
+  }
 
+  displayDATA(26, amazon);
+
+*/
 });
   
  

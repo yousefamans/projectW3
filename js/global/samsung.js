@@ -22,7 +22,7 @@ var amazon = [
   { "name": "Samsung S10e 128 GB  "               ,  "normalPrice" :  599    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51CIUTsM28L._AC_SY741_.jpg   "                         },
   { "name": "Samsung S10 Lite 128GB  "            ,  "normalPrice" :  499    , "color" :  "blue"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51M62vJNocL._AC_SL1500_.jpg   "                         },
   { "name": "Samsung S10 Lite (128GB, 8GB RAM) "  ,  "normalPrice" :  499    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71pxSP97v7L._AC_SL1500_.jpg   "                         },
-  { "name": "Samsung A71 128GB 6GB Ram  "         ,  "normalPrice" :  399    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/61G9VC33fsL._AC_SL1500_.jpg   "                         },
+  { "name": "Samsung A71 128GB 6GB Ram  "         ,  "normalPrice" :  419    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/61G9VC33fsL._AC_SL1500_.jpg   "                         },
   { "name": "Samsung A71 (128GB, 6GB)  "          ,  "normalPrice" :  439    , "color" :  "silver"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/61cuYp3qIvL._AC_SL1000_.jpg   "                         },
   { "name": "Samsung A70  "                       ,  "normalPrice" :  359    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/61Ygdf5VvoL._AC_SL1500_.jpg   "                         },
   { "name": "Samsung A70  "                       ,  "normalPrice" :  359    , "color" :  "blue"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51OoNI6WXyL._AC_.jpg   "                         },
@@ -123,15 +123,15 @@ function dataFinder(phonesListIndex, jsonDataIndex , listName, fileFormat ) {
 
 function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('phone'+idIndex).innerHTML =  listName[sortedPhoneListIndex].name  ;
-  document.getElementById('price'+idIndex).innerHTML = "Price: " + listName[sortedPhoneListIndex].price + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
-  document.getElementById('difference'+idIndex).innerHTML =  listName[sortedPhoneListIndex].percent + "% Off" ;
+  document.getElementById('price'+idIndex).innerHTML = "Price: " + "<span class='price-color'>"+listName[sortedPhoneListIndex].price + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
+  document.getElementById('difference'+idIndex).innerHTML = "<span class='discount-color'>" + listName[sortedPhoneListIndex].percent + "% Off" ;
   document.getElementById('img'+idIndex).src =  listName[sortedPhoneListIndex].img  ;
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "e"){
-      document.getElementById('brand'+idIndex).src =  "###https://c7.uihere.com/files/946/191/806/flipkart-e-commerce-logo-bangalore-chief-executive-others.jpg"  ;
+      document.getElementById('brand'+idIndex).src =  "/img/ebay.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '###https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEJIZEPPaGHPK2nb5aHP2sUKw8LYwoJD6zjw&usqp=CAU' ;
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }
 
 }
@@ -177,6 +177,7 @@ fetch('/json/global/ebay.json')
   phoneData(16, 20, ebay);
   phoneData(18, 19, ebay);
   phoneData(20, 18, ebay);
+
   
   
   
@@ -254,13 +255,13 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
 
 
 
-  /*
+  
 
 
   
-  amazon.sort(function(a, b){return a.difference - b.difference});
+  amazon.sort(function(a, b){return a.percent - b.percent});
   
-*/
+
  
 
  
@@ -268,21 +269,24 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
     
 
   phoneData(1,  30,amazon);
-  phoneData(3,  21,amazon);
+  phoneData(3,  29,amazon);
   
 
-  phoneData(5,  22,amazon);
+  phoneData(5,  28,amazon);
   
-  phoneData(7,  23,amazon);
+  phoneData(7,  27,amazon);
   
-  phoneData(9,  24,amazon);
+  phoneData(9,  26,amazon);
   
   phoneData(11, 25, amazon);
 
-  phoneData(13, 26, amazon);
-  phoneData(15, 27, amazon);
-  phoneData(17, 29, amazon);
-  phoneData(19, 30, amazon);
+  phoneData(13, 24, amazon);
+  phoneData(15, 23, amazon);
+  phoneData(17, 22, amazon);
+  phoneData(19, 21, amazon);
+
+   
+  
 
 
 });

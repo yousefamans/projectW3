@@ -2,38 +2,38 @@
  "links": [
   {
    "link": "https://www.amazon.in/Apple-iPhone-Plus-Rose-Gold/dp/B01LY9UQLK?ref_=ast_sto_dp",
-   "name": "Apple iPhone 7 Plus (32GB) - Rose Gold",
-   "price": "₹ 36,999.00"
+   "name": "Apple iPhone 7 Plus (32GB) - Black",
+   "price": "₹ 35,999.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Plus-Rose-128GB/dp/B01LXMHIOY?ref_=ast_sto_dp",
-   "name": "Apple iPhone 7 Plus (32GB) - Rose Gold",
-   "price": "₹ 36,999.00"
+   "name": "Apple iPhone 7 Plus (32GB) - Black",
+   "price": "₹ 35,999.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Silver-256GB-Storage/dp/B071P37652?ref_=ast_sto_dp",
    "name": "Apple iPhone X (256GB) - Silver",
-   "price": "₹ 0.00"
+   "price": "₹ 1.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Xs-64GB-Space/dp/B07JVC6QRY?ref_=ast_sto_dp",
-   "name": "Apple iPhone Xs (256GB) - Silver",
-   "price": "₹ 70,900.00"
+   "name": "Apple iPhone Xs (512GB) - Gold",
+   "price": "₹ 1,21,264.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Xs-256GB-Space/dp/B07JVBP9B9?ref_=ast_sto_dp",
-   "name": "Apple iPhone Xs (256GB) - Space Grey",
-   "price": "₹ 70,900.00"
+   "name": "Apple iPhone Xs (512GB) - Gold",
+   "price": "₹ 1,21,264.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Xs-256GB-Gold/dp/B07J318ZL8?ref_=ast_sto_dp",
-   "name": "Apple iPhone Xs (256GB) - Silver",
-   "price": "₹ 70,900.00"
+   "name": "Apple iPhone Xs (512GB) - Gold",
+   "price": "₹ 1,21,264.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Xs-Max-64GB/dp/B07J3CJM4N?ref_=ast_sto_dp",
-   "name": "Apple iPhone Xs Max (64GB) - Space Grey",
-   "price": "₹ 68,900.00"
+   "name": "Apple iPhone Xs Max (256GB) - Gold",
+   "price": "₹ 93,906.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-XR-64GB-White/dp/B07JGXM9WN?ref_=ast_sto_dp",
@@ -43,52 +43,72 @@
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-128GB-Green/dp/B07XVMPXC9?ref_=ast_sto_dp",
    "name": "Apple iPhone 11 (128GB) - Green",
-   "price": "₹ 69,600.00"
+   "price": "₹ 73,600.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-128GB-Purple/dp/B07XVLN7HH?ref_=ast_sto_dp",
    "name": "Apple iPhone 11 (128GB) - Purple",
-   "price": "₹ 69,600.00"
+   "price": "₹ 73,600.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-128GB-Product/dp/B07XVLHPMF?ref_=ast_sto_dp",
    "name": "Apple iPhone 11 (128GB) - (Product) RED",
-   "price": "₹ 69,600.00"
+   "price": "₹ 73,600.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-64GB-Black/dp/B07XVMDRZY?ref_=ast_sto_dp",
    "name": "Apple iPhone 11 (64GB) - Black",
-   "price": "₹ 63,900.00"
+   "price": "₹ 64,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-64GB-White/dp/B07XVMCLP7?ref_=ast_sto_dp",
-   "name": "Apple iPhone 11 (64GB) - Black",
-   "price": "₹ 63,900.00"
+   "name": "Apple iPhone 11 (64GB) - White",
+   "price": "₹ 68,300.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-Pro-64GB/dp/B07XVM1JFS?ref_=ast_sto_dp",
-   "name": "Apple iPhone 11 Pro (64GB) - Space Grey",
-   "price": "₹ 1,06,600.00"
+   "name": "Apple iPhone 11 Pro (64GB) - Gold",
+   "price": "₹ 1,02,300.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-Pro-64GB/dp/B07XVLMXY7?ref_=ast_sto_dp",
-   "name": "Apple iPhone 11 Pro (64GB) - Space Grey",
-   "price": "₹ 1,06,600.00"
+   "name": "Apple iPhone 11 Pro (64GB) - Gold",
+   "price": "₹ 1,02,300.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-11-Pro-256GB/dp/B07XVMCLP3?ref_=ast_sto_dp",
-   "name": "Apple iPhone 11 Pro (64GB) - Space Grey",
-   "price": "₹ 1,06,600.00"
+   "name": "Apple iPhone 11 Pro (64GB) - Gold",
+   "price": "₹ 1,02,300.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Pro-Max-64GB/dp/B07XVLMZHH?ref_=ast_sto_dp",
    "name": "Apple iPhone 11 Pro Max (64GB) - Midnight Green",
-   "price": "₹ 1,17,100.00"
+   "price": "₹ 1,11,600.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPhone-Pro-Max-64GB/dp/B07XVL4L3X?ref_=ast_sto_dp",
    "name": "Apple iPhone 11 Pro Max (64GB) - Space Grey",
-   "price": "₹ 1,17,100.00"
+   "price": "₹ 1,11,600.00"
+  },
+  {
+   "link": "https://www.amazon.in/Apple-iPad-10-2-inch-Wi-Fi-32GB/dp/B07XVKRMRK/ref=sr_1_2?crid=V6NDWYUF38D4&dchild=1&keywords=ipad+7th+generation&qid=1595926989&sprefix=ipad%2Caps%2C474&sr=8-2",
+   "name": "Apple iPad (10.2-inch, Wi-Fi, 32GB) - Space Grey (Latest Model)",
+   "price": "₹ 29,900.00"
+  },
+  {
+   "link": "https://www.amazon.in/Apple-iPad-Mini-Wi-Fi-Cellular/dp/B07PZ7PV64/ref=sr_1_4?crid=V6NDWYUF38D4&dchild=1&keywords=ipad+7th+generation&qid=1595926989&sprefix=ipad%2Caps%2C474&sr=8-4",
+   "name": "Apple iPad Mini (Wi-Fi + Cellular, 64GB) - Gold",
+   "price": "₹ 45,900.00"
+  },
+  {
+   "link": "https://www.amazon.in/Apple-iPad-Tablet-inch-Wi-Fi/dp/B07C51NY6G/ref=sr_1_5?crid=V6NDWYUF38D4&dchild=1&keywords=ipad+7th+generation&qid=1595926989&sprefix=ipad%2Caps%2C474&sr=8-5",
+   "name": "Apple iPad (Wi-Fi, 32GB) - Gold (6th Generation)",
+   "price": "₹ 23,900.00"
+  },
+  {
+   "link": "https://www.amazon.in/Apple-iPad-Mini-Wi-Fi-64GB/dp/B07Q1CFR7P/ref=sr_1_1?dchild=1&keywords=ipad+mini&qid=1595927134&sr=8-1",
+   "name": "Apple iPad Mini (Wi-Fi + Cellular, 64GB) - Space Grey",
+   "price": "₹ 45,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-Smart-Space-Aluminum/dp/B075RB1D44?ref_=ast_sto_dp",
@@ -102,33 +122,33 @@
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-Smart-Silver-Aluminum/dp/B075RB1D46?ref_=ast_sto_dp",
-   "name": "Apple Watch Series 3 (GPS + Cellular, 38mm) - Silver Aluminium Case with White Sport Band",
-   "price": "₹ 29,900.00"
+   "name": "Apple Watch Series 3 (GPS, 42mm) - Silver Aluminium Case with White Sport Band",
+   "price": "₹ 23,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-GPS-Cellular-44mm-Stainless/dp/B07JVZYQPV?ref_=ast_sto_dp",
-   "name": "Apple Watch Series 4 (GPS + Cellular, 44mm) - Stainless Steel Case with White Sport Band",
-   "price": "₹ 49,990.00"
+   "name": "Apple Watch Series 4 (GPS + Cellular, 44mm) - Stainless Steel Case with Milanese Loop",
+   "price": "₹ 25,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-GPS-Cellular-40mm-Stainless/dp/B07JBP5P2P?ref_=ast_sto_dp",
    "name": "Apple Watch Series 4 (GPS + Cellular, 40mm) - Space Black Stainless Steel Case with Space Black Milanese Loop",
-   "price": "₹ 54,990.00"
+   "price": "₹ 76,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-GPS-Cellular-40mm-Stainless/dp/B07JVYVS4N?ref_=ast_sto_dp",
-   "name": "Apple Watch Series 4 (GPS + Cellular, 40mm) - Space Black Stainless Steel Case with Black Sport Band",
-   "price": "₹ 49,990.00"
+   "name": "Apple Watch Series 4 (GPS + Cellular, 40mm) - Stainless Steel Case with Milanese Loop",
+   "price": "₹ 29,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-GPS-Cellular-44mm-Aluminium/dp/B07J9MV4BV?ref_=ast_sto_dp",
-   "name": "Apple Watch Series 4 (GPS + Cellular, 44mm) - Stainless Steel Case with White Sport Band",
-   "price": "₹ 49,990.00"
+   "name": "Apple Watch Series 4 (GPS + Cellular, 44mm) - Space Grey Aluminium Case with Black Sport Band",
+   "price": "₹ 29,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-GPS-Cellular-44mm-Stainless/dp/B07JB8L448?ref_=ast_sto_dp",
    "name": "Apple Watch Series 4 (GPS + Cellular, 44mm) - Stainless Steel Case with White Sport Band",
-   "price": "₹ 49,990.00"
+   "price": "₹ 71,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-Watch-GPS-44mm-Space-Aluminium/dp/B07JB8DWGT?ref_=ast_sto_dp",
@@ -137,8 +157,8 @@
   },
   {
    "link": "https://www.amazon.in/Apple-10-2-inch-Wi-Fi-Cellular-128GB/dp/B07XVL6PW6?ref_=ast_sto_dp",
-   "name": "Apple iPad (10.2-inch, Wi-Fi, 128GB) - Space Grey (Latest Model)",
-   "price": "₹ 37,900.00"
+   "name": "Apple iPad (10.2-inch, Wi-Fi + Cellular, 128GB) - Space Grey (Latest Model)",
+   "price": "₹ 48,900.00"
   },
   {
    "link": "https://www.amazon.in/Apple-iPad-10-2-inch-Wi-Fi-32GB/dp/B07XVKRMRK?ref_=ast_sto_dp",
@@ -192,49 +212,48 @@
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07X9YNP5M/ref=sr_1_1?dchild=1&keywords=a71&qid=1594738205&s=electronics&sr=1-1",
-   "name": "Samsung Galaxy A71 (Prism Crush Blue, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 32,998.00"
+   "name": "Samsung Galaxy A71 (Prism Crush Black, 8GB RAM, 128GB Storage)-Samsung EVO Plus 256GB microSDXC UHS-I U3 100MB/s Full HD & 4K UHD Memory Card with Adapter (MB-MC256GA)",
+   "price": "₹ 39,998.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07X8V6TJF/ref=sr_1_2?dchild=1&keywords=a71&qid=1594738205&s=electronics&sr=1-2",
    "name": "Samsung Galaxy A51 (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 25,250.00"
+   "price": "₹ 23,990.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07X9YMW7S/ref=sr_1_5?dchild=1&keywords=a71&qid=1594738205&s=electronics&sr=1-5",
    "name": "Samsung Galaxy A51 (Blue, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 25,250.00"
+   "price": "₹ 23,999.00"
   },
   {
    "link": "https://www.amazon.in/dp/B086KFXPFD/ref=pc_mcnc_merchandised-search-12_?pf_rd_s=merchandised-search-12&pf_rd_t=Gateway&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=DX2427H5D5SBDHMSEK07&pf_rd_p=8169e083-188f-4313-9c45-10b01545a6d9",
    "name": "Samsung Galaxy A31 (Prism Crush Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 20,999.00"
+   "price": "₹ 20,990.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B086KCQX95/ref=sr_1_2?dchild=1&keywords=a21&qid=1594738429&s=electronics&sr=1-2",
    "name": "Samsung Galaxy A21s (White, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 17,499.00"
+   "price": "₹ 17,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B086KC85W8/ref=sr_1_3?dchild=1&keywords=a21&qid=1594738429&s=electronics&sr=1-3",
    "name": "Samsung Galaxy A21s (Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 16,498.00"
+   "price": "₹ 14,998.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B086KCBK16/ref=sr_1_5?dchild=1&keywords=a21&qid=1594738429&s=electronics&sr=1-5",
    "name": "Samsung Galaxy A21s (Black, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 16,498.00"
+   "price": "₹ 14,998.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B086KCCKKW/ref=sr_1_8?dchild=1&keywords=a21&qid=1594738429&s=electronics&sr=1-8",
    "name": "Samsung Galaxy A21s (Black, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 17,499.00"
+   "price": "₹ 16,498.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07SCPB574/ref=sr_1_1?dchild=1&keywords=a10s&qid=1594738600&s=electronics&sr=1-1",
    "name": "Samsung Galaxy A10s (Green, 2GB RAM, 32GB Storage)",
    "price": "₹ 1.00"
-
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-614/dp/B07HGJJ559/ref=sr_1_2?dchild=1&fst=as%3Aoff&qid=1594738689&refinements=p_89%3ASamsung&rnid=3837712031&s=electronics&sr=1-2",
@@ -244,27 +263,27 @@
   {
    "link": "https://www.amazon.in/Test-Exclusive-667/dp/B07HGH8D2R/ref=sr_1_3?dchild=1&fst=as%3Aoff&qid=1594738689&refinements=p_89%3ASamsung&rnid=3837712031&s=electronics&sr=1-3",
    "name": "Samsung Galaxy M21 (Raven Black, 4GB RAM, 64GB Storage)",
-   "price": "₹ 1.00"  
+   "price": "₹ 1.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-669/dp/B07HGH8ML7/ref=sr_1_4?dchild=1&fst=as%3Aoff&qid=1594738689&refinements=p_89%3ASamsung&rnid=3837712031&s=electronics&sr=1-4",
-   "name": "Samsung Galaxy M21 (Raven Black, 6GB RAM, 128GB Storage)",
+   "name": "Samsung Galaxy M21 (Midnight Blue, 6GB RAM, 128GB Storage)",
    "price": "₹ 1.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-668/dp/B07HGH88GL/ref=sr_1_5?dchild=1&fst=as%3Aoff&qid=1594738689&refinements=p_89%3ASamsung&rnid=3837712031&s=electronics&sr=1-5",
    "name": "Samsung Galaxy M21 (Midnight Blue, 6GB RAM, 128GB Storage)",
-   "price": "₹ 1.00"   
+   "price": "₹ 1.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-631/dp/B07HGJ7WM6/ref=sr_1_1?dchild=1&keywords=m30s&qid=1594738820&s=electronics&sr=1-1",
-   "name": "Samsung Galaxy M30s (Blue, 6GB RAM, 128GB Storage)",
-   "price": "₹ 1.00"   
+   "name": "Samsung Galaxy M30s (White, 4GB RAM, 64GB Storage)",
+   "price": "₹ 14,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B086KDZGVK/ref=sr_1_2?dchild=1&keywords=m11&qid=1594738884&s=electronics&sr=1-2",
-   "name": "Samsung Galaxy M11 (Black, 4GB RAM, 64GB Storage) Without Offer",
-   "price": "₹ 14,890.00"
+   "name": "Samsung Galaxy M11 (Black, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "price": "₹ 12,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Metallic-Storage-Additional-Exchange/dp/B086KCCSDD/ref=sr_1_3?dchild=1&keywords=m11&qid=1594738884&s=electronics&sr=1-3",
@@ -274,28 +293,32 @@
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXCK8S6/ref=sr_1_3?dchild=1&keywords=s10&qid=1594739012&s=electronics&sr=1-3",
    "name": "Samsung Galaxy S10 (Prism Blue, 8GB RAM, 128GB Storage)",
-   "price": "₹ 1.00"  
+   "price": "₹ 47,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXBVLRJ/ref=sr_1_4?dchild=1&keywords=s10&qid=1594739012&s=electronics&sr=1-4",
-   "name": "Samsung Galaxy S10 (White, 8GB RAM, 128GB Storage)"
+   "name": "Samsung Galaxy S10 (White, 8GB RAM, 128GB Storage)",
+   "price": "₹ 47,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXBVLRW/ref=sr_1_5?dchild=1&keywords=s10&qid=1594739012&s=electronics&sr=1-5",
-   "name": "Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)"
+   "name": "Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)",
+   "price": "₹ 55,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-%E0%A4%91%E0%A4%AB%E0%A4%BC%E0%A4%B0-128GB-%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8B%E0%A4%B0%E0%A5%87%E0%A4%9C/dp/B07KXCH2FP/ref=sr_1_23?dchild=1&keywords=s10&qid=1594739012&s=electronics&sr=1-23",
    "name": "Samsung Galaxy S10 (Black, 8GB RAM, 128GB Storage)",
-   "price": "₹ 49,999.00"
+   "price": "₹ 47,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXBVLRW/ref=sr_1_3?dchild=1&keywords=s10%2B&qid=1594739155&s=electronics&sr=1-3",
-   "name": "Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)"
+   "name": "Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage)",
+   "price": "₹ 55,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXC7WQZ/ref=sr_1_4?dchild=1&keywords=s10%2B&qid=1594739155&s=electronics&sr=1-4",
-   "name": "Samsung Galaxy S10 Plus (Black, 8GB RAM, 128GB Storage)"
+   "name": "Samsung Galaxy S10 Plus (Black, 8GB RAM, 128GB Storage)",
+   "price": "₹ 55,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07X9YN2FJ/ref=sr_1_1?dchild=1&keywords=s10+lite&qid=1594739228&s=electronics&sr=1-1",
@@ -309,11 +332,13 @@
   },
   {
    "link": "https://www.amazon.in/Test-Dummy_March_2019_46-Black-with-Offer/dp/B07PRBKG12/ref=sr_1_2?dchild=1&keywords=a70&qid=1594739348&s=electronics&sr=1-2",
-   "name": "Samsung Galaxy A70s (White, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
+   "name": "Samsung Galaxy A70s (White, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "price": "₹ 1.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B084456GH4/ref=sr_1_2?dchild=1&keywords=z+flip&qid=1594743651&s=electronics&sr=1-2",
-   "name": "Samsung Galaxy Z Flip (Gold, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers"
+   "name": "Samsung Galaxy Z Flip (Gold, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "price": "₹ 1,08,999.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B084453RPV/ref=sr_1_3?dchild=1&keywords=z+flip&qid=1594743651&s=electronics&sr=1-3",
@@ -321,9 +346,24 @@
    "price": "₹ 1,08,999.00"
   },
   {
+   "link": "https://www.amazon.in/Samsung-Galaxy-10-1-Wi-Fi-Black/dp/B07SVZ86KS/ref=sr_1_1?dchild=1&keywords=samsung+tab&qid=1595927211&sr=8-1",
+   "name": "Samsung Galaxy Tab A 10.1 (10.1 inch, 32GB, Wi-Fi), Black",
+   "price": "₹ 14,999.00"
+  },
+  {
+   "link": "https://www.amazon.in/Samsung-Galaxy-Lite-10-4-Wi-Fi/dp/B089H13XX8/ref=sr_1_2?dchild=1&keywords=samsung+tab&qid=1595927211&sr=8-2",
+   "name": "Samsung Galaxy Tab S6 Lite (10.4 inch, Wi-Fi, 64 GB) - Oxford Grey",
+   "price": "₹ 27,999.00"
+  },
+  {
+   "link": "https://www.amazon.in/Samsung-Galaxy-10-1-Wi-Fi-Silver/dp/B07SSTH14H/ref=sr_1_3?dchild=1&keywords=samsung+tab&qid=1595927211&sr=8-3",
+   "name": "Samsung Galaxy Tab A 10.1 (10.1 inch, 32GB, Wi-Fi), Silver",
+   "price": "₹ 14,999.00"
+  },
+  {
    "link": "https://www.amazon.in/Samsung-Galaxy-SM-R810NZKAINU-Smartwatch-Midnight/dp/B07KRT5D87/ref=sr_1_2?dchild=1&keywords=samsung+watch&qid=1594743768&s=electronics&sr=1-2",
-   "name": "Samsung Galaxy 42 MM Smartwatch (Midnight Black)",
-   "price": "₹ 22,490.00"
+   "name": "Samsung Galaxy Watch (Bluetooth, 42 mm) - Black",
+   "price": "₹ 15,990.00"
   },
   {
    "link": "https://www.amazon.in/Samsung-Galaxy-Watch-Active-Black/dp/B07P5NJR2B/ref=sr_1_4?dchild=1&keywords=samsung+watch&qid=1594743768&s=electronics&sr=1-4",
@@ -346,16 +386,17 @@
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-748/dp/B07DJLVJ5M/ref=sr_1_1?dchild=1&keywords=oneplus+7&qid=1594743989&s=electronics&sr=1-1",
-   "name": "OnePlus 7T (Glacier Blue, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 3800mAH Battery)"
+   "name": "OnePlus 7T (Glacier Blue, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 3800mAH Battery)",
+   "price": "₹ 37,999.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-604/dp/B07HGLBZ5R/ref=sr_1_2?dchild=1&keywords=oneplus+7&qid=1594743989&s=electronics&sr=1-2",
-   "name": "OnePlus 7 Pro (Mirror Grey, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 4000mAH Battery)",
-   "price": "₹ 42,999.00"
+   "name": "OnePlus 7 Pro (Mirror Grey, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 4000mAH Battery)"
   },
   {
    "link": "https://www.amazon.in/HD1901-OnePlus-7T-PRO-%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%BE/dp/B07DJ8K2KT/ref=sr_1_3?dchild=1&keywords=oneplus+7&qid=1594743989&s=electronics&sr=1-3",
-   "name": "OnePlus 7T Pro (Haze Blue, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 4085mAH Battery)"
+   "name": "OnePlus 7T Pro (Haze Blue, 8GB RAM, Fluid AMOLED Display, 256GB Storage, 4085mAH Battery)",
+   "price": "₹ 47,999.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-547/dp/B078BNQ318/ref=sr_1_4?dchild=1&keywords=oneplus+7&qid=1594743989&s=electronics&sr=1-4",
@@ -374,37 +415,35 @@
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-435/dp/B0756ZFXWP/ref=sr_1_5?dchild=1&keywords=oneplus+8&qid=1594744095&s=electronics&sr=1-5",
-   "name": "OnePlus 8 (Onyx Black 12GB RAM+256GB Storage)"
+   "name": "OnePlus 8 (Onyx Black 12GB RAM+256GB Storage)",
+   "price": "₹ 49,999.00"
   },
   {
    "link": "https://www.amazon.in/Redmi-8A-Dual-White-Storage/dp/B07X1KSWZ3/ref=sr_1_1?dchild=1&keywords=xiaomi&qid=1594744232&s=electronics&sr=1-1",
-   "name": "Redmi 8A Dual (Sky White, 2GB RAM, 32GB Storage) – Dual Cameras & 5,000 mAH Battery",
+   "name": "Redmi 8A Dual (Midnight Grey, 2GB RAM, 32GB Storage) – Dual Cameras & 5,000 mAH Battery",
    "price": "₹ 7,499.00"
   },
   {
    "link": "https://www.amazon.in/Redmi-8A-Dual-Blue-Storage/dp/B08698559Z/ref=sr_1_3?dchild=1&keywords=xiaomi+8a&qid=1594744280&s=electronics&sr=1-3",
-   "name": "Redmi 8A Dual (Sea Blue, 3GB RAM, 64GB Storage) – Dual Cameras & 5,000 mAH Battery",
-   "price": "₹ 8,999.00"
+   "name": "Redmi 8A Dual (Sea Blue, 2GB RAM, 32GB Storage) – Dual Cameras & 5,000 mAH Battery"
   },
   {
    "link": "https://www.amazon.in/Redmi-K20-Pro-Glacier-Storage/dp/B082FN4LRT/ref=sr_1_1?dchild=1&keywords=xiaomi+k20&qid=1594744348&s=electronics&sr=1-1",
-   "name": "Redmi K20 Pro (Glacier Blue, 6GB RAM, 128GB Storage)",
-   "price": "₹ 24,890.00"
+   "name": "Redmi K20 Pro (Glacier Blue, 6GB RAM, 128GB Storage)"
   },
   {
    "link": "https://www.amazon.in/Redmi-K20-Carbon-Black-Storage/dp/B07VVDRLX8/ref=sr_1_2?dchild=1&keywords=xiaomi+k20&qid=1594744348&s=electronics&sr=1-2",
    "name": "Redmi K20 (Carbon Black, 6GB RAM, 64GB Storage) -Extra 2,000 Off on Exchange &12 Month No Cost EMI",
-   "price": "₹ 21,990.00"
+   "price": "₹ 21,975.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-549/dp/B077PWBC78/ref=sr_1_1?dchild=1&keywords=mi+9&qid=1594744531&s=electronics&sr=1-1",
-   "name": "Redmi Note 9 Pro (Interstellar Black, 4GB RAM, 64GB Storage) - Latest Snapdragon 720G & Gorilla Glass 5 Protection",
+   "name": "Redmi Note 9 Pro (Interstellar Black, 4GB RAM, 64GB Storage) - Latest 8nm Snapdragon 720G & Gorilla Glass 5 Protection",
    "price": "₹ 13,999.00"
   },
   {
    "link": "https://www.amazon.in/Test-Exclusive-552/dp/B0784D862M/ref=sr_1_2?dchild=1&keywords=mi+9&qid=1594744531&s=electronics&sr=1-2",
-   "name": "Redmi Note 9 Pro (Interstellar Black, 6GB RAM, 128GB Storage) - Latest Snapdragon 720G & Gorilla Glass 5 Protection",
-   "price": "₹ 16,999.00"
+   "name": "Redmi Note 9 Pro (Interstellar Black, 6GB RAM, 128GB Storage) - Latest 8nm Snapdragon 720G & Gorilla Glass 5 Protection"
   },
   {
    "link": "https://www.amazon.in/Test-A6010-Dummy-Asin_42/dp/B07X4R4F4G/ref=sr_1_1?dchild=1&keywords=mi+10&qid=1594744583&s=electronics&sr=1-1",
@@ -419,6 +458,16 @@
    "name": "Mi 10 (Twilight Grey, 8GB RAM, 256GB Storage) - 108MP Quad Camera, SD 865 Processor, 5G Ready"
   },
   {
+   "link": "https://www.amazon.in/Mi-Smart-Band-Waterproof-up/dp/B07WLL998K/ref=sr_1_1?dchild=1&keywords=mi+band&qid=1595927403&sr=8-1",
+   "name": "Mi Smart Band 4- India's No.1 Fitness Band, Up-to 20 Days Battery Life, Color AMOLED Full-Touch Screen, Waterproof with Music Control and Unlimited Watch Faces",
+   "price": "₹ 2,299.00"
+  },
+  {
+   "link": "https://www.amazon.in/Mi-XMSH05HM-Band-3-Black/dp/B07HCXQZ4P/ref=sr_1_2?dchild=1&keywords=mi+band&qid=1595927403&sr=8-2",
+   "name": "Mi Band 3 (Black)",
+   "price": "₹ 1,399.00"
+  },
+  {
    "link": "https://www.amazon.in/Ocean-Storage-Additional-Exchange-Offers/dp/B07PTV49PJ/ref=sr_1_4?dchild=1&keywords=oppo+reno&qid=1594744773&s=electronics&sr=1-4",
    "name": "OPPO Reno 10x Zoom (Ocean Green, 8GB RAM, 256 GB Storage) with No Cost EMI/Additional Exchange Offers",
    "price": "₹ 41,990.00"
@@ -426,31 +475,31 @@
   {
    "link": "https://www.amazon.in/Ocean-Storage-Additional-Exchange-Offers/dp/B07PTKTDJ2/ref=sr_1_8?dchild=1&keywords=oppo+reno&qid=1594744773&s=electronics&sr=1-8",
    "name": "OPPO Reno (Ocean Green, 8GB RAM, 128 GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 34,989.00"
+   "price": "₹ 34,980.00"
   },
   {
    "link": "https://www.amazon.in/Luminous-Storage-Additional-Exchange-Offers/dp/B07SBJXQC7/ref=sr_1_10?dchild=1&keywords=oppo+reno&qid=1594744773&s=electronics&sr=1-10",
-   "name": "OPPO Reno2 (Luminous Black, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers"
+   "name": "OPPO Reno 2 (Luminous Black, 8GB RAM, 256GB Storage) Without Offer",
+   "price": "₹ 29,800.00"
   },
   {
    "link": "https://www.amazon.in/Auroral-Storage-Additional-Exchange-Offers/dp/B07X9YNV5Y/ref=sr_1_11?dchild=1&keywords=oppo+reno&qid=1594744773&s=electronics&sr=1-11",
    "name": "OPPO Reno3 Pro (Auroral Blue, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 29,990.00"
+   "price": "₹ 27,990.00"
   },
   {
    "link": "https://www.amazon.in/Oppo-Unicorn-Storage-Additional-Exchange/dp/B07XBYMDTH/ref=sr_1_1?dchild=1&keywords=f15&qid=1594744881&s=electronics&sr=1-1",
-   "name": "Oppo F15 (Unicorn White, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "name": "Oppo F15 (Unicorn White, 8GB RAM, 128GB Storage) with No Cost EMI / Additional Exchange Offers",
    "price": "₹ 18,990.00"
   },
   {
    "link": "https://www.amazon.in/Blazing-Storage-Additional-Exchange-Offers/dp/B086K9XK6F/ref=sr_1_2?dchild=1&keywords=f15&qid=1594744881&s=electronics&sr=1-2",
-   "name": "OPPO F15 (Blazing Blue, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "name": "OPPO F15 (Blue, 8GB RAM, 128GB Storage, with offer)",
    "price": "₹ 18,990.00"
   },
   {
    "link": "https://www.amazon.in/Oppo-Twilight-Storage-Additional-Exchange/dp/B086KCDPMR/ref=sr_1_2?dchild=1&keywords=a52&qid=1594744953&s=electronics&sr=1-2",
-   "name": "Oppo A52 (Twilight Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 16,990.00"
+   "name": "Oppo A52 (Twilight Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
   },
   {
    "link": "https://www.amazon.in/Stream-Storage-Additional-Exchange-Offers/dp/B086KCD5YS/ref=sr_1_3?dchild=1&keywords=a52&qid=1594744953&s=electronics&sr=1-3",
@@ -465,12 +514,11 @@
   {
    "link": "https://www.amazon.in/Dazzling-Storage-Additional-Exchange-Offers/dp/B07SDPTP6Q/ref=sr_1_3?dchild=1&keywords=oppo&qid=1594745045&s=electronics&sr=1-3",
    "name": "OPPO A5 2020 (Dazzling White, 3GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 11,490.00"
+   "price": "₹ 10,990.00"
   },
   {
    "link": "https://www.amazon.in/Fluorite-Purple-Storage-Additional-Exchange/dp/B07PTLD8P9/ref=sr_1_5?dchild=1&keywords=oppo&qid=1594745045&s=electronics&sr=1-5",
-   "name": "OPPO F11 (Fluorite Purple, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
-   "price": "₹ 18,990.00"
+   "name": "OPPO F11 (Fluorite Purple, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
   },
   {
    "link": "https://www.amazon.in/Black-Storage-Additional-Exchange-Offers/dp/B084455L6M/ref=sr_1_7?dchild=1&keywords=oppo&qid=1594745045&s=electronics&sr=1-7",
@@ -479,7 +527,7 @@
   },
   {
    "link": "https://www.amazon.in/Black-256GB-Storage-Additional-Offers/dp/B0869BGNLD/ref=sr_1_1?dchild=1&keywords=find+x&qid=1594745222&s=electronics&sr=1-1",
-   "name": "OPPO Find X2 (Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Bank Offers",
+   "name": "OPPO Find X2 (Black, 12GB RAM, 256GB Storage) with No Cost EMI/Additional bank Offers",
    "price": "₹ 64,990.00"
   },
   {
@@ -494,8 +542,7 @@
   },
   {
    "link": "https://www.amazon.in/Vivo-Aqua-Storage-Additional-Exchange/dp/B07S6BGL1K/ref=sr_1_4?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-4",
-   "name": "Vivo Y15 (Aqua Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange",
-   "price": "₹ 12,990.00"
+   "name": "Vivo Y15 (Aqua Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange"
   },
   {
    "link": "https://www.amazon.in/Vivo-Storage-Additional-Exchange-Offers/dp/B07PSHDTHB/ref=sr_1_5?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-5",
@@ -503,58 +550,85 @@
    "price": "₹ 10,990.00"
   },
   {
-   "link": "https://www.amazon.in/Vivo-Burgundy-Storage-Additional-Exchange/dp/B07PTK3QHB/ref=sr_1_8?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-8"
+   "link": "https://www.amazon.in/Vivo-Burgundy-Storage-Additional-Exchange/dp/B07PTK3QHB/ref=sr_1_8?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-8",
+   "name": "Vivo Y12 (Burgundy Red, 3GB RAM, 64GB Storage)",
+   "price": "₹ 10,990.00"
   },
   {
-   "link": "https://www.amazon.in/Vivo-Emerald-Storage-Additional-Exchange/dp/B086KG11W3/ref=sr_1_13?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-13"
+   "link": "https://www.amazon.in/Vivo-Emerald-Storage-Additional-Exchange/dp/B086KG11W3/ref=sr_1_13?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-13",
+   "name": "Vivo Y30 (Emerald Black, 4GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "price": "₹ 14,990.00"
   },
   {
-   "link": "https://www.amazon.in/Vivo-Magnetic-Storage-Additional-Exchange/dp/B07XBYN3ZB/ref=sr_1_16?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-16"
+   "link": "https://www.amazon.in/Vivo-Magnetic-Storage-Additional-Exchange/dp/B07XBYN3ZB/ref=sr_1_16?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-16",
+   "name": "Vivo Y19 (Magnetic Black, 4GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
   },
   {
-   "link": "https://www.amazon.in/Vivo-Pro%E0%A4%91%E0%A4%AB%E0%A4%BC%E0%A4%B0-%E0%A4%9F%E0%A5%8B%E0%A4%AA%E0%A4%BE%E0%A5%9B-128GB-%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8B%E0%A4%B0%E0%A5%87%E0%A4%9C/dp/B07KXC1YGG/ref=sr_1_18?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-18"
+   "link": "https://www.amazon.in/Vivo-Pro%E0%A4%91%E0%A4%AB%E0%A4%BC%E0%A4%B0-%E0%A4%9F%E0%A5%8B%E0%A4%AA%E0%A4%BE%E0%A5%9B-128GB-%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8B%E0%A4%B0%E0%A5%87%E0%A4%9C/dp/B07KXC1YGG/ref=sr_1_18?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-18",
+   "name": "Vivo V15 Pro (Topaz Blue, 6GB RAM, 128GB Storage)"
   },
   {
-   "link": "https://www.amazon.in/Vivo-Dazzle-Storage-Additional-Exchange/dp/B086KCC67C/ref=sr_1_20?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-20"
+   "link": "https://www.amazon.in/Vivo-Dazzle-Storage-Additional-Exchange/dp/B086KCC67C/ref=sr_1_20?dchild=1&keywords=vivo&qid=1594745253&s=electronics&sr=1-20",
+   "name": "Vivo Y30 (Dazzle Blue, 4GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+   "price": "₹ 14,990.00"
   },
   {
-   "link": "https://www.amazon.in/Realme-Pro-Neptune-Blue-256/dp/B07DHDPXVH/ref=sr_1_6?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-6"
+   "link": "https://www.amazon.in/Realme-Pro-Neptune-Blue-256/dp/B07DHDPXVH/ref=sr_1_6?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-6",
+   "name": "Realme X2 Pro (Neptune Blue, 256 GB) (12 GB RAM)"
   },
   {
    "link": "https://www.amazon.in/Realme-Pro-Neptune-Blue-128/dp/B0823C3Y7T/ref=sr_1_8?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-8"
   },
   {
-   "link": "https://www.amazon.in/Realme-C2-32GB-Diamond-Blue/dp/B07TST57MN/ref=sr_1_23?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-23"
+   "link": "https://www.amazon.in/Realme-C2-32GB-Diamond-Blue/dp/B07TST57MN/ref=sr_1_23?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-23",
+   "name": "Realme C2 2GB 32GB (Diamond Blue)",
+   "price": "₹ 7,999.00"
+  },
+  {
+   "link": "https://www.amazon.in/realme-Space-Blue-128GB-Storage/dp/B07SKCCFJF/ref=sr_1_1?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-1",
+   "name": "realme X (Space Blue, 4GB RAM, 128GB Storage)",
+   "price": "₹ 17,599.00"
   },
   {
    "link": "https://www.amazon.in/realme-Space-Blue-128GB-Storage/dp/B07SKCCFJF/ref=sr_1_1?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-1"
   },
   {
-   "link": "https://www.amazon.in/realme-Space-Blue-128GB-Storage/dp/B07SKCCFJF/ref=sr_1_1?dchild=1&keywords=realme&qid=1594745466&s=electronics&sr=1-1"
+   "link": "https://www.amazon.in/Nokia-7-2-Charcoal-64-RAM/dp/B07YLTD91P/ref=sr_1_3?dchild=1&keywords=nokia&qid=1594745564&s=electronics&sr=1-3",
+   "name": "Nokia 7.2 (Charcoal, 64 GB) (6 GB RAM)"
   },
   {
-   "link": "https://www.amazon.in/Nokia-7-2-Charcoal-64-RAM/dp/B07YLTD91P/ref=sr_1_3?dchild=1&keywords=nokia&qid=1594745564&s=electronics&sr=1-3"
+   "link": "https://www.amazon.in/Nokia-2-3-Cyan-Green-Storage/dp/B083GTPWG6/ref=sr_1_4?dchild=1&keywords=nokia&qid=1594745564&s=electronics&sr=1-4",
+   "name": "Nokia 2.3 (Cyan Green, 2GB RAM, 32GB Storage)",
+   "price": "₹ 8,634.00"
   },
   {
-   "link": "https://www.amazon.in/Nokia-2-3-Cyan-Green-Storage/dp/B083GTPWG6/ref=sr_1_4?dchild=1&keywords=nokia&qid=1594745564&s=electronics&sr=1-4"
+   "link": "https://www.amazon.in/Nokia-3-2-Steel-32GB-Storage/dp/B07SK91QK7/ref=sr_1_20?dchild=1&keywords=nokia&qid=1594745564&s=electronics&sr=1-20",
+   "name": "Nokia 3.2 (Steel, 3GB RAM, 32GB Storage)",
+   "price": "₹ 11,897.00"
   },
   {
-   "link": "https://www.amazon.in/Nokia-3-2-Steel-32GB-Storage/dp/B07SK91QK7/ref=sr_1_20?dchild=1&keywords=nokia&qid=1594745564&s=electronics&sr=1-20"
+   "link": "https://www.amazon.in/LG-Q60-Mobile-Moroccan-Blue/dp/B08BG24YF1/ref=sr_1_2?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-2",
+   "name": "LG Q60 Mobile Moroccan Blue, 64 GB (3 GB RAM)",
+   "price": "₹ 13,312.00"
   },
   {
-   "link": "https://www.amazon.in/LG-Q60-Mobile-Moroccan-Blue/dp/B08BG24YF1/ref=sr_1_2?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-2"
+   "link": "https://www.amazon.in/LG-ThinQ-Grey-128GB-Storage/dp/B07MSQ1MN7/ref=sr_1_5?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-5",
+   "name": "LG V40 ThinQ (Grey, 6GB RAM, 128GB Storage)",
+   "price": "₹ 39,999.00"
   },
   {
-   "link": "https://www.amazon.in/LG-ThinQ-Grey-128GB-Storage/dp/B07MSQ1MN7/ref=sr_1_5?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-5"
+   "link": "https://www.amazon.in/LG-Q7-Aurora-Black-Storage/dp/B07GZ5BX6P/ref=sr_1_6?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-6",
+   "name": "LG Q7 (Aurora Black, 3GB RAM, 32GB Storage)"
   },
   {
-   "link": "https://www.amazon.in/LG-Q7-Aurora-Black-Storage/dp/B07GZ5BX6P/ref=sr_1_6?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-6"
+   "link": "https://www.amazon.in/LG-Screen-Aurora-Black-Screens/dp/B082P36B9X/ref=sr_1_8?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-8",
+   "name": "LG G8X | Dual Screen (Aurora Black, Dual OLED Screens)",
+   "price": "₹ 53,000.00"
   },
   {
-   "link": "https://www.amazon.in/LG-Screen-Aurora-Black-Screens/dp/B082P36B9X/ref=sr_1_8?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-8"
-  },
-  {
-   "link": "https://www.amazon.in/LG-ThinQ-Blue-128GB-Storage/dp/B07MK2BS1W/ref=sr_1_11?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-11"
+   "link": "https://www.amazon.in/LG-ThinQ-Blue-128GB-Storage/dp/B07MK2BS1W/ref=sr_1_11?dchild=1&keywords=lg&qid=1594745665&s=electronics&sr=1-11",
+   "name": "LG V40 ThinQ (Grey, 6GB RAM, 128GB Storage)",
+   "price": "₹ 39,999.00"
   },
   {
    "link": ""

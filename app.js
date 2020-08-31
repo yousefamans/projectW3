@@ -166,7 +166,7 @@ function phoneData(idIndex, jsonDataIndex ,fileFormat, brand ,normalPrice, name 
 
       document.getElementById('price-se'+idIndex).innerHTML = "$" + fileFormat.links[jsonDataIndex].price  ;
       document.getElementById('brand-se'+idIndex).src = "/img/walmart.jpg"  ;
-      document.getElementById('brand-se'+idIndex).style.width = "50px"  ;
+      document.getElementById('brand-se'+idIndex).style.width = "45px"  ;
 
 
   }

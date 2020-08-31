@@ -1,8 +1,8 @@
 
 
 .nav{
-	background-color: black;
-	padding-bottom: 30px; 
+	background-color: coral;
+	height: 100px; 
 }
 
 .nav a{
@@ -105,8 +105,8 @@
 
 
 .off{
-	font-size: 25px;
-	color: blue;
+	font-size: 55px;
+	color: coral;
 }
 
 .brand{
@@ -146,15 +146,15 @@
 
 
 
-.footer{
-	
-	background-color: black;
-	margin-top: 100px;
-	border-radius: 20px;
-	height: 100px;
 
+.footer {
+  margin-top:100px; 
+  height: 80px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: coral;
 }
-
 
 
 

@@ -7,9 +7,9 @@ function phoneData2(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "f"){
-      document.getElementById('brand'+idIndex).src =  "/img/flipart.png"  ;
+      document.getElementById('brand'+idIndex).src =  "/img/flipkart.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src =  "/img/amazon.png"  ;
+      document.getElementById('brand'+idIndex).src =  "/img/amazon.jpg"  ;
       
   }
 

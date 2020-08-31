@@ -151,9 +151,9 @@ function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "f"){
-      document.getElementById('brand'+idIndex).src =  "/img/flipart.png"  ;
+      document.getElementById('brand'+idIndex).src =  "/img/flipkart.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '/img/amazon.png'
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg'
   }
 
 }
@@ -199,6 +199,9 @@ fetch('/json/india/flipkart.json')
   phoneData(16, 11, flipkart);
   phoneData(18, 10, flipkart);
   phoneData(20, 9, flipkart);
+
+
+
 
   
   
@@ -267,7 +270,7 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   // if there is error check if links is declared in json file 
 
   var i , j ;
-  for (i = 0 , j=29; i < 18,j< 47; i++,j++) {
+  for (i = 0 , j=33; i < 18,j< 51; i++,j++) {
   
 
     dataFinderAmazon(i, j, amazon , json)  ;
@@ -283,7 +286,7 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
 
 
   
-  amazon.sort(function(a, b){return a.difference - b.difference});
+  amazon.sort(function(a, b){return a.percent - b.percent});
   
 
  
@@ -308,11 +311,19 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   phoneData(15, 10, amazon);
   phoneData(17, 9, amazon);
   phoneData(19, 8, amazon);
+/*
+     function displayDATA(val,brand) {
+  document.getElementById("ti").innerHTML = "{ 'name' : '" + brand[val].name + " ' , 'normalPrice' : ' "+ brand[val].normalPrice + " ' , 'color' : ' "+ brand[val].color + " ' , 'price' : ' " + brand[val].price  +  "' , 'difference' : ' "+ brand[val].difference  + " '  , 'percent' : ' "+ brand[val].percent  + " '  , 'brand' : '"+ brand[val].brand  +  "' , 'linkUrl' : ' "+ brand[val].linkUrl  + " ' , 'img': '"+brand[val].img + "'}, "
+    
+  }
+
+  displayDATA(13, amazon);
  
   // for percent
+  */
   
-  
-
+ 
+ 
 
 
 

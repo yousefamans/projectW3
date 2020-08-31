@@ -41,9 +41,9 @@ var amazon = [
   { "name": "iphone 11 Pro Max (64GB, Gold)"       ,  "normalPrice" :  1099   , "color" :  "gold"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81BwcI+j7yL.jpg  "                },
   { "name": "iphone 11 Pro Max (64GB)"             ,  "normalPrice" :  1099    , "color" :  "grey"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81j2j9x-KWL.jpg   "                         },
   { "name": "iphone SE (64GB, Black)"              ,  "normalPrice" :  399    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81hCytKTUTL.jpg  "                },
-  { "name": "iphone SE (64GB, White)"              ,  "normalPrice" :  399    , "color" :  "white"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81UhYiZH98L.jpg   "                         },
+  { "name": "iphone SE (64GB, White) Carrier "     ,  "normalPrice" :  549    , "color" :  "white"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81UhYiZH98L.jpg   "                         },
   { "name": "iphone SE (64GB, (Product) RED)"      ,  "normalPrice" :  399    , "color" :  "red"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/810DvHOZ9nL.jpg  "                },
-  { "name": "iphone SE (128GB, Black)"             ,  "normalPrice" :  449    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81hCytKTUTL.jpg   "                         },
+  { "name": "iphone SE (128GB, Black) Carrier"     ,  "normalPrice" :  435    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://m.media-amazon.com/images/I/81hCytKTUTL.jpg   "                         },
   
 ];
 
@@ -111,7 +111,7 @@ var watch_amazon  = [
   { "name": "Apple Watch Series 4 (GPS + Cellular, 40mm)"              ,  "normalPrice" :  699    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51GR%2B9UFhqL._AC_SX342_.jpg  "                },
   { "name": "Apple Watch Series 5 (GPS, 40mm)"                         ,  "normalPrice" :  449    , "color" :  "grey"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71DnIj%2B%2BjUL._AC_SX342_.jpg  "                },
   { "name": "Apple Watch Series 5 (GPS, 40mm)"                         ,  "normalPrice" :  449    , "color" :  "silver"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71ZDwUZWvOL._AC_SX342_.jpg  "                },
-  { "name": "Apple Watch Series 5 (GPS + Cellular, 40mm)"              ,  "normalPrice" :  499    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71fp5ankbqL._AC_SX342_.jpg  "                },
+  { "name": "Apple Watch Series 5 (GPS + Cellular, 40mm)"              ,  "normalPrice" :  599    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71fp5ankbqL._AC_SX342_.jpg  "                },
   { "name": "Apple Watch Series 5 (GPS + Cellular, 44mm) "             ,  "normalPrice" :  549    , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71SFgqisjCL._AC_SX342_.jpg  "                },
 
 ];
@@ -151,21 +151,19 @@ function dataFinder(phonesListIndex, jsonDataIndex , listName, fileFormat ) {
 
 
 
-
-
 // write data to html
 
 function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('phone'+idIndex).innerHTML =  listName[sortedPhoneListIndex].name  ;
-  document.getElementById('price'+idIndex).innerHTML = "Price: " + listName[sortedPhoneListIndex].price + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
-  document.getElementById('difference'+idIndex).innerHTML =  listName[sortedPhoneListIndex].percent + "% Off" ;
+  document.getElementById('price'+idIndex).innerHTML = "Price: " +  "<span class='price-color'>"+ listName[sortedPhoneListIndex].price + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
+  document.getElementById('difference'+idIndex).innerHTML = "<span class='discount-color'>" + listName[sortedPhoneListIndex].percent + "% Off" ;
   document.getElementById('img'+idIndex).src =  listName[sortedPhoneListIndex].img  ;
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
-  if (listName[sortedPhoneListIndex].brand == "w"){
-      document.getElementById('brand'+idIndex).src =  "https://c7.uihere.com/files/946/191/806/flipkart-e-commerce-logo-bangalore-chief-executive-others.jpg"  ;
+  if (listName[sortedPhoneListIndex].brand == "e"){
+      document.getElementById('brand'+idIndex).src =  "/img/ebay.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEJIZEPPaGHPK2nb5aHP2sUKw8LYwoJD6zjw&usqp=CAU' ;
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }
 
 }
@@ -212,12 +210,7 @@ fetch('/json/global/ebay.json')
   phoneData(17, 20, ebay);
   phoneData(19, 19, ebay);
 
-  function displayDATA(val) {
-  document.getElementById("ti").innerHTML = "{ 'name' : '" + ebay[val].name + " ' , 'normalPrice' : ' "+ ebay[val].normalPrice + " ' , 'color' : ' "+ ebay[val].color + " ' , 'price' : ' " + ebay[val].price  +  "' , 'difference' : ' "+ ebay[val].difference  + " '  , 'percent' : ' "+ ebay[val].percent  + " '  , 'brand' : '"+ ebay[val].brand  +  "' , 'linkUrl' : ' "+ ebay[val].linkUrl  + " ' , 'img': '"+ebay[val].img + "'}, "
-    
-  }
-
-  displayDATA(28);
+ 
   
   
   
@@ -352,15 +345,21 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   ipad_amazon.sort(function(a, b){return a.percent - b.percent});
 
 
-  phoneData(27, 9, watch_amazon);
-  phoneData(28, 7, watch_amazon);
+  phoneData(27, 6, watch_amazon);
+  phoneData(28, 9, watch_amazon);
   phoneData(29, 8, watch_amazon);
-  phoneData(30, 6, watch_amazon);
+  phoneData(30, 7, watch_amazon);
   phoneData(31, 5, watch_amazon);
   phoneData(32, 4, watch_amazon);
+
+
+  
+
+   
  
 
   
+
   
 
 });

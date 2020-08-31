@@ -12,7 +12,7 @@ var amazon = [
   { "name": "Xiaomi Redmi Note 8 Pro 128GB 6GB  "           ,  "normalPrice" :  299    , "color" :  "green"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/819X9bJV3zL._AC_SX522_.jpg  "                 },
   { "name": "Xiaomi Poco F2 Pro 128GB, 6GB  "               ,  "normalPrice" :  479    , "color" :  "blue"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51Ss-RuZ67L._AC_SL1000_.jpg  "                 },
   { "name": "Xiaomi Poco F2 Pro 128GB, 6GB  "               ,  "normalPrice" :  479    , "color" :  "blue"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51Ss-RuZ67L._AC_SX425_.jpg  "                 },
-  { "name": "Xiaomi Mi Band 4  "                            ,  "normalPrice" :  29    , "color" :  "black"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51SQSEoSr8L._AC_SY355_.jpg  "                 },
+  { "name": "Xiaomi Mi Band 4  "                            ,  "normalPrice" :  40    , "color" :  "black"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51SQSEoSr8L._AC_SY355_.jpg  "                 },
   { "name": "Xiaomi Mi Band 5  "                            ,  "normalPrice" :  59    , "color" :  "black"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71sJxS45SnL._AC_SX679_.jpg  "                 },
 
 ];
@@ -28,15 +28,15 @@ var amazon = [
 
 function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('phone'+idIndex).innerHTML =  listName[sortedPhoneListIndex].name  ;
-  document.getElementById('price'+idIndex).innerHTML = "Price: " + listName[sortedPhoneListIndex].price  + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
-  document.getElementById('difference'+idIndex).innerHTML =  listName[sortedPhoneListIndex].percent + "% Off" ;
+  document.getElementById('price'+idIndex).innerHTML = "Price: " + "<span class='price-color'>"+ listName[sortedPhoneListIndex].price  + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
+  document.getElementById('difference'+idIndex).innerHTML = "<span class='discount-color'>" + listName[sortedPhoneListIndex].percent + "% Off" ;
   document.getElementById('img'+idIndex).src =  listName[sortedPhoneListIndex].img  ;
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "w"){
       document.getElementById('brand'+idIndex).src =  ""  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '/img/amazon.png' ;
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }
 
 }
@@ -143,6 +143,8 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   phoneData(13,  2,amazon);
   phoneData(14,  1,amazon);
   phoneData(15,  0,amazon);
+
+  
   
 
 

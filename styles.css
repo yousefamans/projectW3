@@ -2,7 +2,14 @@
 
 .nav{
 	background-color: coral;
-  height: 50px;
+  width: 100%;
+}
+
+.logo{
+  width: 60px;
+  height: 80px;
+  padding: 10px;
+  margin-left: 10px; 
 }
 
 
@@ -40,6 +47,7 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
+  border-radius: 5px;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -74,6 +82,14 @@
   margin-left: -10px;
 }
 
+
+
+
+.g-translate{
+  margin: 10px;
+  margin-left: 20px;
+}
+
 /* ghhjg */
 
 
@@ -99,7 +115,7 @@
 .welcome{
   
 	border-radius: 15px;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-left: 10px;
 	
 	width: 95%;
@@ -174,6 +190,9 @@
 }
 
 
+.spain-search{
+  font-family:30px;
+}
 
 .autocomplete-items {
   position: absolute;
@@ -194,7 +213,7 @@
   cursor: pointer;
   background-color: #fff; 
   border-radius: 4px;
-  border-bottom: 1px solid blue; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);; 
 }
 .autocomplete-items div:hover {
   /*when hovering an item:*/
@@ -228,7 +247,7 @@
 .top-deals{
   display: flex;
   padding-top: 20px;
-  margin-right: 5px;
+  margin-left:  6px;
 
 }
 
@@ -253,15 +272,18 @@
 
 .price-color{
   color: blue;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 500; 
 }
 
 .discount-color{
   color: coral;
   font-size: 18px;
-}
+  font-weight: 600; 
 
 }
+
+
 
 #showMoreTopDeals{
   display: none;
@@ -562,7 +584,7 @@
   font-size: 30px;
   margin-left:  80px ;
   margin-top: 15px;
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 5px #1a75ff;
 
 }
 
@@ -615,8 +637,10 @@
 
 
 .footer {
-  height: 60px;
-  border-radius: 15px;
+  height: 80px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   background-color: coral;
 }
 

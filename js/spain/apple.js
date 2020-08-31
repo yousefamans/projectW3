@@ -128,6 +128,8 @@ function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "mkr"){
+     document.getElementById('price'+idIndex).innerHTML = "Price: " + listName[sortedPhoneListIndex].price + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
+
       document.getElementById('brand'+idIndex).src =  "/img/mediamarkt.jpg"  ;
       document.getElementById('img'+idIndex).style.width  =  "260px"  ;
       document.getElementById('img'+idIndex).style.marginLeft  =  "-45px"  ;
@@ -135,7 +137,7 @@ function phoneData(idIndex, sortedPhoneListIndex,listName) {
 
 
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '/img/amazon.png' ;
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }
 
 }
@@ -174,13 +176,17 @@ fetch('/json/spain/mediamarkt_spain.json')
   phoneData(2, 21, mediamarkt);
   phoneData(4, 20, mediamarkt); 
   phoneData(6, 19, mediamarkt); 
-  phoneData(8, 19, mediamarkt); 
+  phoneData(8, 18, mediamarkt); 
   phoneData(10, 17, mediamarkt); 
   phoneData(12, 16, mediamarkt); 
   phoneData(14, 15, mediamarkt); 
   phoneData(16, 14, mediamarkt); 
   phoneData(18, 13, mediamarkt); 
   phoneData(20, 12, mediamarkt);  
+
+ 
+
+    
  
   
   
@@ -285,6 +291,10 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   phoneData(15, 36, amazon);
   phoneData(17, 35, amazon);
   phoneData(19, 34, amazon);
+
+  
+
+
 
 
 });

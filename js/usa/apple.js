@@ -178,6 +178,10 @@ fetch('/json/usa/walmart.json')
   phoneData(15, 19, walmart); 
   phoneData(17, 18, walmart); 
   phoneData(19, 17, walmart); 
+
+
+  
+
   
   
   
@@ -287,6 +291,7 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   phoneData(18, 36, amazon);
   phoneData(20, 35, amazon);
 
+  
 
 });
   

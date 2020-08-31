@@ -10,10 +10,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         
         <title>Phones | Tabs | Smartwatch Deals | seshots</title>
-        
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="icon" href="/img/amazon.png" type="image/gif" sizes="16x16">
+        <link rel="icon" href="https://img.icons8.com/pastel-glyph/64/000000/smartphone-tablet.png" type="image/gif" sizes="16x16">
 
 
         <link rel="stylesheet" type="text/css" href="/styles.css">
@@ -23,15 +21,10 @@
     <body>
 
 
-    	
-
-
-    	
-        
-
+    
 
     	 <div class="nav">
-    	 	<p>heloo</p>
+    	 	<img class="logo" src="https://img.icons8.com/pastel-glyph/64/000000/smartphone-tablet.png"/>
     	 </div>
 
     	 
@@ -39,7 +32,7 @@
 
 
         <div class="country-dropdown">
-        	<p class="choose">Choose your country</p>
+        	<p class="choose">Elige tu país</p>
 
       	<div class="dropdown">
 			  <button class="dropbtn"><img src="https://img.icons8.com/cute-clipart/64/000000/spain-2.png"/>Spain ▾</button>
@@ -54,7 +47,7 @@
     	 
 
 	</div>
-    	 <div id="google_translate_element"></div>
+    	 <div lass="g-translate" id="google_translate_element"></div>
 	
 
 
@@ -74,16 +67,17 @@
   
 
 		<div class="welcome">
-			<h1 class="welcome-txt">Find the best deals of your favourite phones.</h1>
+			<h1 id="spain-search" class="welcome-txt">Encuentra las mejores ofertas de tus teléfonos favoritos.
+</h1>
 
 
 			<form autocomplete="off" >
-			   <div class="search-components">
+			   <div class="search-components" id="spain-search">
 					
 				
 			   <div onclick="input()"  class="autocomplete" >
 
-			    <input class="input" id="myInput" type="text" name="myCountry" placeholder="Search">
+			    <input class="input" id="myInput" type="text" name="myCountry" placeholder="Buscar">
 			  </div>
 			  <div class="search-btn-div">
 			    <a id="search-btn-div"  class="search-btn-aTag" onclick="subs()" href="#"><img class="search-icon" src="https://img.icons8.com/cotton/64/000000/search--v1.png"/></a>	
@@ -98,7 +92,8 @@
 
 		<!-- top deals -->
 
-		<h3 class="title-txt">Top Deals</h3>
+		<h3 class="title-txt">Mejores ofertas
+</h3>
 
 
 
@@ -204,14 +199,14 @@
 
 
 		<div class="show-btn">
-			  <a href="/spain/topdeals.html" class="show-atag" >show more</a>
+			  <a href="/spain/topdeals.html" class="show-atag" >mostrar más</a>
 		    </div>
 
 		
 
 
 
-		<h3 class="title-txt">Apple</h3>
+		<h3 translate="no" class="title-txt">Apple</h3>
 
 	
 
@@ -285,22 +280,26 @@
 	   <div class="top-deals">
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img11" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"     id="phone11">iphone 11</h5>
 			    <p class="card-text"      id="price11">Price: $7</p>
 		        <p class="card-text"      id="difference11"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand11" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color11">
+		    	    <p>.</p>
+		        </div>
+			    <a id="linkBtn11" href="#" class="btn btn-primary">Visit<img  id="brand11" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img12" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"      id="phone12">iphone 11</h5>
 			    <p class="card-text"      id="price12">Price: $7</p>
 		        <p class="card-text"      id="difference12"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand12" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color12">.</div>
+			    <a id="linkBtn12" href="#" class="btn btn-primary">Visit<img  id="brand12" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
@@ -308,7 +307,7 @@
 
 
 			<div class="show-btn">
-			  <a href="/spain/apple/apple.html" class="show-atag" >show more</a>
+			  <a href="/spain/apple/apple.html" class="show-atag" >mostrar más</a>
 		    </div>
 
 		
@@ -321,22 +320,24 @@
 		<div class="top-deals">
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img13" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"      id="phone13">iphone 11</h5>
 			    <p class="card-text"      id="price13">Price: $7</p>
 		        <p class="card-text"      id="difference13"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand13" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color13">.</div>       
+			    <a id="linkBtn13" href="#" class="btn btn-primary">Visit<img  id="brand13" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img14" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"     id="phone14">iphone 11</h5>
 			    <p class="card-text"      id="price14">Price: $7</p>
 		        <p class="card-text"      id="difference14"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand14" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color14">.</div>
+			    <a id="linkBtn14" href="#" class="btn btn-primary">Visit<img  id="brand14" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
@@ -345,22 +346,24 @@
 		<div class="top-deals">
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img15" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"       id="phone15">iphone 11</h5>
 			    <p class="card-text"      id="price15">Price: $7</p>
 		        <p class="card-text"      id="difference15"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand15" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color15">.</div>
+			    <a id="linkBtn15" href="#" class="btn btn-primary">Visit<img  id="brand15" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img16" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"      id="phone16">iphone 11</h5>
 			    <p class="card-text"      id="price16">Price: $7</p>
 		        <p class="card-text"      id="difference16"></p>
-			    <a href="#" class="btn btn-primary">Visit16</a>
+		        <div class="colorDot" id="color16">.</div>
+			    <a id="linkBtn16" href="#" class="btn btn-primary">Visit<img  id="brand16" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
@@ -371,22 +374,24 @@
 		<div class="top-deals">
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img17" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"      id="phone17">iphone 11</h5>
 			    <p class="card-text"      id="price17">Price: $7</p>
 	            <p class="card-text"      id="difference17"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand17" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color17">.</div>
+			    <a id="linkBtn17" href="#" class="btn btn-primary">Visit<img  id="brand17" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
 			<div class="card" style="width: 18rem;">
-			  <img src="" class="card-img-top" alt="...">
+			  <img id="img18" src="" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title"      id="phone18">iphone 11</h5>
 			    <p class="card-text"      id="price18">Price: $7</p>
 	            <p class="card-text"      id="difference18"></p>
-			    <a href="#" class="btn btn-primary">Visit<img  id="brand18" class="brandlogo" src=""></a>
+		        <div class="colorDot" id="color18">.</div>
+			    <a id="linkBtn18" href="#" class="btn btn-primary">Visit<img  id="brand18" class="brandlogo" src=""></a>
 			  </div>
 			</div>
 
@@ -395,7 +400,7 @@
 
 
 			<div class="show-btn">
-			  <a href="/spain/samsung/samsung.html" class="show-atag" >show more</a>
+			  <a href="/spain/samsung/samsung.html" class="show-atag" >mostrar más</a>
 		    </div>
 
 		
@@ -427,7 +432,7 @@
 
 
 
-		<h3 class="title-txt">Search other</h3>
+		<h3 class="title-txt">Buscar otro</h3>
 
 		<div class="list-box">
 			<span>
@@ -462,7 +467,7 @@
 
 
 		<div class="show-btn">
-			  <a href="/spain/list.html" class="show-atag" >show more</a>
+			  <a href="/spain/list.html" class="show-atag" >mostrar más</a>
 		</div>
 
 
@@ -646,7 +651,7 @@
 
      
 
-        <h3 class="title-txt">Search other</h3>
+        <h3 class="title-txt">Buscar otro</h3>
 
 		<div class="list-box">
 			<span>
@@ -681,7 +686,7 @@
 
 
 		<div class="show-btn">
-			  <a href="/specs/list.html" class="show-atag" >show more</a>
+			  <a href="/specs/list.html" class="show-atag" >mostrar más</a>
 		</div>
 
         
@@ -708,7 +713,8 @@
 
 
 
-				<h5 class="search-title">Select other country</h5>
+				<h5 class="search-title">Seleccione otro pais
+</h5>
 
 				<div class="country-list"> 
 
@@ -731,16 +737,74 @@
 		
 
       <script type="text/javascript">
-      	var ebay = [
+      	var amazon = [
 
-      	{ 'name' : 'iphone 11 Pro 256 Multi color ' , 'normalPrice' : ' 1250 ' , 'color' : ' ' , 'price' : ' US $1,000.00' , 'difference' : ' 250 ' , 'percent' : ' 20 ' , 'brand' : 'e' , 'linkUrl' : ' https://www.ebay.com/itm/Apple-iPhone-11-Pro-64-256-512GB-Green-Space-Gray-Silver-Gold-GSM-Unlocked/193381381100?epid=17035913953&hash=item2d066db3ec%3Ag%3AONoAAOSw7FFeLyp2&LH_BIN=1&LH_ItemCondition=1000 ' , 'img': 'https://i.ebayimg.com/images/g/ONoAAOSw7FFeLyp2/s-l500.png '},
-      	{ 'name' : 'iphone 11 Pro 256 Multi color ' , 'normalPrice' : ' 1250 ' , 'color' : ' ' , 'price' : ' US $1,000.00' , 'difference' : ' 250 ' , 'percent' : ' 20 ' , 'brand' : 'e' , 'linkUrl' : ' https://www.ebay.com/itm/Apple-iPhone-11-Pro-64-256-512GB-Green-Space-Gray-Silver-Gold-GSM-Unlocked/193381381100?epid=17035913953&hash=item2d066db3ec%3Ag%3AONoAAOSw7FFeLyp2&LH_BIN=1&LH_ItemCondition=1000 ' , 'img': 'https://i.ebayimg.com/images/g/ONoAAOSw7FFeLyp2/s-l500.png '},
+      	{ 'name' : 'iphone XS (256 GB) ' , 'normalPrice' : ' 1499 ' , 'color' : ' gold ' , 'price' : ' 849,90 €' , 'difference' : ' 650 ' , 'percent' : ' 43 ' , 'brand' : 'a' , 'linkUrl' : ' https://www.amazon.es/Apple-iPhone-XS-Smartphone-5-8/dp/B07HNDDDNV?ref_=ast_sto_dp ' , 'img': 'https://images-na.ssl-images-amazon.com/images/I/71R46ju5GzL._AC_SL1500_.jpg '},
+      	{ 'name' : 'iphone XS (256 GB) ' , 'normalPrice' : ' 1209 ' , 'color' : ' gris ' , 'price' : ' 1.021,00 €' , 'difference' : ' 188 ' , 'percent' : ' 16 ' , 'brand' : 'a' , 'linkUrl' : ' https://www.amazon.es/Apple-iPhone-XS-Smartphone-espacial/dp/B07HLFXRMK?ref_=ast_sto_dp ' , 'img': 'https://images-na.ssl-images-amazon.com/images/I/71qHqmYmP2L._AC_SY741_.jpg '},
+      	{ 'name' : 'iphone 8 (64 GB) ' , 'normalPrice' : ' 599 ' , 'color' : ' silver ' , 'price' : ' 423,00 €' , 'difference' : ' 176 ' , 'percent' : ' 29 ' , 'brand' : 'a' , 'linkUrl' : ' https://www.amazon.es/Apple-iPhone-Smartphone-4-7-Plata/dp/B075RB59JP?ref_=ast_sto_dp ' , 'img': 'https://images-na.ssl-images-amazon.com/images/I/61Q59mCBd0L._AC_SY741_.jpg '},
+      	{ 'name' : 'Samsung S20+ 8GB 128GB ' , 'normalPrice' : ' 1009 ' , 'color' : ' black ' , 'price' : ' 920,00 €' , 'difference' : ' 89 ' , 'percent' : ' 9 ' , 'brand' : 'a' , 'linkUrl' : ' https://www.amazon.es/Samsung-Galaxy-S20-Smartphone-cu%C3%A1druple/dp/B084J4GVHR?ref_=ast_sto_dp ' , 'img': 'https://images-na.ssl-images-amazon.com/images/I/613WJyrUuvL._AC_SL1500_.jpg '},
+      	{ 'name' : 'Samsung S10+ 128 GB ' , 'normalPrice' : ' 699 ' , 'color' : ' white ' , 'price' : ' 649,61 €' , 'difference' : ' 50 ' , 'percent' : ' 7 ' , 'brand' : 'a' , 'linkUrl' : ' https://www.amazon.es/Samsung-Galaxy-S10-Smartphone-Wireless/dp/B07NWV9SKS?ref_=ast_sto_dp ' , 'img': 'https://images-na.ssl-images-amazon.com/images/I/51Ef7QgiLeL._AC_SL1200_.jpg '},
+      	{ 'name' : 'Samsung S20 Ultra 5G 12GB 128GB ' , 'normalPrice' : ' 1359 ' , 'color' : ' grey ' , 'price' : ' 1.317,69 €' , 'difference' : ' 42 ' , 'percent' : ' 3 ' , 'brand' : 'a' , 'linkUrl' : ' https://www.amazon.es/Samsung-Galaxy-S20-Ultra-5G/dp/B084DPKKPR/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=samsung+s20&qid=1595503842&sr=8-5 ' , 'img': 'https://images-na.ssl-images-amazon.com/images/I/71yOlMF9fqL._AC_SL1500_.jpg '},
+
+
+
+
+
+
+
+
+
+
 
 
 
      ];
 
-         phoneData2(1, 0, ebay); 
+
+     var mediamarkt = [
+     { 'name' : 'iphone 7 32 GB 2 GB ' , 'normalPrice' : ' 448 ' , 'color' : ' silver ' , 'price' : ' 339.-' , 'difference' : ' 109 ' , 'percent' : ' 24 ' , 'brand' : 'mkr' , 'linkUrl' : ' https://www.mediamarkt.es/es/product/_apple-iphone-7-plata-32-gb-2-gb-ram-4-7-retina-hd-chip-a10-fusion-ios-1339997.html ' , 'img': 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76523368/fee_325_225_png/Apple-iPhone-7--Plata--32-GB--2-GB-RAM--4.7%22-Retina-HD--Chip-A10-Fusion--iOS '},
+
+    { 'name' : 'iphone 7 32GB ' , 'normalPrice' : ' 448 ' , 'color' : ' clack ' , 'price' : ' 339.-' , 'difference' : ' 109 ' , 'percent' : ' 24 ' , 'brand' : 'mkr' , 'linkUrl' : ' https://www.mediamarkt.es/es/product/_apple-iphone-7-32gb-red-4g-lte-pantalla-retina-hd-de-4-7-negro-1339996.html ' , 'img': ' https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_76523366/fee_325_225_png/Apple-iPhone-7--32GB--Red-4G-LTE--Pantalla-Retina-HD-de-4.7%22--Negro '},
+
+    { 'name' : 'iphone 11 Pro 64 GB ' , 'normalPrice' : ' 1139 ' , 'color' : ' green ' , 'price' : ' 1059.-' , 'difference' : ' 80 ' , 'percent' : ' 7 ' , 'brand' : 'mkr' , 'linkUrl' : ' https://www.mediamarkt.es/es/product/_apple-iphone-11-pro-verde-noche-64-gb-6-gb-ram-5-8-oled-super-retina-xdr-chip-a13-bionic-ios-1464591.html ' , 'img': 'https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-82219140/fee_325_225_png/Apple-iPhone-11-Pro--Verde-noche--64-GB--6-GB-RAM--5.8%22-OLED-Super-Retina-XDR--Chip-A13-Bionic--iOS '},
+    { 'name' : 'Samsung S20 Ultra 5G 128 GB 12 GB ' , 'normalPrice' : ' 1349 ' , 'color' : ' grey ' , 'price' : ' 1249.-' , 'difference' : ' 100 ' , 'percent' : ' 7 ' , 'brand' : 'mkr' , 'linkUrl' : ' https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-ultra-5g-gris-128-gb-12-gb-ram-6-9-amoled-120hz-exynos-990-5000-mah-1473001.html ' , 'img': 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72618948/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-S20-Ultra-5G--Gris--128-GB--12-GB-RAM--6.9%22-AMOLED-120Hz--Exynos-990--5000-mAh '},
+
+    { 'name' : 'Samsung S20+ 5G 128 GB 12 GB ' , 'normalPrice' : ' 1099 ' , 'color' : ' lightblue ' , 'price' : ' 999.-' , 'difference' : ' 100 ' , 'percent' : ' 9 ' , 'brand' : 'mkr' , 'linkUrl' : ' https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-5g-azul-128-gb-12-gb-ram-6-7-amoled-120hz-exynos-990-4500-mah-android-1472996.html ' , 'img': 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75479910/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-S20--5G--Azul--128-GB--12-GB-RAM--6.7%22-AMOLED-120Hz--Exynos-990--4500-mAh--Android '},
+
+    { 'name' : 'Samsung S20 5G 128 GB 12 GB ' , 'normalPrice' : ' 999 ' , 'color' : ' grey ' , 'price' : ' 899.-' , 'difference' : ' 100 ' , 'percent' : ' 10 ' , 'brand' : 'mkr' , 'linkUrl' : ' https://www.mediamarkt.es/es/product/_m%C3%B3vil-samsung-galaxy-s20-5g-gris-128-gb-12-gb-ram-6-2-amoled-120-hz-exynos-990-4000-mah-android-1472988.html ' , 'img': 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_75479775/fee_786_587_png/M%C3%B3vil---Samsung-Galaxy-S20-5G--Gris--128-GB--12-GB-RAM--6.2%22-AMOLED-120-Hz--Exynos-990--4000-mAh--Android '},
+
+
+
+
+
+
+     ];
+
+         phoneData2(7, 0, amazon); 
+         phoneData2(9, 1, amazon); 
+         phoneData2(11, 2, amazon); 
+
+         phoneData2(8, 0,  mediamarkt); 
+         phoneData2(10, 1, mediamarkt); 
+         phoneData2(12, 2, mediamarkt); 
+
+         phoneData2(13, 3, amazon); 
+         phoneData2(15, 4, amazon); 
+         phoneData2(17, 5, amazon); 
+
+         phoneData2(14, 3,  mediamarkt); 
+         phoneData2(16, 4, mediamarkt); 
+         phoneData2(18, 5, mediamarkt); 
+
+
+         phoneData2(1, 0, amazon); 
+         phoneData2(3, 2, amazon); 
+         phoneData2(5, 1, amazon); 
+
+         phoneData2(2, 5,  mediamarkt); 
+         phoneData2(4, 4, mediamarkt); 
+         phoneData2(6, 3, mediamarkt); 
+
 
 
 
@@ -762,13 +826,13 @@ fetch('/json/spain/amazon_spain.json')
   .then((json) => {
 
 
-     phoneData(13, 35 , json , "es" , 489 , "iPhone SE 2020 (Negro, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81nld4NtAkL._AC_SL1500_.jpg");
-     phoneData(12, 36 , json , "es" , 489 , "iPhone SE 2020 (blanco, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/817NmEWIdwL._AC_SL1500_.jpg");
-     phoneData(11, 37 , json , "es" , 489 , "iPhone SE 2020 (Rojo, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81bmwNaVLfL._AC_SL1500_.jpg");
+     phoneData(7, 35 , json , "es" , 489 , "iPhone SE 2020 (Negro, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81nld4NtAkL._AC_SL1500_.jpg");
+     phoneData(8, 36 , json , "es" , 489 , "iPhone SE 2020 (blanco, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/817NmEWIdwL._AC_SL1500_.jpg");
+     phoneData(9, 37 , json , "es" , 489 , "iPhone SE 2020 (Rojo, 64 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81bmwNaVLfL._AC_SL1500_.jpg");
      phoneData(10, 38 , json , "es" , 540 , "iPhone SE 2020 (blanco, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/817NmEWIdwL._AC_SL1500_.jpg");
-     phoneData(9, 39 , json , "es" , 540 , "iPhone SE 2020 (Rojo, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81bmwNaVLfL._AC_SL1500_.jpg");
-     phoneData(8, 40 , json , "es" , 670 , "iPhone SE 2020 (Rojo, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81bmwNaVLfL._AC_SL1500_.jpg");
-     phoneData(7, 41 , json , "es" , 670 , "iPhone SE 2020 (blanco, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/817NmEWIdwL._AC_SL1500_.jpg");
+     phoneData(13, 39 , json , "es" , 540 , "iPhone SE 2020 (Rojo, 128 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81bmwNaVLfL._AC_SL1500_.jpg");
+     phoneData(12, 40 , json , "es" , 670 , "iPhone SE 2020 (Rojo, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/81bmwNaVLfL._AC_SL1500_.jpg");
+     phoneData(11, 41 , json , "es" , 670 , "iPhone SE 2020 (blanco, 256 GB)" , "https://images-na.ssl-images-amazon.com/images/I/817NmEWIdwL._AC_SL1500_.jpg");
     
     
 
@@ -780,12 +844,12 @@ fetch('/json/spain/amazon_spain.json')
   .then(res => res.json())
   .then((json) => {
 
-     phoneData(6, 16 , json , "mkr" , 489 , "iPhone SE 2020 (Negro, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259706/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Negro--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
-     phoneData(5, 17 , json , "mkr" , 489 , "iPhone SE 2020 (Rojo, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259740/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Rojo--%28PRODUCT%29RED--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
-     phoneData(4, 18 , json , "mkr" , 540 , "iPhone SE 2020 (Rojo, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259740/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Rojo--%28PRODUCT%29RED--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
-     phoneData(1, 19 , json , "mkr" , 489 , "REACONDICIONADO iPhone SE 2020 (128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259800/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Blanco--256-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
-     phoneData(2, 20 , json , "mkr" , 489 , "REACONDICIONADO iPhone SE 2020 (128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259706/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Negro--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
-     phoneData(3, 21 , json , "mkr" , 659 , "iPhone SE 2020 (Blanco, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259800/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Blanco--256-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
+     phoneData(1, 16 , json , "mkr" , 489 , "iPhone SE 2020 (Negro, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259706/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Negro--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
+     phoneData(2, 17 , json , "mkr" , 489 , "iPhone SE 2020 (Rojo, 64 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259740/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Rojo--%28PRODUCT%29RED--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
+     phoneData(5, 18 , json , "mkr" , 540 , "iPhone SE 2020 (Rojo, 128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259740/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Rojo--%28PRODUCT%29RED--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
+     phoneData(3, 19 , json , "mkr" , 549 , "REACONDICIONADO iPhone SE 2020 (128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259800/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Blanco--256-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
+     phoneData(4, 20 , json , "mkr" , 549 , "REACONDICIONADO iPhone SE 2020 (128 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259706/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Negro--64-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
+     phoneData(6, 21 , json , "mkr" , 659 , "iPhone SE 2020 (Blanco, 256 GB)" , "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_74259800/fee_325_225_png/APPLE-iPhone-SE-%282%C2%AA-gen.%29--Blanco--256-GB--4.7%22-Retina-HD--Chip-A13-Bionic--iOS");
         
 
   }) 
@@ -796,6 +860,9 @@ autocomplete(document.getElementById("myInput"), countries);
 
 
 
+for (var i = 1 ; i <19 ; i++) {
+  document.getElementById("linkBtn"+i).innerHTML = "Visitar";
+}
 
 
 
@@ -810,13 +877,7 @@ autocomplete(document.getElementById("myInput"), countries);
 
 
 
-
-
-
-
-
-
-		
+	
 		
 </script>
 

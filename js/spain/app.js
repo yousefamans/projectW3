@@ -5,8 +5,8 @@ function phoneData2(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('img'+idIndex).src =  listName[sortedPhoneListIndex].img  ;
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
-  if (listName[sortedPhoneListIndex].brand == "e"){
-      document.getElementById('brand'+idIndex).src =  "/img/ebay.jpg"  ;
+  if (listName[sortedPhoneListIndex].brand == "mkr"){
+      document.getElementById('brand'+idIndex).src =  "/img/mediamarkt.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
       document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }

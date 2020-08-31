@@ -62,9 +62,9 @@ var amazon = [
   { "name": "iPhone 7 Plus (32GB)"          ,  "normalPrice" :  39900       , "color" :  "#efc6c0"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/51ilvCMNWCL._SL1024_.jpg  "  },
   { "name": "iPhone 7 Plus (128GB)"         ,  "normalPrice" :  72060       , "color" :  "#efc6c0"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/51ilvCMNWCL._SL1024_.jpg "  },
   { "name": "iPhone X (256GB)"              ,  "normalPrice" :  1           , "color" :  "silver"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/51jpxxd1lNL._SL1024_.jpg"  },
-  { "name": "iPhone Xs (256GB)"             ,  "normalPrice" : 109400       , "color" :  "silver"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61uajhVzLQL._SL1024_.jpg"  },
-  { "name": "iPhone Xs (256GB)"             ,  "normalPrice" : 103900       , "color" :  "grey"           , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61lUCIu2O4L._SL1024_.jpg"  },
-  { "name": "iPhone Xs (256GB)"             ,  "normalPrice" : 103900       , "color" :  "gold"           , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61E3bh882vL._SL1024_.jpg"  },                       
+  { "name": "iPhone Xs (256GB)"             ,  "normalPrice" : 125000       , "color" :  "silver"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61uajhVzLQL._SL1024_.jpg"  },
+  { "name": "iPhone Xs (512GB)"             ,  "normalPrice" : 121900       , "color" :  "grey"           , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61lUCIu2O4L._SL1024_.jpg"  },
+  { "name": "iPhone Xs (512GB)"             ,  "normalPrice" : 121900       , "color" :  "gold"           , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61E3bh882vL._SL1024_.jpg"  },                       
   { "name": "iPhone Xs Max (64GB)"          ,  "normalPrice" : 109900       , "color" :  "grey"           , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61PNVNdEKfL._SL1000_.jpg"  },
   { "name": "iPhone XR (64GB)"              ,  "normalPrice" :  52500       , "color" :  "white"          , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/51gdkUuU26L._SL1024_.jpg"  },
   { "name": "iPhone 11 (128GB)"             ,  "normalPrice" :  73600       , "color" :  "green"          , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/510gwFgjz5L._SL1024_.jpg"  },
@@ -77,16 +77,21 @@ var amazon = [
   { "name": "iPhone 11 Pro (256GB)"         ,  "normalPrice" : 121300       , "color" :  "green"          , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61itOh%2BJe8L._SL1024_.jpg"  },   
   { "name": "iPhone 11 Pro Max (64GB)"      ,  "normalPrice" : 117100       , "color" :  "green"          , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61itOh%2BJe8L._SL1024_.jpg"  },
   { "name": "iPhone 11 Pro Max (64GB)"      ,  "normalPrice" : 117100       , "color" :  "grey"           , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61itOh%2BJe8L._SL1024_.jpg"  },
+  { "name": "iPad (10.2-inch, Wi-Fi, 32GB)"               ,  "normalPrice" :  29900       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/71TJA%2BsJv2L._SL1500_.jpg"  },
+  { "name": "iPad Mini (Wi-Fi + Cellular, 64GB)"          ,  "normalPrice" :  46900       , "color" :  "gold"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/81DQhnGJUrL._SY679_.jpg"  },
+  { "name": "iPad (Wi-Fi, 32GB)"                          ,  "normalPrice" :  23900       , "color" :  "gold"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/51Y5NYmG81L._SL1024_.jpg"  },
+  { "name": "iPad Mini (Wi-Fi + Cellular, 64GB)"          ,  "normalPrice" :  46900       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/81h-QuXax6L._SY679_.jpg"  },
+ 
   { "name": "Apple Watch Series 3 (GPS, 38mm)"               ,  "normalPrice" :  20900       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/71xdoL8eiUL._SL1500_.jpg"  },
   { "name": "Apple Watch Series 3 (GPS, 42mm)"               ,  "normalPrice" :  23900       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/71xdoL8eiUL._SL1500_.jpg"  },
   { "name": "Apple Watch Series 3 (GPS, 42mm)"               ,  "normalPrice" :  23900       , "color" :  "silver"       , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/715-TzjcHbL._SL1500_.jpg"  },
-  { "name": "Apple Watch Series 4 (GPS + Cellular, 44mm)"    ,  "normalPrice" :  80900       , "color" :  "steel"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61Y1ORpOE5L._SL1000_.jpg"  },
+  { "name": "Apple Watch Series 4 (GPS + Cellular, 44mm)"    ,  "normalPrice" :  25900       , "color" :  "steel"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61Y1ORpOE5L._SL1000_.jpg"  },
   { "name": "Apple Watch Series 4 (GPS + Cellular, 40mm)"    ,  "normalPrice" :  76900       , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61UvO8Blb5L._SY679_.jpg"  },
   { "name": "Apple Watch Series 4 (GPS + Cellular, 40mm)"    ,  "normalPrice" :  44999       , "color" :  "steel"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/61B3buW1qqL._SL1000_.jpg"  },
   { "name": "Apple Watch Series 4 (GPS + Cellular, 44mm)"    ,  "normalPrice" :  52900       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/516H6EsVu2L._SY679_.jpg"  },
   { "name": "Apple Watch Series 4 (GPS + Cellular, 44mm)"    ,  "normalPrice" :  71900       , "color" :  "steel"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/51Btmcf4FEL._SL1000_.jpg"  },
   { "name": "Apple Watch Series 4 (GPS, 44mm)"               ,  "normalPrice" :  1       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/516H6EsVu2L._SY679_.jpg"  },
-  { "name": "iPad (10.2-inch, Wi-Fi, 32GB)"                  ,  "normalPrice" :  29900       , "color" :  "gery"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/71TJA%2BsJv2L._SX679_.jpg"  },
+  { "name": "iPad (10.2-inch, cellular + Wi-Fi, 32GB)"       ,  "normalPrice" :  49900       , "color" :  "gery"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/71TJA%2BsJv2L._SX679_.jpg"  },
   { "name": "iPad (10.2-inch, Wi-Fi, 32GB)"                  ,  "normalPrice" :  29900       , "color" :  "grey"         , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "  https://images-na.ssl-images-amazon.com/images/I/71TJA%2BsJv2L._SX679_.jpg"  },     
 
 
@@ -141,9 +146,9 @@ function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "f"){
-      document.getElementById('brand'+idIndex).src =  "/img/flipart.png"  ;
+      document.getElementById('brand'+idIndex).src =  "/img/flipkart.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src =  "/img/amazon.png"  ;
+      document.getElementById('brand'+idIndex).src =  "/img/amazon.jpg"  ;
       
   }
 
@@ -190,6 +195,14 @@ fetch('/json/india/flipkart.json')
   phoneData(16, 43, flipkart);
   phoneData(18, 42, flipkart);
   phoneData(20, 41, flipkart);
+
+  
+
+
+  
+  
+
+
 
   
   
@@ -259,7 +272,7 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
 
   
   var i = 0 ;
-  for (i = 0; i < 29; i++) {
+  for (i = 0; i < 33; i++) {
   
 
     dataFinderAmazon(i,i, amazon, json); 
@@ -282,22 +295,30 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   
     
 
-  phoneData(1,  28,amazon);
-  phoneData(3,  27,amazon);
+  phoneData(1,  32,amazon);
+  phoneData(3,  31,amazon);
   
 
-  phoneData(5,  26,amazon);
+  phoneData(5,  30,amazon);
   
-  phoneData(7,  25,amazon);
+  phoneData(7,  29,amazon);
   
-  phoneData(9,  24,amazon);
+  phoneData(9,  28,amazon);
   
-  phoneData(11, 23, amazon);
+  phoneData(11, 27, amazon);
 
-  phoneData(13, 22, amazon);
-  phoneData(15, 21, amazon);
-  phoneData(17, 20, amazon);
-  phoneData(19, 19, amazon);
+  phoneData(13, 26, amazon);
+  phoneData(15, 25, amazon);
+  phoneData(17, 24, amazon);
+  phoneData(19, 23, amazon);
+
+ 
+
+
+
+  
+
+   
 
 
 

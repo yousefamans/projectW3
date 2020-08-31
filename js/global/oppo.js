@@ -16,24 +16,19 @@ var amazon = [
 
 
 
-
-
-
-
-
 // write data to html
 
 function phoneData(idIndex, sortedPhoneListIndex,listName) {
   document.getElementById('phone'+idIndex).innerHTML =  listName[sortedPhoneListIndex].name  ;
-  document.getElementById('price'+idIndex).innerHTML = "Price: " + listName[sortedPhoneListIndex].price  + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
-  document.getElementById('difference'+idIndex).innerHTML =  listName[sortedPhoneListIndex].percent + "% Off" ;
+  document.getElementById('price'+idIndex).innerHTML = "Price: " + "<span class='price-color'>"+ listName[sortedPhoneListIndex].price  + "<br><s class="+"beforePrice"+">  " + listName[sortedPhoneListIndex].normalPrice+"</s>" ;
+  document.getElementById('difference'+idIndex).innerHTML =  "<span class='discount-color'>" +listName[sortedPhoneListIndex].percent + "% Off" ;
   document.getElementById('img'+idIndex).src =  listName[sortedPhoneListIndex].img  ;
   document.getElementById('linkBtn'+idIndex).href =  listName[sortedPhoneListIndex].linkUrl  ;
   document.getElementById('color'+idIndex).style.backgroundColor =  listName[sortedPhoneListIndex].color  ;
   if (listName[sortedPhoneListIndex].brand == "w"){
       document.getElementById('brand'+idIndex).src =  ""  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '/img/amazon.png' ;
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg' ;
   }
 
 }
@@ -135,8 +130,7 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   phoneData(8,  4,amazon);
   phoneData(9,  3,amazon);
   phoneData(10, 2,amazon);
-  phoneData(11,  1,amazon);
- // phoneData(12,  0,amazon);
+  
 
 
 

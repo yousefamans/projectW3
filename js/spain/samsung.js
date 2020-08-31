@@ -6,7 +6,7 @@ var amazon = [
   { "name": "Samsung S20 Ultra 12GB 128GB"           ,  "normalPrice" : 1359   , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71Y4qk1TuHL._AC_SL1500_.jpg   "                         },
   { "name": "Samsung S20 Ultra 5G 12GB 128GB"        ,  "normalPrice" : 1359   , "color" :  "grey"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71yOlMF9fqL._AC_SL1500_.jpg   "                         }, 
   { "name": "Samsung S10e 128GB "                    ,  "normalPrice" :  1     , "color" :  ""        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "   "                         },
-  { "name": "Samsung S10 128 GB "                    ,  "normalPrice" : 599    , "color" :  "lightgreen"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71T72z3btSL._AC_SX450_.jpg   "                         },
+  { "name": "Samsung S10 128 GB "                    ,  "normalPrice" : 649    , "color" :  "lightgreen"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/71T72z3btSL._AC_SX450_.jpg   "                         },
   { "name": "Samsung S10+ 128 GB "                   ,  "normalPrice" : 661   , "color" :  "black"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51Ef7QgiLeL._AC_SL1200_.jpg   "                         },
   { "name": "Samsung S10+ 128 GB "                   ,  "normalPrice" : 699   , "color" :  "white"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "https://images-na.ssl-images-amazon.com/images/I/51Ef7QgiLeL._AC_SL1200_.jpg   "                         },
   { "name": "Samsung S9 64 GB 4 GB "           ,  "normalPrice" :  0   , "color" :  "gold"        , "price": 0    ,    "difference": 0    , "percent": 0  , "brand": "a" ,    "linkUrl" :  ""     , "img": "   "                         },
@@ -115,7 +115,7 @@ function phoneData(idIndex, sortedPhoneListIndex,listName) {
   if (listName[sortedPhoneListIndex].brand == "mkr"){
       document.getElementById('brand'+idIndex).src =  "/img/mediamarkt.jpg"  ;
   } else if (listName[sortedPhoneListIndex].brand == "a") {
-      document.getElementById('brand'+idIndex).src = '/img/amazon.png'
+      document.getElementById('brand'+idIndex).src = '/img/amazon.jpg'
   }
 
 }
@@ -167,8 +167,8 @@ fetch('/json/spain/mediamarkt_spain.json')
   phoneData(14, 9, mediamarkt);
   phoneData(16, 8, mediamarkt);
   phoneData(18, 7, mediamarkt);
+ 
 
-  
 
 
 
@@ -267,7 +267,15 @@ function dataFinderAmazon(phonesListIndex, jsonDataIndex , listName, fileFormat 
   phoneData(6,  8,amazon);
   
   
-  phoneData(20, 1, amazon);
+  phoneData(20, 7, amazon);
+  phoneData(18, 7, amazon);
+
+   
+
+
+  
+
+
 
 
 

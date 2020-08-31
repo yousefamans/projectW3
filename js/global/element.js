@@ -156,7 +156,7 @@ function phoneData(idIndex, jsonDataIndex ,fileFormat, brand ,normalPrice, name 
   
   
   
-  document.getElementById('discount'+idIndex).innerHTML = roundedPercentValue  + "% <span class="+"off"+">Off </span>" ;
+  document.getElementById('discount'+idIndex).innerHTML =   "<span class='off'>" + roundedPercentValue + "</span>% "+ "Off" ;
   
   document.getElementById('img'+idIndex).src = img ;
   document.getElementById('link'+idIndex).href = fileFormat.links[jsonDataIndex].link ;
@@ -180,7 +180,7 @@ function phoneData(idIndex, jsonDataIndex ,fileFormat, brand ,normalPrice, name 
 
  
 function  footer() {
-        document.getElementById("back-btn").src = "https://img.icons8.com/fluent/48/000000/back.png";
+  document.getElementById("back-btn").src = "https://img.icons8.com/windows/96/000000/long-arrow-left.png";
 
   footer = document.createElement("div");
   footer.innerHTML = ".";
